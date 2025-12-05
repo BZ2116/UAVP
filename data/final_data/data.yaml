@@ -1,0 +1,7 @@
+path: E:\.1Study\code\PY\UAVP\Preprocessing\..\data\NEU-DET\..\final_data
+train: images/train
+val: images/val
+test: images/test
+
+nc: 6
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']

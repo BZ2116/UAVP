@@ -28,7 +28,7 @@ def split_neu_det(root):
     img_dir = root / "images"
     label_dir = root / "labels"
 
-    out = root / "final_data"
+    out = root / "../final_data"
 
     # Create target directory structure
     for split in ["train", "val", "test"]:

@@ -5,7 +5,9 @@
 ---
 
 ## 系统架构
-
+<div align="center">
+<img width="885" height="493" alt="image" src="https://github.com/user-attachments/assets/bb1a5811-da84-4799-8bbd-ca00777a4117" />
+</div>
 
 
 ---
@@ -27,7 +29,7 @@ CUS = 0.85 × Confidence + 0.15 × Area Ratio
 ```
 
 
-
+<div align="center">
 
 | CUS 区间      | 风险等级   | 语气          |
 | ----------- | ------ | ----------- |
@@ -35,7 +37,7 @@ CUS = 0.85 × Confidence + 0.15 × Area Ratio
 | 0.40 ~ 0.70 | Medium | 客观描述，建议人工复核 |
 | ≤ 0.40      | Low    | "疑似"语气，强调复检 |
 
-
+</div>
 
 
 ---
@@ -83,8 +85,11 @@ python src/experiments/evaluate.py
 ---
 
 ## 实验结果
-
-
+<div align="center">
+  
+ <img width="1200" height="600" alt="accuracy_metrics_comparison" src="https://github.com/user-attachments/assets/00f479b8-bc84-4b88-b22f-789a128b7857" />
+ 
+</div>
 
 ---
 

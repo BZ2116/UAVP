@@ -6,7 +6,8 @@
 
 ## 系统架构
 
-![系统架构图]() <!-- 待添加：系统架构图 -->
+<img width="886" height="586" alt="image" src="https://github.com/user-attachments/assets/8fa418b6-5fcf-411e-9c90-821e2e73e31d" />
+
 
 ---
 
@@ -32,14 +33,6 @@ CUS = 0.85 × Confidence + 0.15 × Area Ratio
 | 0.40 ~ 0.70 | Medium | 客观描述，建议人工复核 |
 | ≤ 0.40      | Low    | "疑似"语气，强调复检   |
 
-### 低光化处理
-
-```
-I_low = I_norm^γ * k + α * (I - G_σ * I)
-γ = γ_base + 0.2  (Avg > 0.6) 或 γ_base  (Avg ≤ 0.6)
-I_final = clip(I_low + n, 0, 255)
-```
-
 ---
 
 ## 项目结构
@@ -55,11 +48,9 @@ UAVP/
 │   ├── yolo/                  # YOLO 训练与推理
 │   ├── vlm/                   # VLM 分析系统
 │   └── experiments/           # 实验脚本
-├── data/NEU-DET/             # 原始数据
-└── res_final/                # 实验结果
+└── data/NEU-DET/             # 原始数据
 ```
 
-详细说明见 [docs/project.md](docs/project.md)。
 
 ---
 

@@ -26,6 +26,7 @@
 ```
 CUS = 0.85 × Confidence + 0.15 × Area Ratio
 ```
+<center>
 
 | CUS 区间      | 风险等级 | 语气          |
 | ----------- | ------ | ------------- |
@@ -33,6 +34,7 @@ CUS = 0.85 × Confidence + 0.15 × Area Ratio
 | 0.40 ~ 0.70 | Medium | 客观描述，建议人工复核 |
 | ≤ 0.40      | Low    | "疑似"语气，强调复检   |
 
+</center>
 ---
 
 ## 项目结构
@@ -80,7 +82,8 @@ python src/experiments/evaluate.py
 
 ## 实验结果
 
-![对比实验结果图]() <!-- 待添加：准确率对比图 -->
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/0b6df0e9-46e5-4c83-bbd9-9d94eee8070b" />
+
 
 ---
 

@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_206.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.585758,
+        0.536943,
+        0.290803,
+        0.815549
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像显示了一条明显的划痕路径，长度约为图像宽度的29%，高度约为图像高度的81%。",
+      "suggestion": "建议人工复核以确认是否需要进一步处理或修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

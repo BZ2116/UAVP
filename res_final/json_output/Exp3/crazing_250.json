@@ -1,0 +1,36 @@
+{
+  "image_id": "crazing_250.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.403196,
+        0.138641,
+        0.828029,
+        0.210879
+      ],
+      "confidence_score": 0.71,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的裂纹特征，覆盖了较大区域。",
+      "suggestion": "立即修复，优先处理。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.534784,
+        0.783062,
+        0.827442,
+        0.255824
+      ],
+      "confidence_score": 0.26,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的裂纹特征，覆盖了较大区域。",
+      "suggestion": "立即修复，优先处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

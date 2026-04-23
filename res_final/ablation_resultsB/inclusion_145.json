@@ -1,0 +1,23 @@
+{
+  "image_id": "inclusion_145.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.455845,
+        0.303083,
+        0.073501,
+        0.209344
+      ],
+      "confidence_score": 0.63,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，形状不规则，分布于图像中部。",
+      "suggestion": "建议立即停止生产，对受影响区域进行清理和检查，确保设备清洁无残留物，并对相关部件进行更换或修复。同时，加强日常维护和质量控制，防止类似问题再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

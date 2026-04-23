@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_163.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.0691,
+        0.458,
+        0.1799,
+        0.7066
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的夹杂物，表现为不规则形状的暗色斑块。",
+      "suggestion": "需要进行局部打磨处理，以去除夹杂物并恢复钢材表面质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.5728,
+        0.5252,
+        0.1286,
+        0.2406
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在夹杂物，表现为较小的暗色斑块。",
+      "suggestion": "建议对该区域进行局部打磨，并检查是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.5724,
+        0.8628,
+        0.1631,
+        0.3568
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域存在轻微的夹杂物，表现为细小的暗色斑点。",
+      "suggestion": "无需立即处理，但建议在后续生产中加强监控和预防措施。"
+    }
+  ]
+}

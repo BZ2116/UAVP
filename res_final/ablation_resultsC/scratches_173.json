@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_173.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.435552,
+        0.362613,
+        0.067289,
+        0.751875
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "在低光照条件下，图像中存在一个细长的划痕，其面积占比较小，可能为误检。",
+      "suggestion": "建议人工复检以确认是否为真实缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Low"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "image_id": "patches_162.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.3093,
+        0.7836,
+        0.4076,
+        0.4576
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像的左下角区域存在明显的点蚀现象，表面呈现不规则的凹陷状。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除表面的点蚀，并进行后续的表面处理以确保钢材质量。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.05,
+        0.05,
+        0.15,
+        0.15
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "在图像的左上角区域存在轻微的裂纹迹象，但整体影响较小。",
+      "suggestion": "建议对该区域进行检查，如果裂纹不影响使用性能，则无需特别处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.85,
+        0.85,
+        0.95,
+        0.95
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "在图像的右下角区域存在疑似夹杂物的痕迹，但整体影响较小。",
+      "suggestion": "建议对该区域进行检查，如果夹杂物不影响使用性能，则无需特别处理。"
+    }
+  ]
+}

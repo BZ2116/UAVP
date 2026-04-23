@@ -1,0 +1,101 @@
+{
+  "image_id": "inclusion_45.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.388306,
+        0.276917,
+        0.192063,
+        0.578771
+      ],
+      "confidence_score": 0.76,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在左上角区域，具有较高的风险。",
+      "suggestion": "立即停止生产，进行局部打磨处理，并重新检测该区域。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.087451,
+        0.366105,
+        0.167599,
+        0.669211
+      ],
+      "confidence_score": 0.73,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在左中部区域，具有较高的风险。",
+      "suggestion": "立即停止生产，进行局部打磨处理，并重新检测该区域。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.292165,
+        0.779258,
+        0.138412,
+        0.343582
+      ],
+      "confidence_score": 0.51,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在右下角区域，具有较高的风险。",
+      "suggestion": "立即停止生产，进行局部打磨处理，并重新检测该区域。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.783438,
+        0.384782,
+        0.116966,
+        0.281143
+      ],
+      "confidence_score": 0.44,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物，位置在右中部区域，但特征较弱，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.483793,
+        0.21058,
+        0.120391,
+        0.410093
+      ],
+      "confidence_score": 0.43,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物，位置在中上部区域，但特征较弱，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.151882,
+        0.461668,
+        0.062049,
+        0.152336
+      ],
+      "confidence_score": 0.27,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物，位置在左中部区域，但特征较弱，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.540406,
+        0.779862,
+        0.070735,
+        0.137613
+      ],
+      "confidence_score": 0.39,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物，位置在右下角区域，但特征较弱，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 7,
+    "risk_level": "High"
+  }
+}

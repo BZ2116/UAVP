@@ -1,0 +1,23 @@
+{
+  "image_id": "inclusion_185.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.258196,
+        0.461789,
+        0.296006,
+        0.884992
+      ],
+      "confidence_score": 0.89,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的不规则暗影区域，可能为内部夹杂物（Inclusion），在低光照条件下尤为明显。",
+      "suggestion": "建议立即停止生产，对受影响区域进行详细检查和清理，确保产品符合质量标准。同时，需加强生产过程中的监控和维护，防止类似问题再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

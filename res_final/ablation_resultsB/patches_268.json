@@ -1,0 +1,49 @@
+{
+  "image_id": "patches_268.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.199151,
+        0.522416,
+        0.324706,
+        0.934379
+      ],
+      "confidence_score": 0.77,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的黑色斑块，与正常区域对比明显，可能是由于材料缺陷或污染导致。",
+      "suggestion": "建议立即停止使用此批次产品，并进行进一步的检查和处理，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.720565,
+        0.757976,
+        0.277923,
+        0.21972
+      ],
+      "confidence_score": 0.48,
+      "severity": "Suspected",
+      "visual_analysis": "该区域存在模糊的黑色斑点，可能为误检，需进一步确认。",
+      "suggestion": "建议人工复检此区域，确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.847177,
+        0.200467,
+        0.149154,
+        0.218555
+      ],
+      "confidence_score": 0.24,
+      "severity": "Suspected",
+      "visual_analysis": "该区域存在模糊的黑色斑点，可能为误检，需进一步确认。",
+      "suggestion": "建议人工复检此区域，确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

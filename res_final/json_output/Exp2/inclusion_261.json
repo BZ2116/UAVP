@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_261.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.809147,
+        0.40812,
+        0.126839,
+        0.3692
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不均匀灰色斑块，可能是由于内部杂质引起的，与周围区域有明显差异。",
+      "suggestion": "建议进行局部打磨处理以去除杂质，确保表面平整度和一致性。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.207392,
+        0.504169,
+        0.16662,
+        0.943189
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然存在不规则的灰色斑点，但与周围区域的过渡较为平滑，可能属于轻微的瑕疵。",
+      "suggestion": "无需特别处理，但建议在后续生产过程中加强监控，避免类似情况再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

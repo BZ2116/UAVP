@@ -1,0 +1,49 @@
+{
+  "image_id": "pitted_surface_117.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.705995,
+        0.517926,
+        0.525348,
+        0.958662
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的斑点状缺陷，可能是由于材料表面不均匀导致的。这些斑点分布较为密集，可能影响产品的外观质量。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除这些斑点并恢复表面平整度。同时，检查生产过程中的材料供应和加工工艺，确保后续批次的产品质量一致性。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.303547,
+        0.814833,
+        0.413675,
+        0.295785
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的斑点分布较为稀疏，且颜色与背景差异不大，可能是由于轻微的瑕疵或背景纹理造成的。这些斑点对产品外观的影响较小。",
+      "suggestion": "对于此类轻微瑕疵，可以考虑接受并继续使用该产品。但需加强生产过程中的质量控制，避免类似情况再次发生。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.278251,
+        0.560469,
+        0.340004,
+        0.932695
+      ],
+      "confidence_score": 0.85,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的裂纹状缺陷，可能是由于材料内部应力集中或外部冲击导致的。这些裂纹分布密集且明显，对产品的结构强度有较大影响。",
+      "suggestion": "建议立即停止使用该产品，并对裂纹区域进行修复或更换。同时，检查生产过程中是否存在可能导致裂纹的因素，并采取措施防止类似问题再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_52.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.535656,
+        0.512939,
+        0.177741,
+        0.976129
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的条状痕迹，类似于划痕，与周围区域形成对比。",
+      "suggestion": "建议立即进行表面处理，以防止进一步的损坏并确保产品质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

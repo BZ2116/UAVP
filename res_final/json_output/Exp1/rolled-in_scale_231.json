@@ -1,0 +1,45 @@
+{
+  "image_id": "rolled-in_scale_231.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted_Surface",
+      "location": [
+        0.45,
+        0.65,
+        0.15,
+        0.15
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心偏右的位置，存在明显的点蚀现象。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除点蚀并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.75,
+        0.8,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像右下角附近，存在轻微的裂纹现象。",
+      "suggestion": "裂纹较为轻微，无需特别处理，但应定期检查以防止进一步恶化。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.2,
+        0.25,
+        0.05,
+        0.05
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角附近，存在一个小的夹杂物。",
+      "suggestion": "夹杂物较小且分散，对整体结构影响不大，可忽略不计。"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_9.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.632207,
+        0.381318,
+        0.476326,
+        0.306237
+      ],
+      "confidence_score": 0.53,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的Rolled-in Scale特征，覆盖了图像的显著部分。",
+      "suggestion": "建议人工复核以确认缺陷的具体情况，并采取相应措施进行修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

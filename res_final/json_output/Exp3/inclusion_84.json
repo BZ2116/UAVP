@@ -1,0 +1,75 @@
+{
+  "image_id": "inclusion_84.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.643905,
+        0.721613,
+        0.083109,
+        0.184731
+      ],
+      "confidence_score": 0.68,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.730972,
+        0.914332,
+        0.118046,
+        0.264524
+      ],
+      "confidence_score": 0.62,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.730268,
+        0.525508,
+        0.099473,
+        0.293206
+      ],
+      "confidence_score": 0.39,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.630239,
+        0.101419,
+        0.139428,
+        0.224476
+      ],
+      "confidence_score": 0.32,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.44109,
+        0.903756,
+        0.081319,
+        0.158854
+      ],
+      "confidence_score": 0.4,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Low"
+  }
+}

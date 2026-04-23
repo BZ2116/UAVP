@@ -1,0 +1,23 @@
+{
+  "image_id": "pitted_surface_96.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.500018,
+        0.522249,
+        1.0,
+        0.961413
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了密集的小点状结构，可能是由于表面腐蚀、氧化或其他物理损伤导致的。这些点状结构分布均匀，表明可能存在大面积的表面缺陷。",
+      "suggestion": "建议对受影响区域进行进一步检查，以确定具体原因并采取相应的修复措施。可能需要使用化学清洗剂、抛光工具或更换部件来修复这些缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

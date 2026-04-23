@@ -1,0 +1,62 @@
+{
+  "image_id": "inclusion_207.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.406319,
+        0.178975,
+        0.166611,
+        0.252035
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和阴影，可能为金属内部夹杂物。",
+      "suggestion": "建议进一步检查并采取措施防止此类缺陷再次发生。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.599075,
+        0.126268,
+        0.074841,
+        0.193352
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域有明显的暗色斑点，可能是金属内部夹杂物。",
+      "suggestion": "建议加强原材料筛选和加工过程控制，以减少此类缺陷的发生。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.690001,
+        0.790435,
+        0.184234,
+        0.254394
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域的暗色斑点较为模糊，可能是轻微的内部夹杂物。",
+      "suggestion": "建议继续监控此类缺陷，但无需立即采取特别措施。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.398732,
+        0.646198,
+        0.110074,
+        0.142237
+      ],
+      "confidence_score": 0.98,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的鳞片状结构，可能是金属表面氧化物。",
+      "suggestion": "建议立即更换相关设备或调整工艺参数，以防止此类缺陷的产生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Medium"
+  }
+}

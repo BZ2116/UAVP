@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_21.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        50,
+        40,
+        60,
+        100
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在钢材表面可以看到明显的裂纹状缺陷。",
+      "suggestion": "需要进行修复处理，以防止进一步的损坏。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        30,
+        70,
+        40,
+        120
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在钢材表面存在一些不规则的夹杂物。",
+      "suggestion": "这些夹杂物对钢材性能影响较小，可以忽略不计。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        20,
+        100,
+        30,
+        150
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "钢材表面存在一些小坑洞，可能是点蚀现象。",
+      "suggestion": "这些点蚀对钢材性能影响不大，无需特别处理。"
+    }
+  ]
+}

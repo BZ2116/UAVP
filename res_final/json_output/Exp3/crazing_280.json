@@ -1,0 +1,23 @@
+{
+  "image_id": "crazing_280.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.27681,
+        0.739448,
+        0.503198,
+        0.400478
+      ],
+      "confidence_score": 0.23,
+      "severity": "High",
+      "visual_analysis": "图像中可见明显的裂纹特征，分布面积较大。",
+      "suggestion": "立即进行修复，优先处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

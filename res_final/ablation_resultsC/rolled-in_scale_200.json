@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_200.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.580001,
+        0.733305,
+        0.50234,
+        0.53601
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "图像中显示了一个显著的Rolled-in Scale缺陷，其面积占比较大，分布不均匀，可能影响产品的质量和性能。",
+      "suggestion": "建议立即进行修复，以确保产品质量和安全。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

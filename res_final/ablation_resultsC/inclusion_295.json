@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_295.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.764587,
+        0.52248,
+        0.181632,
+        0.869666
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积较大，呈现不规则形状，可能为实际存在的夹杂物。",
+      "suggestion": "建议人工复核确认是否为实际缺陷，并进一步评估其对产品性能的影响程度。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.828062,
+        0.787957,
+        0.071154,
+        0.354
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，形状较为模糊，可能存在误检的可能性。",
+      "suggestion": "建议人工复检确认是否为误检，并考虑是否需要进一步调整检测阈值。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

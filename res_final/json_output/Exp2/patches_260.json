@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_260.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.660135,
+        0.825061,
+        0.382997,
+        0.37642
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状纹理，与正常表面相比有显著差异。",
+      "suggestion": "建议进行局部打磨处理，以恢复表面平整度。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.885484,
+        0.540638,
+        0.153934,
+        0.304404
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域呈现不规则形状的暗色斑点，可能是由于杂质引起的。但其面积较小，对整体影响不大。",
+      "suggestion": "无需立即处理，但建议在后续生产中加强原材料筛选和控制。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

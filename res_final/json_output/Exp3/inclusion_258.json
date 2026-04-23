@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_258.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.237892,
+        0.513189,
+        0.197799,
+        0.899258
+      ],
+      "confidence_score": 0.83,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的不规则区域，可能为夹杂物，其面积占比较大。",
+      "suggestion": "立即修复并优先处理，确保产品质量安全。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.801067,
+        0.479046,
+        0.220682,
+        0.978581
+      ],
+      "confidence_score": 0.7,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的不规则区域，可能为夹杂物，其面积占比较大。",
+      "suggestion": "立即修复并优先处理，确保产品质量安全。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

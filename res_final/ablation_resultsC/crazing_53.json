@@ -1,0 +1,23 @@
+{
+  "image_id": "crazing_53.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.281805,
+        0.798436,
+        0.617112,
+        0.396275
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像显示了明显的裂纹（Crazing）现象，分布于图像的上半部分，面积占比约为24.45%，表明存在一定程度的损伤。",
+      "suggestion": "建议人工复核确认裂纹的具体情况，并根据实际情况决定是否需要进一步处理或修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

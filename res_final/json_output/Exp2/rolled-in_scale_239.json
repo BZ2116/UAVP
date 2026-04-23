@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_239.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.504951,
+        0.554975,
+        0.311637,
+        0.317432
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了明显的凹陷和不平整，可能是由于材料卷曲或制造过程中的质量问题导致。",
+      "suggestion": "建议对该区域进行修复，可能需要重新加工或更换材料以确保产品的质量和性能。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "image_id": "pitted_surface_112.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.183506,
+        0.558657,
+        0.300583,
+        0.832593
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在大面积的卷入鳞片，表面不平整，可能影响后续加工和使用性能。",
+      "suggestion": "建议立即停止生产，对该区域进行清理和修复，并重新进行质量检查。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.521879,
+        0.734695,
+        0.294863,
+        0.393426
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域有中等面积的坑洞，表面凹凸不平，可能存在应力集中点，需进一步确认是否影响结构强度。",
+      "suggestion": "建议人工复核该区域的详细情况，并根据实际情况决定是否需要进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.573769,
+        0.372445,
+        0.684155,
+        0.312087
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域有中等面积的坑洞，表面凹凸不平，可能存在应力集中点，需进一步确认是否影响结构强度。",
+      "suggestion": "建议人工复核该区域的详细情况，并根据实际情况决定是否需要进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.928755,
+        0.711032,
+        0.193925,
+        0.591115
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域有中等面积的坑洞，表面凹凸不平，可能存在应力集中点，需进一步确认是否影响结构强度。",
+      "suggestion": "建议人工复核该区域的详细情况，并根据实际情况决定是否需要进行局部修复或更换部件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "image_id": "patches_190.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.276904,
+        0.356147,
+        0.268828,
+        0.752583
+      ],
+      "confidence_score": 0.68,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的裂纹特征，分布广泛。",
+      "suggestion": "立即停止生产，进行修复和质量控制检查。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.836549,
+        0.245626,
+        0.349277,
+        0.227
+      ],
+      "confidence_score": 0.57,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在一些斑点状缺陷，分布较为集中。",
+      "suggestion": "建议人工复核确认，并采取相应措施防止进一步恶化。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.820139,
+        0.678546,
+        0.369947,
+        0.416271
+      ],
+      "confidence_score": 0.43,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点状缺陷，分布广泛。",
+      "suggestion": "立即停止生产，进行修复和质量控制检查。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7656,
+        0.36001,
+        0.098144,
+        0.184127
+      ],
+      "confidence_score": 0.27,
+      "severity": "Low",
+      "visual_analysis": "图像中存在少量夹杂物，分布不均匀。",
+      "suggestion": "建议人工复检确认，并采取相应措施防止进一步恶化。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.92664,
+        0.439777,
+        0.080752,
+        0.161146
+      ],
+      "confidence_score": 0.24,
+      "severity": "Low",
+      "visual_analysis": "图像中存在少量夹杂物，分布不均匀。",
+      "suggestion": "建议人工复检确认，并采取相应措施防止进一步恶化。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.097865,
+        0.119505,
+        0.116428,
+        0.139541
+      ],
+      "confidence_score": 0.2,
+      "severity": "Low",
+      "visual_analysis": "图像中存在少量夹杂物，分布不均匀。",
+      "suggestion": "建议人工复检确认，并采取相应措施防止进一步恶化。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.259686,
+        0.910899,
+        0.228961,
+        0.225247
+      ],
+      "confidence_score": 0.92,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在一些斑点状缺陷，分布较为集中。",
+      "suggestion": "建议人工复核确认，并采取相应措施防止进一步恶化。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 7,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "image_id": "inclusion_163.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.069084,
+        0.457978,
+        0.179921,
+        0.706562
+      ],
+      "confidence_score": 0.77,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明确，且在图像中占据较大面积，表明其对产品性能有严重影响。",
+      "suggestion": "立即停止生产，对该区域进行修复，并重新进行质量检查。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.360516,
+        0.635837,
+        0.300432,
+        0.609785
+      ],
+      "confidence_score": 0.66,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明确，但相较于第一个缺陷，其面积较小，但仍需引起重视。",
+      "suggestion": "立即停止生产，对该区域进行修复，并重新进行质量检查。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.572755,
+        0.525224,
+        0.128571,
+        0.240554
+      ],
+      "confidence_score": 0.63,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明确，但相较于前两个缺陷，其面积较小，但仍需引起重视。",
+      "suggestion": "立即停止生产，对该区域进行修复，并重新进行质量检查。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.572448,
+        0.862792,
+        0.163052,
+        0.356796
+      ],
+      "confidence_score": 0.48,
+      "severity": "Suspected",
+      "visual_analysis": "该缺陷特征较为模糊，可能是误检，建议人工复检确认。",
+      "suggestion": "建议人工复检确认，确认无误后进行修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

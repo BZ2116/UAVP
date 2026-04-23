@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_282.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.518861,
+        0.364807,
+        0.171921,
+        0.433568
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域的面积占比较小，且在低光照条件下难以清晰辨认其具体形态。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.520171,
+        0.678207,
+        0.059346,
+        0.392286
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域的面积占比较小，且在低光照条件下难以清晰辨认其具体形态。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Low"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "image_id": "patches_231.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.194886,
+        0.193777,
+        0.293351,
+        0.347154
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状缺陷，表面不平整。",
+      "suggestion": "建议进行局部打磨处理，以恢复表面平整度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.499031,
+        0.34503,
+        0.402618,
+        0.671126
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的凹坑较为轻微，影响较小。",
+      "suggestion": "无需特别处理，但需记录并监控其发展情况。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.460615,
+        0.800751,
+        0.303178,
+        0.217086
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在多个小凹坑，表面不均匀。",
+      "suggestion": "建议局部打磨修复，确保表面光滑。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.132759,
+        0.805906,
+        0.199512,
+        0.437267
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域的凹坑较为轻微，影响较小。",
+      "suggestion": "无需特别处理，但需记录并监控其发展情况。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.965019,
+        0.694537,
+        0.091277,
+        0.19102
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状缺陷，表面不平整。",
+      "suggestion": "建议进行局部打磨处理，以恢复表面平整度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.591784,
+        0.085111,
+        0.354899,
+        0.191659
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域的凹坑较为轻微，影响较小。",
+      "suggestion": "无需特别处理，但需记录并监控其发展情况。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 6,
+    "risk_level": "Medium"
+  }
+}

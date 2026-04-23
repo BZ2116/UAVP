@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_247.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.127898,
+        0.635326,
+        0.190683,
+        0.717988
+      ],
+      "confidence_score": 0.86,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的凹坑状表面缺陷，可能影响产品的使用性能和外观质量。",
+      "suggestion": "建议立即更换或修复该区域，以确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.6562,
+        0.487282,
+        0.352182,
+        0.941171
+      ],
+      "confidence_score": 0.62,
+      "severity": "High",
+      "visual_analysis": "图像中存在大面积的斑块状缺陷，可能影响产品的整体质量和外观。",
+      "suggestion": "建议立即更换或修复该区域，以确保产品质量符合标准。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "image_id": "inclusion_269.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.258461,
+        0.765193,
+        0.129995,
+        0.515408
+      ],
+      "confidence_score": 0.85,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在左上角区域，占比较大，且具有较高的置信度。",
+      "suggestion": "建议立即停止生产，对受影响区域进行清理和检查，确保夹杂物完全清除，并对设备进行维护以防止类似问题再次发生。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.34596,
+        0.147366,
+        0.059482,
+        0.268399
+      ],
+      "confidence_score": 0.82,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在右上角区域，占比较小，但具有较高的置信度。",
+      "suggestion": "建议对该区域进行局部清理，并加强该区域的监控，确保夹杂物不会影响产品质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.825251,
+        0.522529,
+        0.151603,
+        1.0
+      ],
+      "confidence_score": 0.82,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在右下角区域，占比较大，且具有较高的置信度。",
+      "suggestion": "建议立即停止生产，对受影响区域进行清理和检查，确保夹杂物完全清除，并对设备进行维护以防止类似问题再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

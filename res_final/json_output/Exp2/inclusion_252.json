@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_252.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.363352,
+        0.440438,
+        0.084485,
+        0.947493
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和异常亮度变化，可能为金属内部的夹杂物。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除夹杂物并恢复表面质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.759651,
+        0.171719,
+        0.075501,
+        0.304004
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有异常亮度变化，但形状较为模糊，可能是由于光线反射或其他非缺陷因素造成的。",
+      "suggestion": "建议忽略此区域，继续检查其他部分。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

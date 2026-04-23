@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_146.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ],
+      "confidence_score": 0.98,
+      "severity": "Medium",
+      "visual_analysis": "图像显示了大量细小的点状凹陷，表明存在严重的点蚀现象。",
+      "suggestion": "建议进行表面处理以去除这些点蚀，并考虑使用防腐涂层来防止进一步腐蚀。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.2,
+        0.2,
+        0.3,
+        0.3
+      ],
+      "confidence_score": 0.95,
+      "severity": "Low",
+      "visual_analysis": "在图像的中上部可以看到一些不规则形状的夹杂物，但它们并不明显且分布稀疏。",
+      "suggestion": "这些夹杂物对结构性能的影响较小，可以忽略不计。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.7,
+        0.7,
+        0.8,
+        0.8
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像的右下角区域，可以看到一些细微的裂纹迹象，但它们并不显著。",
+      "suggestion": "这些裂纹可能不会对整体结构造成影响，但仍需定期检查以确保安全。"
+    }
+  ]
+}

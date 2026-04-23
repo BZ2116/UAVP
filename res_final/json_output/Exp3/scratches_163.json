@@ -1,0 +1,62 @@
+{
+  "image_id": "scratches_163.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.05508,
+        0.478847,
+        0.055352,
+        0.989548
+      ],
+      "confidence_score": 0.7,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，需人工复核。",
+      "suggestion": "建议人工复核并确认是否需要修复。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.263642,
+        0.725527,
+        0.075107,
+        0.624078
+      ],
+      "confidence_score": 0.67,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检，建议人工复检。",
+      "suggestion": "建议人工复检以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.410076,
+        0.417349,
+        0.1127,
+        0.8072
+      ],
+      "confidence_score": 0.43,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，需人工复核。",
+      "suggestion": "建议人工复核并确认是否需要修复。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.866402,
+        0.486711,
+        0.17559,
+        0.952036
+      ],
+      "confidence_score": 0.29,
+      "severity": "High",
+      "visual_analysis": "特征显著，需立即处理。",
+      "suggestion": "建议立即修复并优先处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

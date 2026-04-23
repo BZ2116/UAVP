@@ -1,0 +1,49 @@
+{
+  "image_id": "inclusion_47.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.561311,
+        0.492765,
+        0.136294,
+        0.95309
+      ],
+      "confidence_score": 0.81,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，特征清晰，且在低光照条件下依然可见。",
+      "suggestion": "立即停止生产，进行局部区域的检查和修复，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.770228,
+        0.447333,
+        0.13518,
+        0.912212
+      ],
+      "confidence_score": 0.25,
+      "severity": "Suspected",
+      "visual_analysis": "夹杂物特征较弱，可能存在误检，需进一步确认。",
+      "suggestion": "建议人工复检该区域，确认是否为真实缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.529103,
+        0.128733,
+        0.118902,
+        0.201101
+      ],
+      "confidence_score": 0.36,
+      "severity": "Suspected",
+      "visual_analysis": "夹杂物特征较弱，可能存在误检，需进一步确认。",
+      "suggestion": "建议人工复检该区域，确认是否为真实缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

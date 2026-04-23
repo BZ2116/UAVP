@@ -1,0 +1,88 @@
+{
+  "image_id": "patches_231.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.194886,
+        0.193777,
+        0.293351,
+        0.347154
+      ],
+      "confidence_score": 0.8,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，需进一步确认。",
+      "suggestion": "建议人工复核"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.499031,
+        0.34503,
+        0.402618,
+        0.671126
+      ],
+      "confidence_score": 0.76,
+      "severity": "High",
+      "visual_analysis": "特征显著，需立即处理。",
+      "suggestion": "高风险，优先处理"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.460615,
+        0.800751,
+        0.303178,
+        0.217086
+      ],
+      "confidence_score": 0.76,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，需进一步确认。",
+      "suggestion": "建议人工复核"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.132759,
+        0.805906,
+        0.199512,
+        0.437267
+      ],
+      "confidence_score": 0.71,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，需进一步确认。",
+      "suggestion": "建议人工复核"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.965019,
+        0.694537,
+        0.091277,
+        0.19102
+      ],
+      "confidence_score": 0.56,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.591784,
+        0.085111,
+        0.354899,
+        0.191659
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，需进一步确认。",
+      "suggestion": "建议人工复核"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 6,
+    "risk_level": "High"
+  }
+}

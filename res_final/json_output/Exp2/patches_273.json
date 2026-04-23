@@ -1,0 +1,49 @@
+{
+  "image_id": "patches_273.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.219687,
+        0.72292,
+        0.27499,
+        0.309194
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状纹理，与正常表面相比有显著差异。",
+      "suggestion": "建议进行局部打磨处理，以恢复表面平整度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.165225,
+        0.339139,
+        0.231802,
+        0.248711
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的凹坑较为轻微，可能为制造过程中的正常纹理。",
+      "suggestion": "无需特别处理，但需记录并监控其发展情况。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.803296,
+        0.465426,
+        0.35175,
+        0.956458
+      ],
+      "confidence_score": 0.98,
+      "severity": "High",
+      "visual_analysis": "该区域存在严重的凹坑状纹理，影响外观质量。",
+      "suggestion": "建议立即停止使用此部件，并进行修复或更换。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_219.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.382921,
+        0.709771,
+        0.356125,
+        0.481394
+      ],
+      "confidence_score": 0.87,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的黑色斑块，可能影响产品外观和质量。",
+      "suggestion": "立即修复此缺陷，并优先处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

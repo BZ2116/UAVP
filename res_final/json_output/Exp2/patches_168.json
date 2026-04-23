@@ -1,0 +1,114 @@
+{
+  "image_id": "patches_168.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.250661,
+        0.644506,
+        0.194321,
+        0.518631
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状缺陷，表面不平整。",
+      "suggestion": "建议进行局部打磨修复，以恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.72424,
+        0.653934,
+        0.261393,
+        0.334912
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域有多个小凹坑，表面粗糙。",
+      "suggestion": "建议进行局部打磨并填充处理，以改善外观。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.837992,
+        0.187579,
+        0.373255,
+        0.285938
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域存在轻微凹陷，但不影响整体外观。",
+      "suggestion": "无需特别处理，但需注意监控该区域的变化。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.038632,
+        0.637204,
+        0.130376,
+        0.206708
+      ],
+      "confidence_score": 0.92,
+      "severity": "Medium",
+      "visual_analysis": "该区域有明显异物夹杂，影响表面质量。",
+      "suggestion": "建议进行局部清理和打磨，确保表面无杂质。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.426272,
+        0.347903,
+        0.14497,
+        0.087225
+      ],
+      "confidence_score": 0.88,
+      "severity": "Low",
+      "visual_analysis": "该区域有轻微异物夹杂，但不影响整体使用。",
+      "suggestion": "无需特别处理，但需注意监控该区域的变化。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.840543,
+        0.792899,
+        0.251803,
+        0.19097
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域有明显异物夹杂，影响表面质量。",
+      "suggestion": "建议进行局部清理和打磨，确保表面无杂质。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.923934,
+        0.501436,
+        0.223148,
+        0.144887
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域有轻微异物夹杂，但不影响整体使用。",
+      "suggestion": "无需特别处理，但需注意监控该区域的变化。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.854783,
+        0.824272,
+        0.078181,
+        0.107253
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状缺陷，表面不平整。",
+      "suggestion": "建议进行局部打磨修复，以恢复表面光滑度。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 8,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_166.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.308235,
+        0.212068,
+        0.172308,
+        0.402629
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域显示了明显的凹坑状纹理，与正常表面相比存在显著差异，显示出严重的表面损伤。",
+      "suggestion": "建议立即停止使用该部件并进行修复或更换，以避免进一步的机械故障和安全问题。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "image_id": "patches_254.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.450561,
+        0.767144,
+        0.236956,
+        0.311955
+      ],
+      "confidence_score": 0.92,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，需人工复核。",
+      "suggestion": "建议人工复核并确认是否需要修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.429474,
+        0.24951,
+        0.392189,
+        0.324175
+      ],
+      "confidence_score": 0.86,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，需人工复核。",
+      "suggestion": "建议人工复核并确认是否需要修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.617553,
+        0.38809,
+        0.108866,
+        0.037232
+      ],
+      "confidence_score": 0.52,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "建议人工复检以确认是否为真实缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

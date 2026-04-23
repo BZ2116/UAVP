@@ -1,0 +1,62 @@
+{
+  "image_id": "patches_218.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.21626,
+        0.529787,
+        0.360294,
+        0.275365
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域呈现不规则的暗色斑块，边缘模糊，符合Rolled-in Scale的特征。",
+      "suggestion": "建议进行局部打磨处理，以去除表面的氧化层和杂质。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.202928,
+        0.802833,
+        0.378158,
+        0.348456
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域有轻微的点状凹陷，但分布较为稀疏，影响不大。",
+      "suggestion": "无需特别处理，但需定期检查，确保无进一步恶化。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.711761,
+        0.510914,
+        0.509606,
+        0.963466
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域存在较多的小坑洞，但分布较为分散，不影响使用。",
+      "suggestion": "建议进行表面抛光处理，以改善外观并延长使用寿命。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.074885,
+        0.137116,
+        0.173777,
+        0.229898
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域有明显的点状凹陷，但分布较为集中，影响较小。",
+      "suggestion": "建议进行局部修复，以保持表面平整度。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Medium"
+  }
+}

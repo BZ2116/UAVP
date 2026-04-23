@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_105.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.49112,
+        0.233361,
+        0.992235,
+        0.102746
+      ],
+      "confidence_score": 0.79,
+      "severity": "Medium",
+      "visual_analysis": "图像中可见明显的坑洞状表面缺陷，分布范围较大。",
+      "suggestion": "建议人工复核以确认缺陷的具体情况及是否需要进一步处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

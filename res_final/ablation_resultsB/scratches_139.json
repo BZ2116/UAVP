@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_139.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.162621,
+        0.514223,
+        0.200808,
+        0.974609
+      ],
+      "confidence_score": 0.8,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，覆盖了大面积区域。",
+      "suggestion": "需要立即停止使用该部件，并进行修复或更换。建议使用磨光机或砂纸进行打磨处理，确保表面光滑无划痕。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.607535,
+        0.797983,
+        0.095976,
+        0.440449
+      ],
+      "confidence_score": 0.62,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，可能影响材料的强度和性能。",
+      "suggestion": "需要立即停止使用该部件，并进行修复或更换。建议通过热处理或机械加工的方式去除夹杂物，确保材料质量符合标准。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.686552,
+        0.702007,
+        0.105071,
+        0.247761
+      ],
+      "confidence_score": 0.91,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，可能影响材料的强度和性能。",
+      "suggestion": "需要立即停止使用该部件，并进行修复或更换。建议通过热处理或机械加工的方式去除夹杂物，确保材料质量符合标准。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

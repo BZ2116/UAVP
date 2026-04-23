@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_94.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.5118,
+        0.4856,
+        0.1077,
+        0.9961
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕，影响表面光滑度。",
+      "suggestion": "建议进行打磨处理以去除划痕。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.6521,
+        0.5163,
+        0.098,
+        0.7264
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域也存在明显的划痕，需要进一步检查是否有其他潜在问题。",
+      "suggestion": "建议进行局部打磨并检查是否有其他损伤。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.3923,
+        0.5221,
+        0.0454,
+        0.1037
+      ],
+      "confidence_score": 1.0,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在轻微的夹杂物，但不影响整体结构强度。",
+      "suggestion": "无需特别处理，但建议在后续生产中加强控制。"
+    }
+  ]
+}

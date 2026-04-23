@@ -1,0 +1,62 @@
+{
+  "image_id": "patches_151.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.311648,
+        0.513809,
+        0.332812,
+        0.946258
+      ],
+      "confidence_score": 0.95,
+      "severity": "High",
+      "visual_analysis": "该缺陷区域面积较大，呈现不规则形状，边缘模糊，可能存在严重的材料损伤或缺失。",
+      "suggestion": "建议立即停止生产，对该区域进行详细检查和修复，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.07052,
+        0.214871,
+        0.132249,
+        0.423745
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积较小，形状较为规则，边缘清晰，可能是轻微的瑕疵或制造过程中的小误差。",
+      "suggestion": "建议人工复检确认是否为误检，并记录在案，以便后续改进生产工艺。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.507557,
+        0.725506,
+        0.260314,
+        0.387274
+      ],
+      "confidence_score": 0.8,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积中等，形状不规则，边缘模糊，可能存在一定程度的材料损伤。",
+      "suggestion": "建议人工复核确认缺陷性质，并根据实际情况决定是否需要进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.869099,
+        0.520106,
+        0.210362,
+        1.0
+      ],
+      "confidence_score": 0.8,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积中等，形状不规则，边缘模糊，可能存在一定程度的材料损伤。",
+      "suggestion": "建议人工复核确认缺陷性质，并根据实际情况决定是否需要进行局部修复或更换部件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

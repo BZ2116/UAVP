@@ -1,0 +1,45 @@
+{
+  "image_id": "patches_299.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.45,
+        0.65,
+        0.55,
+        0.35
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "图像中右上角存在一个不规则的斑块状区域。",
+      "suggestion": "建议对该区域进行局部检查，以确定是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.7,
+        0.25,
+        0.2,
+        0.4
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "图像左下角存在一些细小的裂纹状痕迹。",
+      "suggestion": "这些裂纹可能不会对结构性能产生显著影响，但建议定期监控其发展情况。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.15,
+        0.1,
+        0.25,
+        0.2
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "图像左上角存在一个较明显的夹杂物。",
+      "suggestion": "建议对该区域进行更详细的检查，并考虑是否需要进行修复或更换。"
+    }
+  ]
+}

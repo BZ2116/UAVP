@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_10.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.141831,
+        0.571642,
+        0.207323,
+        0.280067
+      ],
+      "confidence_score": 0.87,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的瑕疵，特征较明显。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.773052,
+        0.303772,
+        0.257717,
+        0.583701
+      ],
+      "confidence_score": 0.8,
+      "severity": "High",
+      "visual_analysis": "该区域存在显著的瑕疵，特征非常突出。",
+      "suggestion": "判定为高风险，需优先处理并进行修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

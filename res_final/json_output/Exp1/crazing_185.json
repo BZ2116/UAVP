@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_185.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.4292,
+        0.5875,
+        0.9295,
+        0.3645
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "在图像的右上角区域存在明显的裂纹状缺陷，表现为细小且密集的裂缝。",
+      "suggestion": "建议对该区域进行局部打磨处理，并重新喷涂以修复裂纹。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.15,
+        0.2,
+        0.3,
+        0.1
+      ],
+      "confidence_score": 0.8,
+      "severity": "Medium",
+      "visual_analysis": "在图像的左下角区域存在点蚀现象，表现为小而深的凹坑。",
+      "suggestion": "建议对该区域进行抛光处理，以去除点蚀并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.6,
+        0.7,
+        0.2,
+        0.1
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "在图像的右下角区域存在轻微的划痕痕迹，表现为细长的线条。",
+      "suggestion": "建议对该区域进行轻微打磨处理，以去除划痕痕迹。"
+    }
+  ]
+}

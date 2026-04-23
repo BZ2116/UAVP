@@ -1,0 +1,62 @@
+{
+  "image_id": "patches_198.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.307942,
+        0.489412,
+        0.374365,
+        1.0
+      ],
+      "confidence_score": 0.89,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点状缺陷，分布于图像左上角区域。",
+      "suggestion": "建议立即停止使用该产品，并进行进一步检查和修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.875914,
+        0.530255,
+        0.232517,
+        0.451392
+      ],
+      "confidence_score": 0.84,
+      "severity": "High",
+      "visual_analysis": "图像中存在裂纹状缺陷，分布于图像右上角区域。",
+      "suggestion": "建议立即停止使用该产品，并进行进一步检查和修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.934122,
+        0.563294,
+        0.201688,
+        0.41177
+      ],
+      "confidence_score": 0.43,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在斑点状缺陷，但特征较为微弱。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.685925,
+        0.508012,
+        0.247892,
+        0.372198
+      ],
+      "confidence_score": 0.37,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在斑点状缺陷，但特征较为微弱。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

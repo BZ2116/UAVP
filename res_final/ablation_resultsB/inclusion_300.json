@@ -1,0 +1,49 @@
+{
+  "image_id": "inclusion_300.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.795568,
+        0.383127,
+        0.119948,
+        0.328456
+      ],
+      "confidence_score": 0.66,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明确，属于高风险类型，可能影响产品质量。",
+      "suggestion": "立即停止生产，对受影响区域进行彻底检查和修复，确保产品符合质量标准。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.796809,
+        0.689887,
+        0.095342,
+        0.184083
+      ],
+      "confidence_score": 0.32,
+      "severity": "Suspected",
+      "visual_analysis": "该缺陷特征较弱，可能存在误检情况，建议人工复检确认。",
+      "suggestion": "人工复检确认后，如确认为缺陷，则需进一步处理；如确认为误检，则需调整检测算法或设备参数。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.717016,
+        0.771663,
+        0.103388,
+        0.148017
+      ],
+      "confidence_score": 0.76,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明确，属于高风险类型，可能影响产品质量。",
+      "suggestion": "立即停止生产，对受影响区域进行彻底检查和修复，确保产品符合质量标准。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

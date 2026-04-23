@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_260.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.660135,
+        0.825061,
+        0.382997,
+        0.37642
+      ],
+      "confidence_score": 0.82,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点状缺陷，可能影响产品外观和性能。",
+      "suggestion": "立即停止生产，对受影响区域进行彻底清洗或更换，并重新测试合格后方可继续生产。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.885484,
+        0.540638,
+        0.153934,
+        0.304404
+      ],
+      "confidence_score": 0.36,
+      "severity": "Low",
+      "visual_analysis": "图像中可能存在轻微的夹杂物，但特征较弱，需进一步确认。",
+      "suggestion": "建议人工复检该区域，确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

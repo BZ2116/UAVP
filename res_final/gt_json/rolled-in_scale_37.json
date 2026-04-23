@@ -1,0 +1,66 @@
+{
+  "image_id": "rolled-in_scale_37.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in_scale",
+      "location": [
+        0.28500000000000003,
+        0.28,
+        0.25,
+        0.43
+      ],
+      "area_ratio": 0.1075,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议调整轧制与除鳞工艺参数"
+    },
+    {
+      "defect_type": "Rolled-in_scale",
+      "location": [
+        0.41250000000000003,
+        0.9075,
+        0.365,
+        0.17500000000000002
+      ],
+      "area_ratio": 0.0639,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "Medium",
+      "suggestion": "建议调整轧制与除鳞工艺参数"
+    },
+    {
+      "defect_type": "Rolled-in_scale",
+      "location": [
+        0.3275,
+        0.515,
+        0.28500000000000003,
+        0.29
+      ],
+      "area_ratio": 0.0827,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "Medium",
+      "suggestion": "建议调整轧制与除鳞工艺参数"
+    },
+    {
+      "defect_type": "Rolled-in_scale",
+      "location": [
+        0.4025,
+        0.20500000000000002,
+        0.255,
+        0.2
+      ],
+      "area_ratio": 0.051,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "Medium",
+      "suggestion": "建议调整轧制与除鳞工艺参数"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Medium"
+  }
+}

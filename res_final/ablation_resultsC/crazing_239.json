@@ -1,0 +1,62 @@
+{
+  "image_id": "crazing_239.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.47222,
+        0.711429,
+        0.713894,
+        0.249564
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在裂纹，面积占比约为17.82%，裂纹分布较为密集。",
+      "suggestion": "建议人工复核确认裂纹的具体情况，并根据实际情况决定是否需要进一步处理或修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.669038,
+        0.217082,
+        0.727438,
+        0.408045
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该区域裂纹面积较大，占比约29.68%，裂纹分布较为密集且可能影响结构完整性。",
+      "suggestion": "建议立即停止使用此部件，并优先处理该缺陷区域，以确保安全。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.519643,
+        0.376738,
+        0.754518,
+        0.304102
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在裂纹，面积占比约为22.95%，裂纹分布较为密集。",
+      "suggestion": "建议人工复核确认裂纹的具体情况，并根据实际情况决定是否需要进一步处理或修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.492103,
+        0.500467,
+        0.939787,
+        0.281898
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该区域裂纹面积较大，占比约26.49%，裂纹分布较为密集且可能影响结构完整性。",
+      "suggestion": "建议立即停止使用此部件，并优先处理该缺陷区域，以确保安全。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

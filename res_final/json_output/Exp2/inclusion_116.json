@@ -1,0 +1,75 @@
+{
+  "image_id": "inclusion_116.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.394052,
+        0.251276,
+        0.081672,
+        0.287639
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和边缘模糊，可能是由于内部杂质引起的缺陷。",
+      "suggestion": "建议进行局部打磨处理，以去除内部杂质并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.856682,
+        0.638166,
+        0.194582,
+        0.771945
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的缺陷较为轻微，边缘清晰，可能只是表面瑕疵。",
+      "suggestion": "无需特别处理，但需定期检查以确保无进一步恶化。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.552583,
+        0.409922,
+        0.158403,
+        0.845883
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "该区域有明显的不规则形状，可能是由于内部杂质引起的缺陷。",
+      "suggestion": "建议进行局部打磨处理，以去除内部杂质并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.521206,
+        0.857167,
+        0.115568,
+        0.202146
+      ],
+      "confidence_score": 0.92,
+      "severity": "High",
+      "visual_analysis": "该区域的缺陷较为严重，边缘模糊且形状不规则，可能是由于内部杂质引起的缺陷。",
+      "suggestion": "建议立即进行局部打磨处理，以去除内部杂质并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.875371,
+        0.261142,
+        0.143049,
+        0.1463
+      ],
+      "confidence_score": 0.98,
+      "severity": "Low",
+      "visual_analysis": "该区域的裂纹较为轻微，边缘清晰，可能是由于表面应力引起的。",
+      "suggestion": "无需特别处理，但需定期检查以确保无进一步恶化。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Medium"
+  }
+}

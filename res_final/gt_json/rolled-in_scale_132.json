@@ -1,0 +1,24 @@
+{
+  "image_id": "rolled-in_scale_132.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in_scale",
+      "location": [
+        0.615,
+        0.185,
+        0.54,
+        0.32
+      ],
+      "area_ratio": 0.1728,
+      "severity": "High",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议调整轧制与除鳞工艺参数"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

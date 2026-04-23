@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_60.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.7556,
+        0.8465,
+        0.4677,
+        0.355
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的裂纹，表现为细小且密集的裂缝，可能影响材料的结构完整性。",
+      "suggestion": "建议对该区域进行修复或更换，以确保安全和性能。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.5608,
+        0.4357,
+        0.8108,
+        0.4525
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域也存在裂纹现象，但不如第一个区域密集，可能需要进一步检查其对整体性能的影响。",
+      "suggestion": "建议对该区域进行详细检查，并根据实际情况决定是否需要修复。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.25,
+        0.25,
+        0.75,
+        0.75
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域存在轻微的点蚀现象，表现为表面的小坑洞，对材料性能影响较小。",
+      "suggestion": "建议对该区域进行表面处理，以提高外观质量。"
+    }
+  ]
+}

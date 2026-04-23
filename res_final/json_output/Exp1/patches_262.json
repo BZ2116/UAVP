@@ -1,0 +1,45 @@
+{
+  "image_id": "patches_262.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        50,
+        40,
+        150,
+        100
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的深色不规则区域，可能是由于内部杂质引起的。",
+      "suggestion": "建议进行进一步的化学分析以确定是否需要更换材料或进行表面处理。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        100,
+        70,
+        180,
+        120
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在多个不规则的暗色斑块，可能是由于局部腐蚀或材料不均匀性导致。",
+      "suggestion": "建议对这些区域进行局部检查，并根据需要采取补救措施。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        20,
+        20,
+        100,
+        80
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "图像中存在一些细小的裂纹状结构，可能是由于应力集中或材料疲劳导致。",
+      "suggestion": "建议对这些区域进行详细检查，如果裂纹不影响整体结构稳定性，则无需特别处理。"
+    }
+  ]
+}

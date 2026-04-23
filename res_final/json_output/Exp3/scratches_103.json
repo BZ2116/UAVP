@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_103.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.429185,
+        0.506468,
+        0.817518,
+        0.12337
+      ],
+      "confidence_score": 0.63,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的划痕痕迹，长度约为图像宽度的80%，宽度约为图像高度的12%。",
+      "suggestion": "建议人工复核以确认划痕的具体情况，并决定是否需要进一步处理或修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

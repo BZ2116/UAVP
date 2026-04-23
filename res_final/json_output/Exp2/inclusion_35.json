@@ -1,0 +1,49 @@
+{
+  "image_id": "inclusion_35.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.673439,
+        0.243826,
+        0.180747,
+        0.448181
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和深色斑点，符合金属内部夹杂物（Inclusion）的特征。",
+      "suggestion": "建议对该区域进行进一步检查并采取相应的修复措施，以避免潜在的安全隐患。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.880484,
+        0.510079,
+        0.195389,
+        0.96602
+      ],
+      "confidence_score": 0.9,
+      "severity": "High",
+      "visual_analysis": "该区域呈现不均匀的凹陷和腐蚀痕迹，属于典型的表面缺陷（Pitted Surface），可能影响材料的结构完整性。",
+      "suggestion": "需要立即停止使用该部件，并考虑更换或修复该区域，以确保设备安全运行。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.635153,
+        0.788157,
+        0.140771,
+        0.379456
+      ],
+      "confidence_score": 0.92,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在类似前一个目标的不规则形状和深色斑点，符合金属内部夹杂物（Inclusion）的特征。",
+      "suggestion": "建议对该区域进行进一步检查并采取相应的修复措施，以避免潜在的安全隐患。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

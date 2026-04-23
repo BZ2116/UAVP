@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_23.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.646273,
+        0.473802,
+        0.350045,
+        1.0
+      ],
+      "confidence_score": 0.73,
+      "severity": "High",
+      "visual_analysis": "图像显示了明显的纹理变化和不均匀性，可能表明材料存在质量问题。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑更换或修复该部分以确保产品质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

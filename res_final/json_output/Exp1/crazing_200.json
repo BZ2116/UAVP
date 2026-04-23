@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_200.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.5666,
+        0.2463,
+        0.6968,
+        0.3557
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的裂纹，表现为细小且密集的裂缝，可能影响材料的强度和性能。",
+      "suggestion": "建议对该区域进行修复或更换，以确保产品的安全性和可靠性。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.4296,
+        0.583,
+        0.7553,
+        0.2129
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域也存在裂纹现象，但不如区域1密集，可能需要进一步检查其对整体结构的影响。",
+      "suggestion": "建议对该区域进行详细检查，并根据实际情况决定是否需要修复或更换。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.2607,
+        0.9038,
+        0.4701,
+        0.21
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的裂纹较为轻微，可能不会对材料性能产生显著影响。",
+      "suggestion": "建议对该区域进行监控，若出现恶化情况再考虑修复。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "image_id": "inclusion_300.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.795568,
+        0.383127,
+        0.119948,
+        0.328456
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的黑色不规则形状，与周围背景形成对比，疑似为内部夹杂物。",
+      "suggestion": "建议立即停止生产并进行局部检查和清理，以防止进一步的材料损坏。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.796809,
+        0.689887,
+        0.095342,
+        0.184083
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域有较小的黑色斑点，与背景相比较为明显，但面积较小，可能影响较小。",
+      "suggestion": "建议继续生产，但需加强后续质量监控，确保此类缺陷不会增加。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.717016,
+        0.771663,
+        0.103388,
+        0.148017
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域有较大的黑色不规则形状，与周围背景形成强烈对比，疑似为内部夹杂物。",
+      "suggestion": "建议立即停止生产并进行局部检查和清理，以防止进一步的材料损坏。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

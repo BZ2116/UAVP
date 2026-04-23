@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_93.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.145,
+        0.698,
+        0.0806,
+        0.5134
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像的左上角区域，存在明显的裂纹状缺陷，表现为细长且平行的线条。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除裂纹并恢复钢材表面质量。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.3605,
+        0.5999,
+        0.0641,
+        0.7537
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像的右上角区域，存在一些轻微的划痕，表现为细长且不规则的线条。",
+      "suggestion": "这些划痕对钢材性能影响较小，无需特别处理。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.25,
+        0.2,
+        0.3,
+        0.3
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "在图像的中部偏左区域，存在一个斑块状的缺陷，表现为不均匀的灰色区域。",
+      "suggestion": "建议对该区域进行局部打磨和补焊处理，以恢复钢材表面的平整度。"
+    }
+  ]
+}

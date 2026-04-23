@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_254.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.5039,
+        0.5353,
+        0.9007,
+        0.9618
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "在图像的右下角区域存在明显的点蚀现象，表面呈现不规则的凹陷和凸起，表明可能存在严重的腐蚀或机械损伤。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑采取适当的防腐措施或更换部件。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.1,
+        0.1,
+        0.3,
+        0.3
+      ],
+      "confidence_score": 0.8,
+      "severity": "Medium",
+      "visual_analysis": "在图像的左上角区域存在裂纹迹象，表面出现细小的裂缝，表明可能存在应力集中或材料疲劳。",
+      "suggestion": "建议对该区域进行应力分析，并考虑更换或修复有裂纹的部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7,
+        0.7,
+        0.9,
+        0.9
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "在图像的右上角区域存在夹杂物，表面出现不均匀的暗色斑块，表明可能存在杂质混入。",
+      "suggestion": "建议对该区域进行成分分析，并考虑是否需要进行表面处理以去除夹杂物。"
+    }
+  ]
+}

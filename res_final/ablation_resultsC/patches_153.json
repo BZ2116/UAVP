@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_153.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.374213,
+        0.540592,
+        0.546985,
+        0.521005
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "图像中检测到大面积的黑色区域，可能表示材料破损或缺失。",
+      "suggestion": "建议立即进行修复，以确保产品质量和安全。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "pitted_surface_284.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.630414,
+        0.461363,
+        0.761727,
+        0.988009
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的斑点状缺陷，颜色较浅，与背景形成对比。",
+      "suggestion": "建议对这些区域进行局部修复，以确保表面质量符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.128374,
+        0.572553,
+        0.267532,
+        0.90295
+      ],
+      "confidence_score": 1.0,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有斑点状特征，但颜色与背景较为接近，可能为正常纹理或轻微瑕疵。",
+      "suggestion": "建议忽略此区域，除非后续检查发现明显异常。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

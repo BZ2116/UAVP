@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_43.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.518,
+        0.5917,
+        0.1512,
+        0.4476
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的夹杂物，形状不规则且分布密集。",
+      "suggestion": "需要进行局部打磨并重新热处理以去除夹杂物。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7874,
+        0.4894,
+        0.1581,
+        0.4946
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在夹杂物，但分布较为分散。",
+      "suggestion": "可以考虑局部打磨并进行表面处理，以减少对后续加工的影响。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.3155,
+        0.1781,
+        0.1017,
+        0.3611
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域存在少量夹杂物，分布较为稀疏。",
+      "suggestion": "无需特别处理，但需记录在案以便后续跟踪。"
+    }
+  ]
+}

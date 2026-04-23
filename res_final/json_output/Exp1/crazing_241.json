@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_241.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.5845,
+        0.7417,
+        0.7181,
+        0.2849
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的裂纹，表现为细小且密集的裂缝，可能影响钢材的结构完整性。",
+      "suggestion": "建议对该区域进行修复或更换，以确保安全和性能。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.5448,
+        0.2021,
+        0.7792,
+        0.3417
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域也存在裂纹现象，但不如区域1密集，可能需要进一步检查其对整体的影响程度。",
+      "suggestion": "建议对该区域进行详细检查，并根据实际情况决定是否需要修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.4233,
+        0.575,
+        0.8182,
+        0.427
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的裂纹较为轻微，分布不均匀，对钢材的整体性能影响较小。",
+      "suggestion": "建议对该区域进行监控，定期检查是否有进一步恶化的情况。"
+    }
+  ]
+}

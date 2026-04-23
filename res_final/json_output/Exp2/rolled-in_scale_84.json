@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_84.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.599592,
+        0.940744,
+        0.417587,
+        0.082166
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了明显的凸起和不规则形状，与正常纹理相比存在显著差异，可能影响产品的表面质量。",
+      "suggestion": "建议对该区域进行局部打磨处理，以恢复表面平整度，并确保后续工序的质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

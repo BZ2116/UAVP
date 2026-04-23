@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_149.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        50,
+        50,
+        100,
+        100
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心区域存在明显的裂纹状缺陷。",
+      "suggestion": "建议对该区域进行仔细检查，并考虑采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        10,
+        10,
+        50,
+        50
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角区域存在一些疑似夹杂物的斑块。",
+      "suggestion": "该区域的缺陷较为轻微，可以继续监控其发展情况。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        150,
+        150,
+        200,
+        200
+      ],
+      "confidence_score": 0.6,
+      "severity": "Low",
+      "visual_analysis": "在图像右下角区域存在一些不规则的斑块状缺陷。",
+      "suggestion": "该区域的缺陷较为轻微，可以继续监控其发展情况。"
+    }
+  ]
+}

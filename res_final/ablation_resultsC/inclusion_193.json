@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_193.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.679966,
+        0.368212,
+        0.107818,
+        0.581746
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检情况，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.777784,
+        0.117183,
+        0.108948,
+        0.134505
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检情况，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Low"
+  }
+}

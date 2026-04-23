@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_16.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        50,
+        40,
+        70,
+        60
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心附近存在一个明显的暗色斑块，可能是由于内部杂质引起的。",
+      "suggestion": "建议对该区域进行进一步检查和处理，以确保没有潜在的安全隐患。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        100,
+        80,
+        120,
+        100
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像右下角区域存在一些不规则的斑块状区域，可能是由于表面处理不当或材料不均造成的。",
+      "suggestion": "建议对该区域进行表面处理，以改善其外观并提高整体质量。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        150,
+        120,
+        170,
+        140
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "在图像右上角区域存在一些细小的划痕，可能是由于加工过程中产生的。",
+      "suggestion": "建议对该区域进行打磨处理，以去除划痕并恢复表面光滑度。"
+    }
+  ]
+}

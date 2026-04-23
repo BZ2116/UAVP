@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_274.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.4636,
+        0.2743,
+        0.9711,
+        0.1269
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的刮痕，表面不平整。",
+      "suggestion": "建议对该区域进行打磨处理，以恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.5254,
+        0.7714,
+        0.9839,
+        0.135
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域也有明显的刮痕，表面有轻微凹陷。",
+      "suggestion": "建议对该区域进行打磨处理，以恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.4712,
+        0.9322,
+        1.0,
+        0.0874
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域存在轻微的刮痕，对整体影响较小。",
+      "suggestion": "建议对该区域进行检查，如无其他问题可暂不处理。"
+    }
+  ]
+}

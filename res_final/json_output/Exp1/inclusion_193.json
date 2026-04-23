@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_193.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.68,
+        0.3682,
+        0.1078,
+        0.5817
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "在图像中，该区域显示为一个明显的不规则形状，与周围钢材表面形成对比，可能是由于内部杂质或不均匀成分导致。",
+      "suggestion": "建议对该区域进行进一步检查和分析，必要时进行局部打磨或更换材料。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7778,
+        0.1172,
+        0.1089,
+        0.1345
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示为一个小而清晰的不规则形状，可能表明存在内部杂质或不均匀成分。",
+      "suggestion": "建议对该区域进行局部检查，并根据需要采取相应的修复措施。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.75,
+        0.25,
+        0.15,
+        0.2
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域显示出一些小的凹陷，可能是轻微的点蚀现象。",
+      "suggestion": "建议对这些区域进行定期检查，以确保不会发展成更严重的缺陷。"
+    }
+  ]
+}

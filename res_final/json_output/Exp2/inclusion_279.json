@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_279.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.432907,
+        0.176337,
+        0.138475,
+        0.273097
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的黑色条纹，与周围区域形成对比，疑似为内部不连续性或杂质。",
+      "suggestion": "建议进一步检查并确认该区域是否为实际缺陷，必要时进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.389053,
+        0.582508,
+        0.172906,
+        0.662938
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有黑色条纹，但其形状和分布较为模糊，可能为背景纹理或轻微瑕疵，而非严重缺陷。",
+      "suggestion": "建议忽略此区域，继续进行后续检查。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

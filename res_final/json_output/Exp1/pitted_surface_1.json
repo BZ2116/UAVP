@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_1.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.6893,
+        0.5092,
+        0.5521,
+        0.9434
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "在图像中，可以看到明显的点状腐蚀区域，这些点状腐蚀分布密集且均匀。",
+      "suggestion": "建议对该区域进行局部打磨处理，并重新进行表面处理以去除这些点蚀。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.75,
+        0.6,
+        0.2,
+        0.2
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "在图像右侧区域，存在一些细小的裂纹，这些裂纹可能是由于应力集中引起的。",
+      "suggestion": "建议对裂纹区域进行仔细检查，并根据需要采取适当的补救措施，如焊接或填充材料。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.2,
+        0.2,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角区域，可能存在一些夹杂物，但其数量较少且分布不均。",
+      "suggestion": "建议对该区域进行进一步的检查和分析，如果确认为夹杂物，则可以考虑进行局部打磨处理。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "image_id": "pitted_surface_223.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.549367,
+        0.536858,
+        0.7858,
+        1.0
+      ],
+      "confidence_score": 0.83,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的坑洞状表面缺陷，分布密集，影响整体质量。",
+      "suggestion": "立即停止使用该部件，并进行修复或更换。建议采取措施改善生产环境的照明条件，减少此类缺陷的发生。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.07437,
+        0.817544,
+        0.193117,
+        0.336125
+      ],
+      "confidence_score": 0.51,
+      "severity": "High",
+      "visual_analysis": "图像中存在疑似斑块状缺陷，但特征不明显，可能存在误检。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。如果确认为缺陷，则需立即处理。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.771785,
+        0.962383,
+        0.153409,
+        0.109009
+      ],
+      "confidence_score": 0.44,
+      "severity": "Suspected",
+      "visual_analysis": "图像中存在疑似斑块状缺陷，但特征较弱，可能是误检。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。如果确认为缺陷，则需立即处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

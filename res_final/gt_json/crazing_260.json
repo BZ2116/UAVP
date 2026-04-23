@@ -1,0 +1,38 @@
+{
+  "image_id": "crazing_260.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.73,
+        0.89,
+        0.52
+      ],
+      "area_ratio": 0.4628,
+      "severity": "High",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议抛光表面并检查冷却与热处理工艺参数"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.5025000000000001,
+        0.295,
+        0.975,
+        0.4
+      ],
+      "area_ratio": 0.39,
+      "severity": "High",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议抛光表面并检查冷却与热处理工艺参数"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

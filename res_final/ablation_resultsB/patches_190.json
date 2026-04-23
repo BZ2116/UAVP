@@ -1,0 +1,101 @@
+{
+  "image_id": "patches_190.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.276904,
+        0.356147,
+        0.268828,
+        0.752583
+      ],
+      "confidence_score": 0.68,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的裂纹特征，分布广泛。",
+      "suggestion": "需要立即停止生产并进行修复，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.836549,
+        0.245626,
+        0.349277,
+        0.227
+      ],
+      "confidence_score": 0.57,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点特征，分布较大。",
+      "suggestion": "需要立即停止生产并进行修复，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.820139,
+        0.678546,
+        0.369947,
+        0.416271
+      ],
+      "confidence_score": 0.43,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在斑点特征，但特征较弱。",
+      "suggestion": "建议人工复检确认是否为误检，并采取相应措施。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7656,
+        0.36001,
+        0.098144,
+        0.184127
+      ],
+      "confidence_score": 0.27,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物特征，但特征较弱。",
+      "suggestion": "建议人工复检确认是否为误检，并采取相应措施。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.92664,
+        0.439777,
+        0.080752,
+        0.161146
+      ],
+      "confidence_score": 0.24,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物特征，但特征较弱。",
+      "suggestion": "建议人工复检确认是否为误检，并采取相应措施。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.097865,
+        0.119505,
+        0.116428,
+        0.139541
+      ],
+      "confidence_score": 0.2,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物特征，但特征较弱。",
+      "suggestion": "建议人工复检确认是否为误检，并采取相应措施。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.259686,
+        0.910899,
+        0.228961,
+        0.225247
+      ],
+      "confidence_score": 0.92,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点特征，分布较大。",
+      "suggestion": "需要立即停止生产并进行修复，确保产品质量符合标准。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 7,
+    "risk_level": "High"
+  }
+}

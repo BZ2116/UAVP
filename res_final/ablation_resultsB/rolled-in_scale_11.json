@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_11.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.305968,
+        0.41679,
+        0.281198,
+        0.467196
+      ],
+      "confidence_score": 0.66,
+      "severity": "High",
+      "visual_analysis": "图像中显示了一个明显的凸起区域，可能是由于材料卷曲或不均匀变形引起的。",
+      "suggestion": "建议立即停止使用该部件，并进行进一步的检查和修复。可能需要重新加工或更换该部件以确保产品质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "image_id": "pitted_surface_112.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.18,
+        0.54,
+        0.27,
+        0.8300000000000001
+      ],
+      "area_ratio": 0.2241,
+      "severity": "High",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议排查腐蚀源并进行表面防护处理"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.5025000000000001,
+        0.7125,
+        0.305,
+        0.385
+      ],
+      "area_ratio": 0.1174,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议排查腐蚀源并进行表面防护处理"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.61,
+        0.3375,
+        0.67,
+        0.28500000000000003
+      ],
+      "area_ratio": 0.191,
+      "severity": "High",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议排查腐蚀源并进行表面防护处理"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.89,
+        0.7075,
+        0.19,
+        0.555
+      ],
+      "area_ratio": 0.1055,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议排查腐蚀源并进行表面防护处理"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

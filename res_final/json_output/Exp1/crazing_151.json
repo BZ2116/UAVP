@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_151.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.5494,
+        0.3395,
+        0.1828,
+        0.4093
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "在图像中，该区域存在明显的裂纹特征，表现为细小的裂缝和断裂纹理。",
+      "suggestion": "建议对该区域进行修复，以防止进一步的结构损坏。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.65,
+        0.4,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "在图像右侧区域，存在一些点状的凹陷，可能是由于腐蚀或机械损伤导致的点蚀。",
+      "suggestion": "建议对该区域进行检查，并根据需要采取相应的防腐措施或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.75,
+        0.5,
+        0.05,
+        0.05
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "在图像中心偏右区域，存在一个较小的不规则形状，可能为夹杂物。",
+      "suggestion": "该缺陷较为轻微，可以继续监控，但建议在后续生产过程中加强原材料质量控制。"
+    }
+  ]
+}

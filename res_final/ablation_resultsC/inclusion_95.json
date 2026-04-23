@@ -1,0 +1,62 @@
+{
+  "image_id": "inclusion_95.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.250801,
+        0.355849,
+        0.112743,
+        0.61714
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域存在疑似Inclusion缺陷，但面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.764237,
+        0.195828,
+        0.179766,
+        0.350703
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域存在疑似Rolled-in Scale缺陷，但面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.775188,
+        0.553585,
+        0.135514,
+        0.277582
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域存在疑似Inclusion缺陷，但面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.715309,
+        0.520899,
+        0.136762,
+        0.178528
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域存在疑似Pitted Surface缺陷，但面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Low"
+  }
+}

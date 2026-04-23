@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_96.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.3312,
+        0.2924,
+        0.6481,
+        0.4464
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的裂纹状缺陷，表现为不规则的细小裂缝。",
+      "suggestion": "需要进行修复处理，以防止裂纹进一步扩展。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.2404,
+        0.8402,
+        0.4292,
+        0.2933
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在裂纹状缺陷，但不如区域1明显。",
+      "suggestion": "建议对该区域进行检查，并根据实际情况决定是否需要修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.681,
+        0.7332,
+        0.6422,
+        0.2255
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域存在轻微的裂纹状缺陷，但对整体影响较小。",
+      "suggestion": "可以暂时忽略，但在后续生产中应加强监控。"
+    }
+  ]
+}

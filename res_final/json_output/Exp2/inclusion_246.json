@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_246.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.312478,
+        0.768595,
+        0.135835,
+        0.333422
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和颜色变化，可能为内部杂质或气泡。",
+      "suggestion": "建议进一步检查并考虑更换材料或改进生产工艺以减少此类缺陷的发生。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.872782,
+        0.508071,
+        0.169629,
+        1.0
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有不规则形状，但整体上没有明显的异常色差或结构变化，可能是轻微的瑕疵。",
+      "suggestion": "建议继续监控此区域，若出现更多类似情况则需进一步调查原因。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

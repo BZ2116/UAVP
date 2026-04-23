@@ -1,0 +1,75 @@
+{
+  "image_id": "patches_114.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.231986,
+        0.324146,
+        0.401423,
+        0.583878
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状缺陷，表面不平整。",
+      "suggestion": "建议进行局部打磨修复，确保表面光滑均匀。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.398622,
+        0.733294,
+        0.192009,
+        0.323639
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有凹陷，但较为轻微，可能为制造过程中的正常纹理。",
+      "suggestion": "无需特别处理，但需记录并监控其变化情况。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.793268,
+        0.785674,
+        0.235275,
+        0.373523
+      ],
+      "confidence_score": 0.92,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑，影响外观质量。",
+      "suggestion": "建议进行局部打磨修复，确保表面光滑均匀。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.794866,
+        0.304452,
+        0.212228,
+        0.312877
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域有轻微凹陷，可能是制造过程中的正常纹理。",
+      "suggestion": "无需特别处理，但需记录并监控其变化情况。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.840816,
+        0.077374,
+        0.206792,
+        0.169494
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑，影响外观质量。",
+      "suggestion": "建议进行局部打磨修复，确保表面光滑均匀。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Medium"
+  }
+}

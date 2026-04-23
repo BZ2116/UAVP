@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_206.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.594311,
+        0.324755,
+        0.05758,
+        0.615471
+      ],
+      "confidence_score": 0.61,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，影响表面质量。",
+      "suggestion": "建议立即更换或修复受影响区域，以确保产品符合质量标准。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.737754,
+        0.644652,
+        0.090909,
+        0.760951
+      ],
+      "confidence_score": 0.6,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，可能影响材料性能。",
+      "suggestion": "建议立即更换或修复受影响区域，并进行进一步的质量检查，以确保产品符合质量标准。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

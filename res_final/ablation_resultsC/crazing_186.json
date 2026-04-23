@@ -1,0 +1,23 @@
+{
+  "image_id": "crazing_186.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.225136,
+        0.440382,
+        0.518709,
+        0.833595
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "图像中显示了大面积的裂纹（crazing），这些裂纹在低光照条件下显得尤为明显。裂纹分布广泛，覆盖了图像的很大一部分区域。",
+      "suggestion": "建议立即进行修复，以防止裂纹进一步扩展或导致材料性能下降。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

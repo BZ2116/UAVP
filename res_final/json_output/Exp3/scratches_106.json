@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_106.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.501821,
+        0.177844,
+        0.99424,
+        0.155067
+      ],
+      "confidence_score": 0.69,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的刮痕，其面积占比较大，且在低光照条件下特征显著。",
+      "suggestion": "立即修复，优先处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

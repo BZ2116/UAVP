@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_209.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.27823,
+        0.349704,
+        0.058481,
+        0.677715
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.647829,
+        0.357446,
+        0.172955,
+        0.735913
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积中等，建议人工复核确认其性质和影响程度。",
+      "suggestion": "建议人工复核确认缺陷性质及处理方案"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.824561,
+        0.336198,
+        0.392544,
+        0.233261
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Low"
+  }
+}

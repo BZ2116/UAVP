@@ -1,0 +1,49 @@
+{
+  "image_id": "inclusion_232.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.708687,
+        0.5839,
+        0.087991,
+        0.253799
+      ],
+      "confidence_score": 0.61,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，特征清晰。",
+      "suggestion": "立即停止生产，进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.070933,
+        0.66785,
+        0.157,
+        0.299692
+      ],
+      "confidence_score": 0.53,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，特征清晰。",
+      "suggestion": "立即停止生产，进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.703753,
+        0.100022,
+        0.060258,
+        0.149419
+      ],
+      "confidence_score": 0.46,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物，但特征较弱，需人工复检确认。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

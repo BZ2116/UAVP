@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_251.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.136172,
+        0.649358,
+        0.315655,
+        0.692908
+      ],
+      "confidence_score": 0.28,
+      "severity": "Low",
+      "visual_analysis": "图像中检测到的缺陷特征较为微弱，难以清晰辨认。在低光照条件下，这种微弱特征可能导致误检。",
+      "suggestion": "建议人工复检以确认是否为实际缺陷或误检。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.124447,
+        0.104225,
+        0.263184,
+        0.118345
+      ],
+      "confidence_score": 0.22,
+      "severity": "Low",
+      "visual_analysis": "图像中检测到的缺陷特征较为微弱，难以清晰辨认。在低光照条件下，这种微弱特征可能导致误检。",
+      "suggestion": "建议人工复检以确认是否为实际缺陷或误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Low"
+  }
+}

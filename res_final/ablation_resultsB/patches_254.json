@@ -1,0 +1,49 @@
+{
+  "image_id": "patches_254.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.450561,
+        0.767144,
+        0.236956,
+        0.311955
+      ],
+      "confidence_score": 0.92,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点状缺陷，可能影响产品的外观和性能。",
+      "suggestion": "建议立即更换或修复受影响区域，并检查生产过程中的相关参数以防止此类缺陷再次发生。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.429474,
+        0.24951,
+        0.392189,
+        0.324175
+      ],
+      "confidence_score": 0.86,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点状缺陷，可能影响产品的外观和性能。",
+      "suggestion": "建议立即更换或修复受影响区域，并检查生产过程中的相关参数以防止此类缺陷再次发生。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.617553,
+        0.38809,
+        0.108866,
+        0.037232
+      ],
+      "confidence_score": 0.52,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的裂纹状缺陷，可能影响产品的结构强度。",
+      "suggestion": "建议立即更换或修复受影响区域，并检查生产过程中的相关参数以防止此类缺陷再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

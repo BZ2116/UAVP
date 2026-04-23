@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_265.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.1499,
+        0.1401,
+        0.0903,
+        0.3207
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "在图像左侧区域存在明显的夹杂物，形状不规则且分布密集。",
+      "suggestion": "需要进行局部打磨处理，以去除这些夹杂物。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.3755,
+        0.1573,
+        0.0229,
+        0.1778
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中部偏左区域存在斑块状缺陷，可能由材料不均匀导致。",
+      "suggestion": "建议对这一区域进行表面检查，并根据情况决定是否需要重新加工或修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.7617,
+        0.4837,
+        0.206,
+        0.969
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像右侧区域存在细小裂纹，分布较为分散。",
+      "suggestion": "裂纹较为轻微，可以继续观察，但需注意是否有进一步扩大的趋势。"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "image_id": "patches_44.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        50,
+        50,
+        150,
+        150
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "图像中心区域存在明显的黑色不规则形状，可能是由于杂质或不均匀成分导致的缺陷。",
+      "suggestion": "建议对该区域进行进一步检查和处理，以确保产品质量。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "图像右上角存在较小的灰色斑块，可能是由于局部材料不均匀导致的。",
+      "suggestion": "该缺陷较为轻微，可以忽略不计。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "图像左下角存在细小的裂纹状痕迹，可能是由于应力集中导致的。",
+      "suggestion": "该缺陷较为轻微，可以忽略不计。"
+    }
+  ]
+}

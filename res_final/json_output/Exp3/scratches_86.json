@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_86.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.219431,
+        0.506616,
+        0.048469,
+        0.911985
+      ],
+      "confidence_score": 0.69,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.530652,
+        0.533275,
+        0.054678,
+        0.902817
+      ],
+      "confidence_score": 0.6,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

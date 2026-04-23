@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_206.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.585758,
+        0.536943,
+        0.290803,
+        0.815549
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕痕迹，纹理不一致，与周围区域形成对比。",
+      "suggestion": "建议进行表面处理以去除划痕，确保产品外观质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

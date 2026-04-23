@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_263.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.4319,
+        0.4148,
+        0.1529,
+        0.8099
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中，该区域显示了一个明显的不规则形状，可能与金属内部的杂质或非金属颗粒有关。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑是否需要进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.4523,
+        0.8213,
+        0.0583,
+        0.2597
+      ],
+      "confidence_score": 1.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的不规则形状较小且分布较为分散，可能是轻微的杂质或非金属颗粒。",
+      "suggestion": "建议对整个区域进行检查，但目前看来，该缺陷对整体性能影响不大，可以继续使用。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.48,
+        0.5,
+        0.05,
+        0.1
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "在图像右侧边缘附近，可以看到一条细长的划痕，可能是由于机械操作或运输过程中造成的。",
+      "suggestion": "建议对划痕进行清洁处理，确保不会影响后续加工和使用。"
+    }
+  ]
+}

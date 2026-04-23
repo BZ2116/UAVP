@@ -1,0 +1,114 @@
+{
+  "image_id": "inclusion_43.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.135149,
+        0.815926,
+        0.094645,
+        0.400837
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.071042,
+        0.455296,
+        0.090304,
+        0.989246
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.252347,
+        0.485302,
+        0.175159,
+        0.791352
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积中等，需进一步确认其性质。",
+      "suggestion": "建议人工复检确认是否为实际缺陷，并评估其对产品的影响程度。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.518025,
+        0.591683,
+        0.151207,
+        0.447585
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.787355,
+        0.489449,
+        0.158091,
+        0.494559
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.590121,
+        0.088135,
+        0.120427,
+        0.180664
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.315544,
+        0.178112,
+        0.101662,
+        0.361097
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.888044,
+        0.06108,
+        0.112534,
+        0.16585
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 8,
+    "risk_level": "Low"
+  }
+}

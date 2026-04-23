@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_243.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ],
+      "confidence_score": 0.8,
+      "severity": "Medium",
+      "visual_analysis": "图像中显示了明显的裂纹特征，表现为不规则的线条和断裂的纹理。",
+      "suggestion": "建议进行进一步的检查，并考虑对受裂纹影响的区域进行修复或更换。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.75,
+        0.25,
+        0.25,
+        0.75
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "图像右侧区域存在一些小坑洞，可能是点蚀的迹象。",
+      "suggestion": "这些点蚀可能不会对整体结构造成严重影响，但建议定期检查并保持清洁。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.25,
+        0.05,
+        0.5,
+        0.5
+      ],
+      "confidence_score": 0.6,
+      "severity": "Low",
+      "visual_analysis": "图像左侧区域有一些明显的划痕，可能是由于机械操作造成的。",
+      "suggestion": "建议在生产过程中采取措施减少划痕的发生，如改进操作方法或使用更光滑的工具。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "image_id": "inclusion_135.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.28750000000000003,
+        0.4475,
+        0.165,
+        0.885
+      ],
+      "area_ratio": 0.146,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议检查原材料纯度并复核冶炼工艺"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.395,
+        0.51,
+        0.19,
+        0.96
+      ],
+      "area_ratio": 0.1824,
+      "severity": "High",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议检查原材料纯度并复核冶炼工艺"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

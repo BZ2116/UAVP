@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_36.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.21354,
+        0.509472,
+        0.13194,
+        0.957596
+      ],
+      "confidence_score": 0.74,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，长度约为图像宽度的1/8，覆盖了大约图像高度的4/5。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。可以考虑使用磨光机或抛光剂进行表面处理，以减少划痕影响。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

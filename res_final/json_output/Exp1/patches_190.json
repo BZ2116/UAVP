@@ -1,0 +1,45 @@
+{
+  "image_id": "patches_190.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        150,
+        100,
+        100,
+        100
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心附近存在一个明显的暗色斑块，可能是由于内部杂质引起的。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑是否需要进行打磨或更换零件。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        50,
+        150,
+        100,
+        100
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "图像左下角存在一些不规则的斑块状区域，可能是由于表面处理不当导致的。",
+      "suggestion": "建议对这些区域进行表面处理，以确保其均匀性和一致性。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        200,
+        50,
+        50,
+        50
+      ],
+      "confidence_score": 0.6,
+      "severity": "Low",
+      "visual_analysis": "右上角存在一些细小的裂纹，可能是由于应力集中或材料疲劳引起的。",
+      "suggestion": "建议对这些区域进行应力分析，并采取适当的措施来防止进一步的裂纹扩展。"
+    }
+  ]
+}

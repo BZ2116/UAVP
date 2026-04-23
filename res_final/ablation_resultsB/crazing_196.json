@@ -1,0 +1,49 @@
+{
+  "image_id": "crazing_196.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.49236,
+        0.327919,
+        0.915276,
+        0.199198
+      ],
+      "confidence_score": 0.41,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能为误检。",
+      "suggestion": "建议人工复检"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.6413,
+        0.146746,
+        0.635864,
+        0.196118
+      ],
+      "confidence_score": 0.33,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能为误检。",
+      "suggestion": "建议人工复检"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.415154,
+        0.857951,
+        0.769207,
+        0.323144
+      ],
+      "confidence_score": 0.82,
+      "severity": "High",
+      "visual_analysis": "特征明确。",
+      "suggestion": "建议立即修复"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

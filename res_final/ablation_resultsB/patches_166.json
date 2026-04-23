@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_166.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.308235,
+        0.212068,
+        0.172308,
+        0.402629
+      ],
+      "confidence_score": 0.84,
+      "severity": "High",
+      "visual_analysis": "图像中显示了一个明显的黑色斑块，可能代表材料的缺失或损坏。",
+      "suggestion": "建议立即停止使用该部件，并进行进一步的检查以确定问题的根源。如果确认为材料缺陷，则需要更换新的部件。同时，应加强生产过程中的质量控制，确保此类缺陷不会再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

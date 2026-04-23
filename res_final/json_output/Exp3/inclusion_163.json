@@ -1,0 +1,62 @@
+{
+  "image_id": "inclusion_163.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.069084,
+        0.457978,
+        0.179921,
+        0.706562
+      ],
+      "confidence_score": 0.77,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，需进一步确认",
+      "suggestion": "建议人工复核"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.360516,
+        0.635837,
+        0.300432,
+        0.609785
+      ],
+      "confidence_score": 0.66,
+      "severity": "High",
+      "visual_analysis": "特征显著，需立即处理",
+      "suggestion": "直接判定为高风险并优先处理"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.572755,
+        0.525224,
+        0.128571,
+        0.240554
+      ],
+      "confidence_score": 0.63,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检",
+      "suggestion": "疑似误检，请人工复检"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.572448,
+        0.862792,
+        0.163052,
+        0.356796
+      ],
+      "confidence_score": 0.48,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，需进一步确认",
+      "suggestion": "建议人工复核"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

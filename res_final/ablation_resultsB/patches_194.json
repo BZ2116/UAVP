@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_194.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.529591,
+        0.527986,
+        0.378532,
+        0.988902
+      ],
+      "confidence_score": 0.66,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的缺陷区域，纹理异常，可能影响产品性能。",
+      "suggestion": "立即停止生产，对该区域进行详细检查和修复，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.896412,
+        0.176186,
+        0.298944,
+        0.440877
+      ],
+      "confidence_score": 0.37,
+      "severity": "Suspected",
+      "visual_analysis": "该区域的特征较为模糊，可能存在误检的可能性。",
+      "suggestion": "建议人工复检该区域，确认是否存在实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

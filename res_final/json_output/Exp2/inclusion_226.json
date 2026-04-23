@@ -1,0 +1,23 @@
+{
+  "image_id": "inclusion_226.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.239539,
+        0.525744,
+        0.161918,
+        0.918471
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域显示了明显的不规则形状和纹理变化，与正常材料表面存在显著差异，疑似内部夹杂物。",
+      "suggestion": "建议立即停止生产并进行进一步检查，确保该缺陷不会影响产品质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

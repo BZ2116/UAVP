@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_207.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.512753,
+        0.301672,
+        0.384991,
+        0.581754
+      ],
+      "confidence_score": 0.81,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的不规则斑点，可能影响产品的外观质量。",
+      "suggestion": "建议对该区域进行局部打磨或更换，以确保产品表面光滑一致。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.53789,
+        0.82915,
+        0.399378,
+        0.233959
+      ],
+      "confidence_score": 0.64,
+      "severity": "High",
+      "visual_analysis": "该区域同样存在不规则斑点，可能影响产品的外观质量。",
+      "suggestion": "建议对该区域进行局部打磨或更换，以确保产品表面光滑一致。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

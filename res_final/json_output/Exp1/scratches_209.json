@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_209.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.05,
+        0.55,
+        0.95
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "图像中可见明显的裂纹，沿着钢材表面延伸。",
+      "suggestion": "需要进行修复以防止进一步的损坏。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.6,
+        0.05,
+        0.7,
+        0.95
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "图像中显示了点蚀现象，但程度较轻。",
+      "suggestion": "可以考虑定期检查和维护，以防止进一步恶化。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.75,
+        0.05,
+        0.85,
+        0.95
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的划痕，影响外观。",
+      "suggestion": "建议对这些区域进行抛光处理，以恢复表面光滑度。"
+    }
+  ]
+}

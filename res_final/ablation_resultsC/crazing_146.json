@@ -1,0 +1,23 @@
+{
+  "image_id": "crazing_146.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.308224,
+        0.763439,
+        0.26708,
+        0.447356
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像显示了明显的裂纹（crazing）现象，分布于图像的左上角区域，面积占比约为11.95%。裂纹表现为细小的、不规则的裂缝，可能影响材料的强度和性能。",
+      "suggestion": "建议人工复核该区域，确认裂纹是否为制造过程中的正常现象或潜在质量问题，并根据实际情况采取相应的修复措施。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

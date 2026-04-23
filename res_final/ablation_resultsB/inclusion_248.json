@@ -1,0 +1,49 @@
+{
+  "image_id": "inclusion_248.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.091334,
+        0.746538,
+        0.071723,
+        0.342333
+      ],
+      "confidence_score": 0.82,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，特征清晰，建议立即停止生产并进行修复。",
+      "suggestion": "立即停止生产并进行修复，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.710889,
+        0.48903,
+        0.128963,
+        0.99416
+      ],
+      "confidence_score": 0.4,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物，但特征较弱，建议人工复检确认。",
+      "suggestion": "人工复检确认是否存在夹杂物，如存在则需进行修复。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.295807,
+        0.546372,
+        0.020643,
+        0.112826
+      ],
+      "confidence_score": 0.27,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在凹坑表面，但特征较弱，建议人工复检确认。",
+      "suggestion": "人工复检确认是否存在凹坑表面，如存在则需进行修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

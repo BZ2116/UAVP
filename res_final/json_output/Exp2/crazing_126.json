@@ -1,0 +1,36 @@
+{
+  "image_id": "crazing_126.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.681004,
+        0.235535,
+        0.535161,
+        0.255497
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的裂纹特征，表现为细小的裂缝和断裂纹理，这通常与材料老化、应力集中或制造过程中的缺陷有关。",
+      "suggestion": "建议对该区域进行进一步检查，可能需要更换或修复该部分以确保产品的质量和安全性。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.269264,
+        0.491877,
+        0.557457,
+        0.267883
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域显示的是表面斑点状特征，可能是由于材料表面的轻微瑕疵或制造过程中的小缺陷所致。这种缺陷通常不会对产品性能产生重大影响。",
+      "suggestion": "对于此类轻微缺陷，可以考虑进行表面处理或涂层覆盖，以提高外观质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

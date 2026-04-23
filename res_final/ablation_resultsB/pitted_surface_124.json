@@ -1,0 +1,36 @@
+{
+  "image_id": "pitted_surface_124.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.249721,
+        0.359333,
+        0.509095,
+        0.705261
+      ],
+      "confidence_score": 0.63,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的裂纹特征，表现为表面不规则的裂缝和断裂，这通常会导致材料强度下降。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。修复方法包括打磨平整裂纹区域，重新涂覆保护层，或者更换新的部件以确保安全性和性能。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.814836,
+        0.11331,
+        0.367484,
+        0.288822
+      ],
+      "confidence_score": 0.57,
+      "severity": "High",
+      "visual_analysis": "图像显示表面有明显的凹坑和点状缺陷，这些缺陷可能影响材料的外观和功能，导致表面粗糙或降低耐腐蚀性。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。修复方法包括打磨平整凹坑区域，重新涂覆保护层，或者更换新的部件以确保安全性和性能。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_173.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.435552,
+        0.362613,
+        0.067289,
+        0.751875
+      ],
+      "confidence_score": 0.69,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，存在明显的刮痕。",
+      "suggestion": "建议人工复核以确认缺陷的具体情况和严重程度。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

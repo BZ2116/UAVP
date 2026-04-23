@@ -1,0 +1,52 @@
+{
+  "image_id": "scratches_168.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.6575,
+        0.2175,
+        0.145,
+        0.425
+      ],
+      "area_ratio": 0.0616,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "Medium",
+      "suggestion": "建议检查加工与运输过程中的机械接触风险"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.365,
+        0.3075,
+        0.08,
+        0.455
+      ],
+      "area_ratio": 0.0364,
+      "severity": "Low",
+      "visibility": "clear",
+      "certainty_gt": "Low",
+      "suggestion": "建议进行人工复检"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.3875,
+        0.8175,
+        0.23500000000000001,
+        0.34500000000000003
+      ],
+      "area_ratio": 0.0811,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "Medium",
+      "suggestion": "建议检查加工与运输过程中的机械接触风险"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

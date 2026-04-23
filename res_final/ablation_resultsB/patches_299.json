@@ -1,0 +1,49 @@
+{
+  "image_id": "patches_299.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.645753,
+        0.544077,
+        0.417597,
+        0.791665
+      ],
+      "confidence_score": 0.8,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的不规则形状和阴影，表明可能存在材料脱落或破损。",
+      "suggestion": "建议立即更换此区域的材料，并检查周围区域是否有类似问题。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.124892,
+        0.080834,
+        0.263705,
+        0.142501
+      ],
+      "confidence_score": 0.79,
+      "severity": "High",
+      "visual_analysis": "该区域有明显的暗区，可能表示材料缺失或损坏。",
+      "suggestion": "需要立即修复此区域，确保其与周围区域一致。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.113407,
+        0.717252,
+        0.299813,
+        0.613076
+      ],
+      "confidence_score": 0.73,
+      "severity": "High",
+      "visual_analysis": "该区域有明显的不规则形状和阴影，表明可能存在材料脱落或破损。",
+      "suggestion": "建议立即更换此区域的材料，并检查周围区域是否有类似问题。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

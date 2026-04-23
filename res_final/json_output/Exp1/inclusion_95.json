@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_95.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        40,
+        60,
+        10,
+        10
+      ],
+      "confidence_score": 0.8,
+      "severity": "Medium",
+      "visual_analysis": "在图像左上角附近存在一条明显的裂纹。",
+      "suggestion": "建议对该区域进行仔细检查，并考虑修复或更换。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        70,
+        100,
+        10,
+        10
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "在图像右上角附近存在一个较小的斑块。",
+      "suggestion": "该缺陷对整体结构影响较小，可以继续使用，但需定期监控。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        10,
+        150,
+        10,
+        10
+      ],
+      "confidence_score": 0.6,
+      "severity": "Low",
+      "visual_analysis": "在图像左下角附近存在一条轻微的划痕。",
+      "suggestion": "该划痕不影响结构完整性，无需特别处理。"
+    }
+  ]
+}

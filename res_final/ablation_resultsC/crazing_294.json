@@ -1,0 +1,49 @@
+{
+  "image_id": "crazing_294.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.545848,
+        0.209153,
+        0.567137,
+        0.460565
+      ],
+      "confidence_score": 0.2612,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的裂纹，面积占比较大，表明材料可能存在严重的应力集中或老化现象。",
+      "suggestion": "建议立即进行修复，并检查相关工艺参数是否需要调整，以防止类似问题再次发生。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.380882,
+        0.683834,
+        0.823109,
+        0.602633
+      ],
+      "confidence_score": 0.496,
+      "severity": "High",
+      "visual_analysis": "该区域也存在明显的裂纹，面积占比较大，表明材料可能存在严重的应力集中或老化现象。",
+      "suggestion": "建议立即进行修复，并检查相关工艺参数是否需要调整，以防止类似问题再次发生。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.743075,
+        0.568401,
+        0.055635,
+        0.183275
+      ],
+      "confidence_score": 0.0102,
+      "severity": "Low",
+      "visual_analysis": "该区域的裂纹面积较小，可能是误检，建议人工复检确认。",
+      "suggestion": "建议人工复检确认，如确认为误检则无需进一步处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

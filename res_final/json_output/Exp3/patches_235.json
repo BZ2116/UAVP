@@ -1,0 +1,49 @@
+{
+  "image_id": "patches_235.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.223317,
+        0.509258,
+        0.317192,
+        0.265164
+      ],
+      "confidence_score": 0.86,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕，可能影响产品的外观质量。",
+      "suggestion": "建议人工复核并考虑是否需要修复或更换部件。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.701851,
+        0.331439,
+        0.321248,
+        0.687238
+      ],
+      "confidence_score": 0.84,
+      "severity": "High",
+      "visual_analysis": "该区域有大面积的瑕疵，可能影响产品的整体质量。",
+      "suggestion": "立即停止生产并优先处理此缺陷，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.685336,
+        0.854114,
+        0.410425,
+        0.335346
+      ],
+      "confidence_score": 0.74,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的瑕疵，可能影响产品的外观质量。",
+      "suggestion": "建议人工复核并考虑是否需要修复或更换部件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

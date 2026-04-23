@@ -1,0 +1,23 @@
+{
+  "image_id": "pitted_surface_142.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.512719,
+        0.49457,
+        0.955565,
+        0.939355
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域显示了密集的点状结构，类似于金属表面的腐蚀坑或斑点。这些点状结构分布均匀，且密度较高，表明可能存在严重的表面损伤。",
+      "suggestion": "建议立即停止使用此部件并进行进一步检查，以确定其是否适合继续使用。可能需要进行表面处理或更换部件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

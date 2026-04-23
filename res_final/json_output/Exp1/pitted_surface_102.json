@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_102.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.5,
+        0.7,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心偏右下方区域，存在明显的点蚀现象。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除点蚀并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.8,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像右上角区域，存在轻微的裂纹现象。",
+      "suggestion": "裂纹较为轻微，无需立即处理，但应定期检查，防止进一步恶化。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.4,
+        0.5,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "在图像左下角区域，存在明显的夹杂物。",
+      "suggestion": "建议对该区域进行局部打磨或更换材料，以去除夹杂物并确保表面质量。"
+    }
+  ]
+}

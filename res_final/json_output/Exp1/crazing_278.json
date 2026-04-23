@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_278.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.65,
+        0.15,
+        0.15
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像的右上角区域，可以看到明显的裂纹状缺陷。",
+      "suggestion": "建议对该区域进行仔细检查，并考虑采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像的左下角区域，可以看到一些小的点蚀痕迹。",
+      "suggestion": "这些点蚀痕迹对整体结构影响较小，但建议定期检查并保持清洁。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.7,
+        0.7,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "在图像的右下角区域，可以看到氧化皮压入的迹象。",
+      "suggestion": "建议对该区域进行打磨处理，以去除氧化皮并恢复表面光滑度。"
+    }
+  ]
+}

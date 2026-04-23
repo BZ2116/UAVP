@@ -1,0 +1,75 @@
+{
+  "image_id": "inclusion_265.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.149932,
+        0.140071,
+        0.09028,
+        0.320694
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和边缘模糊，可能是由于内部杂质引起的。",
+      "suggestion": "建议进一步检查并采取措施去除内部杂质，以提高产品质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.179838,
+        0.514093,
+        0.080143,
+        0.177985
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的不规则形状较小且边缘清晰，可能是轻微的内部杂质。",
+      "suggestion": "建议继续监控该区域，但无需立即采取行动。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.761713,
+        0.483704,
+        0.205953,
+        0.969006
+      ],
+      "confidence_score": 0.98,
+      "severity": "High",
+      "visual_analysis": "该区域存在大面积的不规则形状，边缘模糊，可能是严重的内部杂质。",
+      "suggestion": "建议立即停止生产并进行彻底清洗和检查，以防止进一步的质量问题。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.143911,
+        0.693791,
+        0.096287,
+        0.168689
+      ],
+      "confidence_score": 0.92,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在不规则形状，边缘模糊，可能是内部杂质。",
+      "suggestion": "建议进一步检查并采取措施去除内部杂质，以提高产品质量。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.375548,
+        0.157345,
+        0.022876,
+        0.177797
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域存在小面积的不规则形状，可能是表面瑕疵。",
+      "suggestion": "建议继续监控该区域，但无需立即采取行动。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Medium"
+  }
+}

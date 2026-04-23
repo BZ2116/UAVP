@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_178.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.05,
+        0.05,
+        0.95
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像的左侧边缘可以看到明显的裂纹，沿着钢材表面延伸。",
+      "suggestion": "建议对裂纹区域进行仔细检查，并根据需要采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.6,
+        0.05,
+        0.05,
+        0.95
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像的右侧边缘可以看到一些不规则的暗色斑块，可能是夹杂物。",
+      "suggestion": "这些斑块看起来较为轻微，可以继续监控其发展情况。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.5,
+        0.05,
+        0.05,
+        0.95
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "在图像的中间部分可以看到一些不均匀的斑块状区域，可能是由于点蚀或氧化皮压入造成的。",
+      "suggestion": "建议对这些区域进行进一步的检查和评估，以确定是否需要修复。"
+    }
+  ]
+}

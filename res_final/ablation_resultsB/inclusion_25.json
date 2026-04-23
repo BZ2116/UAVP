@@ -1,0 +1,75 @@
+{
+  "image_id": "inclusion_25.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.129991,
+        0.332606,
+        0.129519,
+        0.721442
+      ],
+      "confidence_score": 0.79,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在左上角区域。",
+      "suggestion": "立即停止生产，检查设备和原材料，确保夹杂物来源被消除。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.394932,
+        0.147011,
+        0.082098,
+        0.218262
+      ],
+      "confidence_score": 0.68,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在右上角区域。",
+      "suggestion": "立即停止生产，检查设备和原材料，确保夹杂物来源被消除。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.620788,
+        0.422525,
+        0.216334,
+        0.801828
+      ],
+      "confidence_score": 0.32,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在瑕疵，但特征较弱，需人工复检确认。",
+      "suggestion": "建议人工复检确认是否为实际瑕疵。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.172624,
+        0.934534,
+        0.047387,
+        0.154287
+      ],
+      "confidence_score": 0.23,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在瑕疵，但特征较弱，需人工复检确认。",
+      "suggestion": "建议人工复检确认是否为实际瑕疵。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.933881,
+        0.698366,
+        0.065045,
+        0.38026
+      ],
+      "confidence_score": 0.89,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在右下角区域。",
+      "suggestion": "立即停止生产，检查设备和原材料，确保夹杂物来源被消除。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_232.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "图像中显示了明显的裂纹特征，表现为细长且平行的线条。",
+      "suggestion": "建议进行局部打磨和重新涂装处理。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.4,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "图像中存在一些小坑洞，可能是点蚀的早期迹象。",
+      "suggestion": "建议进行表面检查并根据需要进行补漆处理。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.7,
+        0.7,
+        0.9,
+        0.9
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "图像右侧存在明显的划痕痕迹。",
+      "suggestion": "建议对划痕区域进行打磨和重新涂装处理。"
+    }
+  ]
+}

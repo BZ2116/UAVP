@@ -1,0 +1,114 @@
+{
+  "image_id": "inclusion_43.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.135149,
+        0.815926,
+        0.094645,
+        0.400837
+      ],
+      "confidence_score": 0.71,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在左上角附近。",
+      "suggestion": "需要立即停止生产，对受影响区域进行清理和修复，并检查设备状态，防止夹杂物再次出现。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.071042,
+        0.455296,
+        0.090304,
+        0.989246
+      ],
+      "confidence_score": 0.6,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在左中部附近。",
+      "suggestion": "需要立即停止生产，对受影响区域进行清理和修复，并检查设备状态，防止夹杂物再次出现。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.252347,
+        0.485302,
+        0.175159,
+        0.791352
+      ],
+      "confidence_score": 0.59,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在右中部附近。",
+      "suggestion": "需要立即停止生产，对受影响区域进行清理和修复，并检查设备状态，防止夹杂物再次出现。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.518025,
+        0.591683,
+        0.151207,
+        0.447585
+      ],
+      "confidence_score": 0.56,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在右上角附近。",
+      "suggestion": "需要立即停止生产，对受影响区域进行清理和修复，并检查设备状态，防止夹杂物再次出现。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.787355,
+        0.489449,
+        0.158091,
+        0.494559
+      ],
+      "confidence_score": 0.52,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在右中部附近。",
+      "suggestion": "需要立即停止生产，对受影响区域进行清理和修复，并检查设备状态，防止夹杂物再次出现。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.590121,
+        0.088135,
+        0.120427,
+        0.180664
+      ],
+      "confidence_score": 0.31,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物，但特征较弱，需人工复检确认。",
+      "suggestion": "建议人工复检确认，如确认为夹杂物，则需立即停止生产，进行清理和修复。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.315544,
+        0.178112,
+        0.101662,
+        0.361097
+      ],
+      "confidence_score": 0.83,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在左中部附近。",
+      "suggestion": "需要立即停止生产，对受影响区域进行清理和修复，并检查设备状态，防止夹杂物再次出现。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.888044,
+        0.06108,
+        0.112534,
+        0.16585
+      ],
+      "confidence_score": 0.81,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，位置在右上角附近。",
+      "suggestion": "需要立即停止生产，对受影响区域进行清理和修复，并检查设备状态，防止夹杂物再次出现。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 8,
+    "risk_level": "High"
+  }
+}

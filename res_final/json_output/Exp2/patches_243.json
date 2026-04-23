@@ -1,0 +1,75 @@
+{
+  "image_id": "patches_243.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.260138,
+        0.212117,
+        0.335469,
+        0.352296
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕痕迹，表面不平整。",
+      "suggestion": "建议进行表面抛光处理以去除划痕，确保产品外观质量。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.701505,
+        0.165134,
+        0.345332,
+        0.188461
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域有轻微的点状凹陷，可能是由于制造过程中的小瑕疵。",
+      "suggestion": "无需特别处理，但应加强后续制造过程的质量控制。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.228836,
+        0.88851,
+        0.345843,
+        0.275057
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在较多的点状凹陷，影响表面均匀性。",
+      "suggestion": "建议进行局部修复或更换部件，以保证产品的整体质量。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.844522,
+        0.652539,
+        0.260065,
+        0.29207
+      ],
+      "confidence_score": 0.92,
+      "severity": "High",
+      "visual_analysis": "该区域有大量明显的点状凹陷，严重影响表面质量。",
+      "suggestion": "需要立即停止生产并进行修复，以避免进一步的质量问题。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.216947,
+        0.617703,
+        0.186059,
+        0.390656
+      ],
+      "confidence_score": 0.88,
+      "severity": "Medium",
+      "visual_analysis": "该区域有较多的点状凹陷，影响表面均匀性。",
+      "suggestion": "建议进行局部修复或更换部件，以保证产品的整体质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Medium"
+  }
+}

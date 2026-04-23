@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_88.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.380724,
+        0.470627,
+        0.380478,
+        0.662556
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在大面积的斑点状缺陷，可能影响产品的外观和性能。",
+      "suggestion": "建议立即进行修复，并对周围区域进行检查以确保没有其他类似缺陷。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.70213,
+        0.549991,
+        0.260804,
+        0.652968
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在中等面积的卷入鳞片缺陷，可能需要进一步确认其对产品的影响程度。",
+      "suggestion": "建议人工复核该区域，确认缺陷的具体情况，并根据实际情况决定是否需要修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_208.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.45,
+        0.65,
+        0.55,
+        0.75
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "图像中显示了明显的点蚀现象，表面出现不规则的小坑洞。",
+      "suggestion": "建议进行局部打磨和补焊处理，以恢复钢材表面的平整度。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.25,
+        0.75,
+        0.35,
+        0.85
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像的左上角区域，可以看到一些细小的裂纹状痕迹。",
+      "suggestion": "裂纹较为轻微，无需特别处理，但应定期检查并记录其发展情况。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.15,
+        0.85,
+        0.25,
+        0.95
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "图像右下角区域存在一些不规则的夹杂物，可能是由于铸造或热处理过程中产生的。",
+      "suggestion": "夹杂物对结构强度影响较小，但建议在后续生产过程中改进工艺，减少夹杂物的产生。"
+    }
+  ]
+}

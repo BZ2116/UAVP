@@ -1,0 +1,36 @@
+{
+  "image_id": "pitted_surface_3.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.103443,
+        0.49842,
+        0.272686,
+        0.88082
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在中等面积的坑洞，分布较为密集。",
+      "suggestion": "建议人工复核确认，并根据实际情况决定是否需要修复。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.5984,
+        0.487457,
+        0.75425,
+        0.953803
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在较大面积的坑洞，分布较为密集。",
+      "suggestion": "建议立即判定为高风险并优先处理，以防止进一步恶化。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

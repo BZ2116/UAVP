@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_51.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.05,
+        0.05,
+        0.95
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像右侧边缘附近，存在明显的裂纹状缺陷。",
+      "suggestion": "建议对该区域进行仔细检查，并考虑采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.05,
+        0.05,
+        0.4,
+        0.95
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像左侧区域，存在一些不规则的斑块状缺陷。",
+      "suggestion": "这些缺陷可能对结构性能影响较小，但建议进一步评估其对整体质量的影响。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.75,
+        0.05,
+        0.05,
+        0.95
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "在图像右侧边缘附近，存在一些小的夹杂物。",
+      "suggestion": "这些夹杂物可能不会显著影响钢材的整体性能，但仍需注意其分布情况。"
+    }
+  ]
+}

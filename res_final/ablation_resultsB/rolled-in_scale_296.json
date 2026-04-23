@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_296.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.256538,
+        0.557562,
+        0.584833,
+        0.753479
+      ],
+      "confidence_score": 0.5,
+      "severity": "High",
+      "visual_analysis": "图像显示了明显的卷入尺度缺陷，表现为不规则的凸起和凹陷区域，可能影响产品的表面质量和后续加工过程。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。修复方法包括打磨平整、重新热处理或更换新部件。同时，加强生产过程中的质量控制，确保此类缺陷不再发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

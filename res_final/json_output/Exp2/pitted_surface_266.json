@@ -1,0 +1,49 @@
+{
+  "image_id": "pitted_surface_266.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.698593,
+        0.516574,
+        0.63535,
+        0.899156
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的斑点状缺陷，可能由腐蚀或其他物理损伤引起。",
+      "suggestion": "建议进行局部检查并考虑使用防腐涂层或更换部件以防止进一步损坏。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.11438,
+        0.197764,
+        0.254209,
+        0.360657
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的斑点较为轻微，可能是由于表面氧化或轻微磨损造成的。",
+      "suggestion": "建议定期清洁和维护，无需立即处理。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.099945,
+        0.644646,
+        0.252719,
+        0.569702
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "该区域有明显的斑点状缺陷，可能需要进一步检查以确定其原因。",
+      "suggestion": "建议进行详细的检查和评估，必要时进行修复或更换。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

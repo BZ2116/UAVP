@@ -1,0 +1,75 @@
+{
+  "image_id": "patches_292.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.380908,
+        0.422385,
+        0.265136,
+        0.324715
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的缺陷面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.419799,
+        0.09676,
+        0.250213,
+        0.111783
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的缺陷面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.840162,
+        0.524845,
+        0.246205,
+        0.60068
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域的缺陷面积中等，可能存在实际缺陷。",
+      "suggestion": "建议人工复核确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.037914,
+        0.144698,
+        0.126263,
+        0.180128
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的缺陷面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.432447,
+        0.917706,
+        0.240992,
+        0.127197
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的缺陷面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Low"
+  }
+}

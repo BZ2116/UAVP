@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_247.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.127898,
+        0.635326,
+        0.190683,
+        0.717988
+      ],
+      "confidence_score": 0.95,
+      "severity": "Low",
+      "visual_analysis": "该区域显示了不规则的斑点状图案，可能是由于表面涂层或材料本身的自然纹理造成的，而非实际缺陷。",
+      "suggestion": "无需特别处理，但建议在后续生产中检查涂层均匀性以避免类似情况的发生。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.6562,
+        0.487282,
+        0.352182,
+        0.941171
+      ],
+      "confidence_score": 0.98,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状缺陷，可能是由于腐蚀、磨损或其他物理损伤导致的。这种缺陷可能影响产品的功能和外观。",
+      "suggestion": "需要进行表面修复并检查相关部件的材质和工艺，以防止进一步的损坏。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "crazing_170.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.487866,
+        0.247071,
+        0.400165,
+        0.314935
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的裂纹，面积占比约为12.6%，建议人工复核以确认是否需要进一步处理。",
+      "suggestion": "建议进行人工复核，确认是否需要修复或更换部件。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.355156,
+        0.783734,
+        0.429226,
+        0.216599
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在轻微裂纹，面积占比约为9.3%，建议人工复检以确认是否为误检。",
+      "suggestion": "建议进行人工复检，确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

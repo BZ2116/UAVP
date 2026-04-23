@@ -1,0 +1,36 @@
+{
+  "image_id": "pitted_surface_190.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.409106,
+        0.154696,
+        0.739815,
+        0.385523
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "图像中存在大面积的坑洞状缺陷，表面不平整，可能影响产品的使用性能。",
+      "suggestion": "建议立即进行修复，以确保产品质量和安全。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.698802,
+        0.47808,
+        0.588441,
+        0.896033
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "图像中存在大面积的夹杂状缺陷，表面有明显的杂质分布，可能影响产品的外观和性能。",
+      "suggestion": "建议立即进行修复，以确保产品质量和安全。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

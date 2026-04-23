@@ -1,0 +1,36 @@
+{
+  "image_id": "crazing_93.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.343355,
+        0.328332,
+        0.592737,
+        0.459562
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的裂纹状纹理，与Crazing特征相符。",
+      "suggestion": "建议对该区域进行进一步检查并考虑修复，以防止材料性能下降。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.422906,
+        0.810007,
+        0.850706,
+        0.294952
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有裂纹状纹理，但分布较为稀疏，可能为轻微的表面瑕疵。",
+      "suggestion": "建议对该区域进行表面处理，以改善外观并提高整体质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

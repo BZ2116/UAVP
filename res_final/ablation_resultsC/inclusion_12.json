@@ -1,0 +1,62 @@
+{
+  "image_id": "inclusion_12.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.199222,
+        0.476185,
+        0.238052,
+        0.946922
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和较深的阴影，可能是由于内部杂质或缺陷引起的。",
+      "suggestion": "建议人工复核确认是否为实际缺陷，并根据实际情况决定是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.425951,
+        0.549428,
+        0.204048,
+        0.706144
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和较深的阴影，可能是由于内部杂质或缺陷引起的。",
+      "suggestion": "建议人工复核确认是否为实际缺陷，并根据实际情况决定是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.616267,
+        0.611675,
+        0.079834,
+        0.146602
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域存在轻微的阴影变化，可能是由于光线影响或表面瑕疵造成的，而非明显缺陷。",
+      "suggestion": "建议人工复检确认是否为实际缺陷，并根据实际情况决定是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.83325,
+        0.335976,
+        0.20058,
+        0.613459
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和较深的阴影，可能是由于内部杂质或缺陷引起的。",
+      "suggestion": "建议人工复核确认是否为实际缺陷，并根据实际情况决定是否需要进一步处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Medium"
+  }
+}

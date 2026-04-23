@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_105.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.49112,
+        0.233361,
+        0.992235,
+        0.102746
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中，该区域显示了一个明显的白色条纹，这可能表明材料表面存在瑕疵或缺陷。由于低光照条件，难以判断其具体性质，但其与周围区域的对比度较高。",
+      "suggestion": "建议对该区域进行更详细的检查，以确定其性质和来源。如果确认为缺陷，则需要采取适当的修复措施，以确保产品的质量和安全性。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

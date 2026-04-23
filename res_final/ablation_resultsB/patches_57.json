@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_57.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.572523,
+        0.43477,
+        0.197376,
+        0.682735
+      ],
+      "confidence_score": 0.86,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的黑色斑块，可能影响产品的外观和功能。",
+      "suggestion": "建议立即更换或修复该区域，以确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.559604,
+        0.905214,
+        0.287251,
+        0.218123
+      ],
+      "confidence_score": 0.93,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的黑色斑块，可能影响产品的外观和功能。",
+      "suggestion": "建议立即更换或修复该区域，以确保产品质量符合标准。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

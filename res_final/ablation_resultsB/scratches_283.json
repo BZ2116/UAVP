@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_283.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.422263,
+        0.71203,
+        0.838174,
+        0.15388
+      ],
+      "confidence_score": 0.8,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，覆盖了较大的区域，且在低光照条件下更加难以察觉。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。修复方案包括打磨和抛光以恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.52112,
+        0.096754,
+        0.881285,
+        0.158503
+      ],
+      "confidence_score": 0.71,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，覆盖了较大的区域，且在低光照条件下更加难以察觉。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。修复方案包括打磨和抛光以恢复表面光滑度。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

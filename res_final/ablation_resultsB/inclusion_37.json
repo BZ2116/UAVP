@@ -1,0 +1,75 @@
+{
+  "image_id": "inclusion_37.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.413254,
+        0.218822,
+        0.139478,
+        0.340076
+      ],
+      "confidence_score": 0.76,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明显，且在图像中占据较大面积。",
+      "suggestion": "立即停止生产，进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.140877,
+        0.479908,
+        0.234465,
+        0.96522
+      ],
+      "confidence_score": 0.65,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明显，但面积较小。",
+      "suggestion": "立即停止生产，进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.39426,
+        0.712975,
+        0.159364,
+        0.557105
+      ],
+      "confidence_score": 0.59,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明显，但面积较小。",
+      "suggestion": "立即停止生产，进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.676868,
+        0.527967,
+        0.206505,
+        0.939893
+      ],
+      "confidence_score": 0.52,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明显，但面积较小。",
+      "suggestion": "立即停止生产，进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.919094,
+        0.394067,
+        0.087247,
+        0.698837
+      ],
+      "confidence_score": 0.28,
+      "severity": "Suspected",
+      "visual_analysis": "该缺陷特征较弱，可能存在误检。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "High"
+  }
+}

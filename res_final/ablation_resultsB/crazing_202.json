@@ -1,0 +1,23 @@
+{
+  "image_id": "crazing_202.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.478343,
+        0.264729,
+        0.733969,
+        0.520192
+      ],
+      "confidence_score": 0.39,
+      "severity": "Low",
+      "visual_analysis": "图像中检测到的裂纹特征较为模糊，可能为误检。",
+      "suggestion": "建议人工复检以确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Low"
+  }
+}

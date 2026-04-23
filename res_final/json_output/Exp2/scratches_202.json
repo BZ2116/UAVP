@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_202.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.355917,
+        0.802886,
+        0.029179,
+        0.374488
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕痕迹，与正常纹理有明显区别。",
+      "suggestion": "建议立即进行表面处理以修复划痕，防止进一步损伤。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.215266,
+        0.63736,
+        0.171859,
+        0.057389
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域看起来像是轻微的斑点或瑕疵，但不明显影响整体外观。",
+      "suggestion": "可以忽略此轻微瑕疵，无需特别处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

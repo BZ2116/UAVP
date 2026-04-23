@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_289.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.577518,
+        0.485082,
+        0.129885,
+        0.94889
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了一条明显的亮线，类似于划痕或刮痕，这通常出现在金属表面的制造过程中。",
+      "suggestion": "建议进行表面处理以去除划痕，并检查是否存在其他潜在的制造缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.560424,
+        0.629149,
+        0.060066,
+        0.122662
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域显示了一个较小的亮点，可能是由于内部杂质引起的。这种类型的缺陷通常不会对产品性能造成严重影响。",
+      "suggestion": "可以忽略此轻微的内部杂质，但应确保后续批次中没有类似问题出现。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

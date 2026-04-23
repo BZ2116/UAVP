@@ -1,0 +1,36 @@
+{
+  "image_id": "pitted_surface_195.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.190384,
+        0.628526,
+        0.348876,
+        0.706165
+      ],
+      "confidence_score": 0.5,
+      "severity": "High",
+      "visual_analysis": "[系统评估] 严重程度=High, CUS=High\n[引导语] 特征显著，请直接判定为高风险并优先处理。",
+      "suggestion": "立即修复，优先处理"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.583589,
+        0.624332,
+        0.19365,
+        0.709242
+      ],
+      "confidence_score": 0.37,
+      "severity": "Medium",
+      "visual_analysis": "[系统评估] 严重程度=Medium, CUS=High\n[引导语] 特征较明显，请客观描述并建议人工复核。",
+      "suggestion": "建议人工复核，详细检查"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

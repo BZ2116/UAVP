@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_278.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.6032,
+        0.5315,
+        0.7187,
+        0.8833
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中，该区域存在明显的斑块状缺陷，可能由材料不均匀或加工过程中的瑕疵引起。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除这些斑块并恢复钢材表面的平整度。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.2,
+        0.55,
+        0.3
+      ],
+      "confidence_score": 0.95,
+      "severity": "Low",
+      "visual_analysis": "在图像的左上角区域，存在一些细小的裂纹，可能是由于应力集中或材料疲劳引起的。",
+      "suggestion": "对于这些轻微的裂纹，可以考虑定期检查和维护，以防止进一步恶化。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.75,
+        0.1,
+        0.85,
+        0.2
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像的右上角区域，可能存在一些夹杂物，这可能是由于原材料质量问题或加工过程中引入的杂质。",
+      "suggestion": "建议对原材料进行严格筛选，并加强生产过程中的质量控制，以减少此类缺陷的发生。"
+    }
+  ]
+}

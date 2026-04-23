@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_194.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.529591,
+        0.527986,
+        0.378532,
+        0.988902
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在大面积的缺陷，可能影响产品的整体质量。",
+      "suggestion": "建议立即进行修复，并对周围区域进行检查以确保没有遗漏的缺陷。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.896412,
+        0.176186,
+        0.298944,
+        0.440877
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在中等面积的缺陷，需要进一步确认其对产品性能的影响程度。",
+      "suggestion": "建议人工复核该区域的缺陷情况，并根据实际情况决定是否需要进行修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

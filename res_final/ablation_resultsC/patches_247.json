@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_247.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.127898,
+        0.635326,
+        0.190683,
+        0.717988
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在中等面积的坑洞状缺陷，表面不平整。",
+      "suggestion": "建议人工复核确认，并根据实际情况决定是否需要修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.6562,
+        0.487282,
+        0.352182,
+        0.941171
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在较大面积的斑块状缺陷，表面不均匀。",
+      "suggestion": "建议立即判定为高风险并优先处理，以防止进一步恶化或影响产品质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

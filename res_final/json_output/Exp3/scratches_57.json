@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_57.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.463134,
+        0.36061,
+        0.180787,
+        0.787574
+      ],
+      "confidence_score": 0.79,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的刮痕，其长度和宽度在图像中占比较大，影响了表面的平整度。",
+      "suggestion": "建议人工复核以确认刮痕的具体情况，并决定是否需要进一步处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

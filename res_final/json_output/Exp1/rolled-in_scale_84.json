@@ -1,0 +1,45 @@
+{
+  "image_id": "rolled-in_scale_84.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.5996,
+        0.9407,
+        0.4176,
+        0.0822
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中，该区域显示了明显的氧化皮压入现象，表现为不规则的凸起和凹陷，与正常钢材表面相比存在显著差异。",
+      "suggestion": "建议对该区域进行打磨处理，以去除氧化皮并恢复钢材表面的平整度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "在图像的左上角区域，存在一些小的点蚀痕迹，但整体影响不大。",
+      "suggestion": "该区域的点蚀不影响正常使用，无需特别处理。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.75,
+        0.75,
+        0.25,
+        0.25
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "在图像的右下角区域，存在一些细小的划痕，但未发现明显的损伤或功能障碍。",
+      "suggestion": "该区域的划痕不影响正常使用，无需特别处理。"
+    }
+  ]
+}

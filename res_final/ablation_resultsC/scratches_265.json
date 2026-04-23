@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_265.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.481984,
+        0.895812,
+        0.899401,
+        0.101085
+      ],
+      "confidence_score": 0.0909,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检，建议人工复检。",
+      "suggestion": "人工复检确认是否为实际缺陷"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.477446,
+        0.713778,
+        0.950873,
+        0.137894
+      ],
+      "confidence_score": 0.1311,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积中等，建议人工复核确认其性质和严重程度。",
+      "suggestion": "人工复核确认缺陷性质和严重程度"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.289521,
+        0.826147,
+        0.100536,
+        0.020255
+      ],
+      "confidence_score": 0.002,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检，建议人工复检。",
+      "suggestion": "人工复检确认是否为实际缺陷"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Low"
+  }
+}

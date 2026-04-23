@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_183.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.234698,
+        0.505533,
+        0.134647,
+        1.0
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域存在明显的划痕，面积较大，影响外观质量。",
+      "suggestion": "建议人工复核并进行修复处理。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.886453,
+        0.201098,
+        0.047209,
+        0.461735
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的划痕面积较小，可能存在误检，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

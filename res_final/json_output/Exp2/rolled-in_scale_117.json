@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_117.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.826069,
+        0.786123,
+        0.272508,
+        0.372207
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了明显的凸起和不规则纹理，与周围区域形成对比，表明可能存在卷入的刻度问题。",
+      "suggestion": "建议立即停止生产并进行修复，以确保产品质量和安全。建议使用适当的工具和方法来移除或修复该缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

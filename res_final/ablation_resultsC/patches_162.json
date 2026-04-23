@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_162.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.309252,
+        0.783592,
+        0.407586,
+        0.457561
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像显示为黑色背景上的灰色斑块，可能为污渍或磨损。",
+      "suggestion": "建议人工复核以确认是否为实际缺陷，并决定是否需要进一步处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

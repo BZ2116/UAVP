@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_14.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.571266,
+        0.490823,
+        0.359446,
+        0.27449
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "图像中显示了一个小区域的阴影，可能是由于光线不均匀或表面瑕疵导致的。鉴于其面积较小且在低光照条件下，可能存在误检的可能性。",
+      "suggestion": "建议人工复检以确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Low"
+  }
+}

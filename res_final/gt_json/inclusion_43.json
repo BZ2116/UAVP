@@ -1,0 +1,122 @@
+{
+  "image_id": "inclusion_43.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.1475,
+        0.7875,
+        0.115,
+        0.375
+      ],
+      "area_ratio": 0.0431,
+      "severity": "Low",
+      "visibility": "clear",
+      "certainty_gt": "Medium",
+      "suggestion": "建议进行人工复检"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.06,
+        0.4925,
+        0.11,
+        0.975
+      ],
+      "area_ratio": 0.1072,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议检查原材料纯度并复核冶炼工艺"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.215,
+        0.51,
+        0.14,
+        0.8
+      ],
+      "area_ratio": 0.112,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议检查原材料纯度并复核冶炼工艺"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.55,
+        0.58,
+        0.14,
+        0.44
+      ],
+      "area_ratio": 0.0616,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "Medium",
+      "suggestion": "建议检查原材料纯度并复核冶炼工艺"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.8125,
+        0.4975,
+        0.145,
+        0.495
+      ],
+      "area_ratio": 0.0718,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "Medium",
+      "suggestion": "建议检查原材料纯度并复核冶炼工艺"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.56,
+        0.095,
+        0.1,
+        0.18
+      ],
+      "area_ratio": 0.018,
+      "severity": "Low",
+      "visibility": "blurred",
+      "certainty_gt": "Low",
+      "suggestion": "建议进行人工复检"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.325,
+        0.20500000000000002,
+        0.13,
+        0.38
+      ],
+      "area_ratio": 0.0494,
+      "severity": "Low",
+      "visibility": "clear",
+      "certainty_gt": "Medium",
+      "suggestion": "建议进行人工复检"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.8725,
+        0.0975,
+        0.095,
+        0.185
+      ],
+      "area_ratio": 0.0176,
+      "severity": "Low",
+      "visibility": "blurred",
+      "certainty_gt": "Low",
+      "suggestion": "建议进行人工复检"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 8,
+    "risk_level": "Medium"
+  }
+}

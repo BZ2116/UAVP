@@ -1,0 +1,36 @@
+{
+  "image_id": "pitted_surface_168.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.737121,
+        0.458772,
+        0.50031,
+        0.942608
+      ],
+      "confidence_score": 0.7,
+      "severity": "High",
+      "visual_analysis": "图像中存在大量坑洞，分布广泛，严重影响表面质量。",
+      "suggestion": "立即停止使用该部件，并进行修复或更换。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.315361,
+        0.309406,
+        0.389939,
+        0.544809
+      ],
+      "confidence_score": 0.88,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显坑洞，分布集中，影响较大。",
+      "suggestion": "立即停止使用该部件，并进行修复或更换。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

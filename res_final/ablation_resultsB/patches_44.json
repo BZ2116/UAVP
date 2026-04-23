@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_44.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.490066,
+        0.685116,
+        0.252481,
+        0.259668
+      ],
+      "confidence_score": 0.79,
+      "severity": "High",
+      "visual_analysis": "图像中显示了一个明显的黑色斑块，位于图像的右下角，这可能是由于材料缺陷或污染造成的。在低光照条件下，这种缺陷更加明显。",
+      "suggestion": "建议立即停止使用该部件，并进行进一步的检查以确定问题的原因。可能需要更换新的部件或进行清洁处理。同时，应加强生产过程中的质量控制措施，确保此类缺陷不会再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

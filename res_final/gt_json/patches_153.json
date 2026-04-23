@@ -1,0 +1,24 @@
+{
+  "image_id": "patches_153.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.3975,
+        0.525,
+        0.525,
+        0.52
+      ],
+      "area_ratio": 0.273,
+      "severity": "High",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议检查表面处理工艺并进行局部修复"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

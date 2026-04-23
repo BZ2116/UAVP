@@ -1,0 +1,49 @@
+{
+  "image_id": "patches_273.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.219687,
+        0.72292,
+        0.27499,
+        0.309194
+      ],
+      "confidence_score": 0.085,
+      "severity": "Low",
+      "visual_analysis": "该区域的缺陷面积较小，可能是误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.165225,
+        0.339139,
+        0.231802,
+        0.248711
+      ],
+      "confidence_score": 0.0577,
+      "severity": "Low",
+      "visual_analysis": "该区域的缺陷面积较小，可能是误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.803296,
+        0.465426,
+        0.35175,
+        0.956458
+      ],
+      "confidence_score": 0.3364,
+      "severity": "High",
+      "visual_analysis": "该区域的缺陷面积较大，可能存在高风险问题。",
+      "suggestion": "建议立即进行人工检查和修复，以确保产品质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

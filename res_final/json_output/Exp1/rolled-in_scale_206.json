@@ -1,0 +1,45 @@
+{
+  "image_id": "rolled-in_scale_206.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.47,
+        0.45,
+        0.55,
+        0.55
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中右侧区域存在氧化皮压入现象，表现为不规则的暗色斑块。",
+      "suggestion": "建议对该区域进行打磨处理，以去除氧化皮并恢复钢材表面光洁度。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.5858,
+        0.5369,
+        0.2908,
+        0.8155
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像中部偏右区域存在明显的划痕痕迹，表现为细长的凹陷线。",
+      "suggestion": "建议对划痕区域进行抛光处理，以减少其对钢材外观的影响。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.25,
+        0.25,
+        0.35,
+        0.35
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角区域存在点蚀现象，表现为小而密集的凹坑。",
+      "suggestion": "建议对点蚀区域进行局部打磨和补焊处理，以恢复钢材表面平整度。"
+    }
+  ]
+}

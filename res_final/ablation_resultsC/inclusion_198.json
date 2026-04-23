@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_198.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.386929,
+        0.539428,
+        0.336942,
+        0.95697
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该缺陷区域面积较大，呈现为深色不规则形状，可能为金属内部夹杂物。",
+      "suggestion": "建议立即进行修复，避免影响后续加工和使用安全。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.862116,
+        0.68071,
+        0.095273,
+        0.230302
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，呈现为浅色斑点状，可能是误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

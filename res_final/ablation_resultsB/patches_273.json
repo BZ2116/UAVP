@@ -1,0 +1,49 @@
+{
+  "image_id": "patches_273.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.219687,
+        0.72292,
+        0.27499,
+        0.309194
+      ],
+      "confidence_score": 0.8,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的黑色斑块，可能影响产品外观和功能。",
+      "suggestion": "建议立即更换或修复受影响的部件，并检查生产过程中的相关参数以防止类似问题再次发生。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.165225,
+        0.339139,
+        0.231802,
+        0.248711
+      ],
+      "confidence_score": 0.78,
+      "severity": "High",
+      "visual_analysis": "该区域同样存在黑色斑块，与正常区域对比明显，可能影响产品质量。",
+      "suggestion": "建议对该区域进行局部修复或更换，并加强生产过程中的质量控制措施。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.803296,
+        0.465426,
+        0.35175,
+        0.956458
+      ],
+      "confidence_score": 0.95,
+      "severity": "High",
+      "visual_analysis": "该区域的黑色斑块覆盖面积较大，严重影响产品的外观和潜在功能。",
+      "suggestion": "建议对该区域进行全面修复或更换，并严格监控生产过程中的质量控制，确保此类问题不再发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

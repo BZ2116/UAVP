@@ -1,0 +1,75 @@
+{
+  "image_id": "pitted_surface_102.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.812016,
+        0.067704,
+        0.194013,
+        0.091024
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的斑点状缺陷，可能是由于表面腐蚀或磨损导致。",
+      "suggestion": "建议进行局部修复并检查相关工艺流程，以防止进一步恶化。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.939228,
+        0.455738,
+        0.168428,
+        0.690649
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域同样存在斑点状缺陷，可能与前一区域相似，需进一步确认其成因。",
+      "suggestion": "建议进行局部修复，并检查是否存在共同的工艺问题。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.85069,
+        0.922515,
+        0.257066,
+        0.206122
+      ],
+      "confidence_score": 0.98,
+      "severity": "High",
+      "visual_analysis": "该区域呈现卷曲的鳞片状缺陷，可能是由于材料内部应力释放导致。",
+      "suggestion": "建议立即停止使用该部件，并进行全面检查，确保不会影响其他部件。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.588388,
+        0.479864,
+        0.322491,
+        0.971155
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域的斑点状缺陷较为轻微，可能属于正常纹理的一部分。",
+      "suggestion": "建议忽略此区域的缺陷，继续进行后续工序。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.200789,
+        0.485461,
+        0.350264,
+        0.933802
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域的斑点状缺陷较为轻微，可能属于正常纹理的一部分。",
+      "suggestion": "建议忽略此区域的缺陷，继续进行后续工序。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Medium"
+  }
+}

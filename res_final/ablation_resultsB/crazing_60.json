@@ -1,0 +1,36 @@
+{
+  "image_id": "crazing_60.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.755586,
+        0.846481,
+        0.467743,
+        0.354998
+      ],
+      "confidence_score": 0.32,
+      "severity": "Low",
+      "visual_analysis": "图像中检测到的裂纹特征较为模糊，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际裂纹。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.560773,
+        0.435676,
+        0.810784,
+        0.452506
+      ],
+      "confidence_score": 0.35,
+      "severity": "Low",
+      "visual_analysis": "图像中检测到的裂纹特征较为模糊，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际裂纹。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Low"
+  }
+}

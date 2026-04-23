@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_47.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.5613,
+        0.4928,
+        0.1363,
+        0.9531
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的夹杂物，表面不平整且有明显的凹陷。",
+      "suggestion": "需要进行局部打磨处理，以去除夹杂物并恢复表面平整度。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7702,
+        0.4473,
+        0.1352,
+        0.9122
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域也存在夹杂物，但不如第一个区域明显。",
+      "suggestion": "建议对该区域进行局部检查，并根据实际情况决定是否需要处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.5291,
+        0.1287,
+        0.1189,
+        0.2011
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的夹杂物较为轻微，对整体影响较小。",
+      "suggestion": "可以忽略此区域的缺陷，无需特别处理。"
+    }
+  ]
+}

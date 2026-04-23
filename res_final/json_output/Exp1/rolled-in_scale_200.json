@@ -1,0 +1,45 @@
+{
+  "image_id": "rolled-in_scale_200.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.45,
+        0.65,
+        0.15,
+        0.15
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心偏右的位置，有一个明显的黑色斑点，可能是由于杂质引起的。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除杂质并恢复表面质量。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.75,
+        0.8,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像底部右侧，有一个较小的斑块状区域，可能是由于表面不均匀导致。",
+      "suggestion": "该区域影响不大，可以忽略或在后续加工中通过抛光处理改善。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.2,
+        0.2,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角附近，有一条细长的划痕，可能是由于机械加工过程中造成的。",
+      "suggestion": "该划痕不影响整体结构，但建议在后续生产中改进加工工艺，减少此类缺陷的发生。"
+    }
+  ]
+}

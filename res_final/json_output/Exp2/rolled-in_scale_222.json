@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_222.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.815526,
+        0.833907,
+        0.253518,
+        0.341457
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了明显的凹陷和不平整，可能是由于材料卷曲导致的。",
+      "suggestion": "建议进行局部修复，以确保表面平整度符合标准。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.68945,
+        0.545709,
+        0.367426,
+        0.62463
+      ],
+      "confidence_score": 1.0,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有轻微的凹陷，但整体纹理较为均匀，影响不大。",
+      "suggestion": "无需特别处理，但应定期检查以防止进一步恶化。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

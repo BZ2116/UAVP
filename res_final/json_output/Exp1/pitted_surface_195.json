@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_195.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.4,
+        0.6,
+        0.2,
+        0.2
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "图像中可见明显的点状凹陷，可能是由于腐蚀或磨损引起的。",
+      "suggestion": "建议进行局部修复或更换受损部分。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7,
+        0.8,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "图像右上角存在一个小的不规则形状，可能为夹杂物。",
+      "suggestion": "此缺陷不影响整体结构，无需特别处理。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.2,
+        0.2,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "图像左下角存在细长的划痕，可能是加工过程中产生的。",
+      "suggestion": "轻微划痕不影响使用，但建议在后续生产中注意避免此类缺陷。"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "image_id": "pitted_surface_278.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.603232,
+        0.531451,
+        0.718679,
+        0.883273
+      ],
+      "confidence_score": 0.63,
+      "severity": "High",
+      "visual_analysis": "图像中显示了明显的凹坑状表面缺陷，分布广泛且密集。",
+      "suggestion": "立即进行修复，优先处理以确保产品质量和安全。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

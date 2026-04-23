@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_91.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.5649,
+        0.5275,
+        0.6057,
+        0.9765
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "在图像的右下角区域，存在密集的小点状缺陷，这些点状缺陷可能是由于点蚀引起的。这些点状缺陷分布较为密集，且在低光照条件下更加明显。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑采取适当的修复措施，如打磨或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.08,
+        0.08,
+        0.12,
+        0.12
+      ],
+      "confidence_score": 0.8,
+      "severity": "Medium",
+      "visual_analysis": "在图像的左上角区域，存在一些不规则形状的点状缺陷，可能为夹杂。这些点状缺陷分布较为稀疏，但存在一定的不均匀性。",
+      "suggestion": "建议对该区域进行详细检查，并根据实际情况决定是否需要进行修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.75,
+        0.75,
+        0.8,
+        0.8
+      ],
+      "confidence_score": 0.6,
+      "severity": "Low",
+      "visual_analysis": "在图像的右上角区域，存在一些细小的裂纹状缺陷，可能为裂纹。这些裂纹分布较为分散，且较为轻微。",
+      "suggestion": "建议对该区域进行定期监控，以确保不会发展成更严重的缺陷。"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "image_id": "crazing_16.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.184769,
+        0.670525,
+        0.287125,
+        0.308795
+      ],
+      "confidence_score": 0.33,
+      "severity": "Low",
+      "visual_analysis": "在低光照条件下，图像中检测到的裂纹特征较为模糊，难以清晰辨认其具体形态和范围。",
+      "suggestion": "建议人工复检，确认是否为实际存在的裂纹或误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Low"
+  }
+}

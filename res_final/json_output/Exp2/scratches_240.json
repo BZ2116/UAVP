@@ -1,0 +1,62 @@
+{
+  "image_id": "scratches_240.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.602104,
+        0.733247,
+        0.716084,
+        0.123072
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕，表面纹理不一致，边缘清晰可见。",
+      "suggestion": "建议立即修复并检查生产过程中的润滑和清洁情况，以防止类似缺陷再次发生。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.682335,
+        0.557875,
+        0.68426,
+        0.112057
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域也存在明显的划痕，表面纹理不一致，边缘清晰可见。",
+      "suggestion": "建议立即修复并检查生产过程中的润滑和清洁情况，以防止类似缺陷再次发生。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.406989,
+        0.410897,
+        0.697209,
+        0.08565
+      ],
+      "confidence_score": 0.92,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕，表面纹理不一致，边缘清晰可见。",
+      "suggestion": "建议立即修复并检查生产过程中的润滑和清洁情况，以防止类似缺陷再次发生。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.775592,
+        0.870898,
+        0.323043,
+        0.0305
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域存在轻微的划痕，表面纹理略有变化，但边缘模糊。",
+      "suggestion": "建议继续监控该区域，如果出现进一步恶化则需立即修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Medium"
+  }
+}

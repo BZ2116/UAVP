@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_13.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.506782,
+        0.307161,
+        0.348468,
+        0.511122
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的纹理变化和不规则形状，与正常纹理相比有显著差异。",
+      "suggestion": "建议进行局部检查并考虑更换该区域的材料以确保产品质量。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.533899,
+        0.749128,
+        0.307179,
+        0.295033
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然存在纹理变化，但整体上与正常纹理较为相似，可能为轻微的表面瑕疵。",
+      "suggestion": "建议进一步确认该区域是否需要处理，若不影响产品性能则可忽略。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

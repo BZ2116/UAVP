@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_86.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.2194,
+        0.5066,
+        0.0485,
+        0.912
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像左侧区域存在明显的刮痕，影响了钢材表面的平整度。",
+      "suggestion": "建议对刮痕区域进行打磨处理，以恢复钢材表面的光滑度。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.5307,
+        0.5333,
+        0.0547,
+        0.9028
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像右侧区域也存在明显的刮痕，同样影响了钢材表面的完整性。",
+      "suggestion": "建议对刮痕区域进行打磨处理，以恢复钢材表面的光滑度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.35,
+        0.3,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "在图像中部偏左区域存在轻微的点蚀现象，但整体影响较小。",
+      "suggestion": "建议对该区域进行表面检查，如无进一步恶化迹象可暂不处理。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "image_id": "pitted_surface_170.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.267834,
+        0.486387,
+        0.528994,
+        0.872023
+      ],
+      "confidence_score": 0.49,
+      "severity": "Low",
+      "visual_analysis": "图像中存在疑似点蚀区域，但特征较为模糊，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.784117,
+        0.366751,
+        0.44234,
+        0.795027
+      ],
+      "confidence_score": 0.38,
+      "severity": "Low",
+      "visual_analysis": "图像中存在疑似点蚀区域，但特征较为模糊，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.638903,
+        0.505252,
+        0.207033,
+        0.324656
+      ],
+      "confidence_score": 0.26,
+      "severity": "Low",
+      "visual_analysis": "图像中存在疑似斑块区域，但特征较为模糊，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.79624,
+        0.896873,
+        0.125574,
+        0.192293
+      ],
+      "confidence_score": 0.43,
+      "severity": "Low",
+      "visual_analysis": "图像中存在疑似斑块区域，但特征较为模糊，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Low"
+  }
+}

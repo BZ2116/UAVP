@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_173.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.435552,
+        0.362613,
+        0.067289,
+        0.751875
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕痕迹，表面纹理不连续，与周围区域形成对比。",
+      "suggestion": "建议进行局部打磨处理，以恢复表面光滑度和美观性。同时，加强后续生产过程中的质量控制，避免类似缺陷再次出现。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

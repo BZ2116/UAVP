@@ -1,0 +1,62 @@
+{
+  "image_id": "inclusion_13.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.415322,
+        0.530401,
+        0.151177,
+        0.992313
+      ],
+      "confidence_score": 0.8,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，分布范围较大，且在低光照条件下难以辨识。",
+      "suggestion": "建议立即停止生产，对受影响区域进行清理和检查，确保设备和工艺参数符合标准。同时，加强日常维护和监控，防止类似问题再次发生。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.682221,
+        0.18173,
+        0.258543,
+        0.353258
+      ],
+      "confidence_score": 0.77,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，分布较为集中，且在低光照条件下难以辨识。",
+      "suggestion": "建议立即停止生产，对受影响区域进行清理和检查，确保设备和工艺参数符合标准。同时，加强日常维护和监控，防止类似问题再次发生。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.626237,
+        0.471243,
+        0.094522,
+        0.223322
+      ],
+      "confidence_score": 0.56,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，分布较为集中，但受低光照影响辨识度较低。",
+      "suggestion": "建议立即停止生产，对受影响区域进行清理和检查，确保设备和工艺参数符合标准。同时，加强日常维护和监控，防止类似问题再次发生。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.632462,
+        0.77545,
+        0.150972,
+        0.354381
+      ],
+      "confidence_score": 0.54,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，分布较为集中，但受低光照影响辨识度较低。",
+      "suggestion": "建议立即停止生产，对受影响区域进行清理和检查，确保设备和工艺参数符合标准。同时，加强日常维护和监控，防止类似问题再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

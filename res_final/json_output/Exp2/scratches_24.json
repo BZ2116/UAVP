@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_24.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.144954,
+        0.525696,
+        0.158675,
+        0.99343
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的划痕痕迹，线条清晰且贯穿整个区域，表明存在严重的表面损伤。",
+      "suggestion": "建议立即停止使用此部件并进行修复或更换，以避免进一步的机械损伤和潜在的安全隐患。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "image_id": "crazing_271.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.582807,
+        0.250241,
+        0.780099,
+        0.210707
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在裂纹，面积占比约为16.44%，属于中等缺陷。",
+      "suggestion": "建议人工复核确认裂纹的具体情况，并根据实际情况决定是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.152382,
+        0.669688,
+        0.328944,
+        0.598282
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在斑点状缺陷，面积占比约为19.68%，属于中等缺陷。",
+      "suggestion": "建议人工复核确认斑点的具体情况，并根据实际情况决定是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.483146,
+        0.74488,
+        0.92119,
+        0.303892
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在大面积裂纹，面积占比约为27.99%，属于高风险缺陷。",
+      "suggestion": "建议立即停止生产，对该区域进行详细检查和修复，确保产品质量安全。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.741138,
+        0.404958,
+        0.489679,
+        0.470311
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在裂纹，面积占比约为23.03%，属于中等缺陷。",
+      "suggestion": "建议人工复核确认裂纹的具体情况，并根据实际情况决定是否需要进一步处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

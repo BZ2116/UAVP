@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_260.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.497691,
+        0.216862,
+        0.993203,
+        0.138975
+      ],
+      "confidence_score": 0.82,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，其长度和宽度较大，且在低光照条件下依然清晰可见。",
+      "suggestion": "立即停止使用该部件，并进行修复或更换。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.717496,
+        0.361941,
+        0.478814,
+        0.045715
+      ],
+      "confidence_score": 0.34,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在轻微的划痕，但特征较弱，需进一步确认。",
+      "suggestion": "建议人工复检以确认是否为真实缺陷。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.514474,
+        0.913169,
+        0.97045,
+        0.152808
+      ],
+      "confidence_score": 0.33,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在轻微的划痕，但特征较弱，需进一步确认。",
+      "suggestion": "建议人工复检以确认是否为真实缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

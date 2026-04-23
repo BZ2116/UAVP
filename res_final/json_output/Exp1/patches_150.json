@@ -1,0 +1,45 @@
+{
+  "image_id": "patches_150.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.1885,
+        0.3586,
+        0.3127,
+        0.7772
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的点蚀现象，表面不平整且有多个小坑洞。",
+      "suggestion": "建议对该区域进行打磨处理，以去除表面的点蚀并恢复钢材表面的光滑度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.1505,
+        0.9406,
+        0.2534,
+        0.2277
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域也存在点蚀现象，表面有多个小坑洞，影响美观和使用性能。",
+      "suggestion": "建议对该区域进行打磨处理，以去除表面的点蚀并恢复钢材表面的光滑度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.7679,
+        0.5374,
+        0.3898,
+        0.9931
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域同样存在点蚀现象，表面有多个小坑洞，影响美观和使用性能。",
+      "suggestion": "建议对该区域进行打磨处理，以去除表面的点蚀并恢复钢材表面的光滑度。"
+    }
+  ]
+}

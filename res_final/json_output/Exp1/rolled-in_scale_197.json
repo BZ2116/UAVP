@@ -1,0 +1,45 @@
+{
+  "image_id": "rolled-in_scale_197.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.1828,
+        0.6024,
+        0.268,
+        0.3083
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示明显的氧化皮压入现象，表面不平整。",
+      "suggestion": "建议对该区域进行打磨处理，以去除氧化皮并恢复钢材表面光滑度。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.2358,
+        0.9469,
+        0.2303,
+        0.0673
+      ],
+      "confidence_score": 0.95,
+      "severity": "Low",
+      "visual_analysis": "该区域的氧化皮压入较为轻微，对整体影响较小。",
+      "suggestion": "无需特别处理，但建议在后续生产过程中加强监控和预防措施。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.5769,
+        0.8002,
+        0.3403,
+        0.3865
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在较明显的氧化皮压入，需要进一步处理。",
+      "suggestion": "建议对该区域进行打磨处理，以去除氧化皮并恢复钢材表面光滑度。"
+    }
+  ]
+}

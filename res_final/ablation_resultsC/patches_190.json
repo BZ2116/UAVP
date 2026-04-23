@@ -1,0 +1,101 @@
+{
+  "image_id": "patches_190.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.276904,
+        0.356147,
+        0.268828,
+        0.752583
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的裂纹现象，面积较大，需进一步确认是否为实际缺陷。",
+      "suggestion": "建议人工复核确认裂纹的真实性及影响程度。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.836549,
+        0.245626,
+        0.349277,
+        0.227
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在小范围的斑点状缺陷，但面积较小，可能是误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.820139,
+        0.678546,
+        0.369947,
+        0.416271
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在斑点状缺陷，面积中等，需进一步确认是否为实际缺陷。",
+      "suggestion": "建议人工复核确认斑点的真实性及影响程度。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7656,
+        0.36001,
+        0.098144,
+        0.184127
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在小范围的夹杂物，但面积较小，可能是误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.92664,
+        0.439777,
+        0.080752,
+        0.161146
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在小范围的夹杂物，但面积较小，可能是误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.097865,
+        0.119505,
+        0.116428,
+        0.139541
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在小范围的夹杂物，但面积较小，可能是误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.259686,
+        0.910899,
+        0.228961,
+        0.225247
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在小范围的斑点状缺陷，但面积较小，可能是误检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 7,
+    "risk_level": "Medium"
+  }
+}

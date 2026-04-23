@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_218.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.3293,
+        0.6534,
+        0.1553,
+        0.6939
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "明显可见的划痕，影响表面光滑度。",
+      "suggestion": "建议进行抛光处理以修复表面划痕。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.5804,
+        0.7005,
+        0.1224,
+        0.0338
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "存在明显的裂纹，可能影响材料强度。",
+      "suggestion": "需要立即更换或修复此区域，避免进一步损坏。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.2809,
+        0.1934,
+        0.0506,
+        0.3292
+      ],
+      "confidence_score": 0.95,
+      "severity": "Low",
+      "visual_analysis": "轻微的划痕，对整体影响较小。",
+      "suggestion": "建议在后续生产中改进工艺，减少此类划痕的发生。"
+    }
+  ]
+}

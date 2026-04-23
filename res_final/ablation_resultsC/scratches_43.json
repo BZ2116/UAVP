@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_43.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.402923,
+        0.503685,
+        0.049209,
+        0.906378
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "在低光照条件下，图像中存在一个较小的划痕区域，其面积占比仅为0.0446。由于划痕面积较小，可能存在误检的可能性。",
+      "suggestion": "建议人工复检以确认是否为真实缺陷或误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Low"
+  }
+}

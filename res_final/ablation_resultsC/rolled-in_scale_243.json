@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_243.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.451312,
+        0.543354,
+        0.354845,
+        0.82149
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "图像显示大面积的卷入刻度，可能影响设备的精确测量和操作。",
+      "suggestion": "建议立即停机检查并修复该缺陷，以确保设备正常运行和安全。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

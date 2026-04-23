@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_274.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.463619,
+        0.274323,
+        0.971056,
+        0.126894
+      ],
+      "confidence_score": 0.77,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的刮痕，位于图像的上部区域。",
+      "suggestion": "建议人工复核以确认刮痕的具体情况，并决定是否需要修复。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.525446,
+        0.771434,
+        0.983851,
+        0.134998
+      ],
+      "confidence_score": 0.62,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的刮痕，位于图像的中部区域。",
+      "suggestion": "建议人工复核以确认刮痕的具体情况，并决定是否需要修复。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.471238,
+        0.932162,
+        1.0,
+        0.087383
+      ],
+      "confidence_score": 0.57,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的刮痕，位于图像的下部区域。",
+      "suggestion": "建议人工复核以确认刮痕的具体情况，并决定是否需要修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

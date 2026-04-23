@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_106.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.75,
+        0.15,
+        0.15
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心偏右的位置，存在一条明显的裂纹状缺陷。",
+      "suggestion": "建议对该区域进行仔细检查，并考虑采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.8,
+        0.5,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像右下角附近，存在一个较小的斑块状缺陷。",
+      "suggestion": "该缺陷对整体结构影响较小，但建议定期检查并记录其变化情况。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.2,
+        0.2,
+        0.05,
+        0.05
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角附近，存在一个小的夹杂物缺陷。",
+      "suggestion": "该缺陷对整体结构影响较小，但建议定期检查并记录其变化情况。"
+    }
+  ]
+}

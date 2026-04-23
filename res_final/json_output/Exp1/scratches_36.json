@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_36.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.2135,
+        0.5095,
+        0.1319,
+        0.9576
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中，从坐标 [0.2135, 0.5095] 到 [0.3454, 0.9576] 的区域存在明显的划痕痕迹。",
+      "suggestion": "建议对该区域进行打磨处理，以去除划痕并恢复钢材表面的光滑度。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.08,
+        0.08,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角区域，存在轻微的裂纹迹象。",
+      "suggestion": "裂纹较为轻微，建议定期检查并关注其发展情况。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.05,
+        0.9,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "在图像右下角区域，存在一些小的点蚀痕迹。",
+      "suggestion": "点蚀较为轻微，建议定期检查并关注其发展情况。"
+    }
+  ]
+}

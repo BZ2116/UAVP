@@ -1,0 +1,62 @@
+{
+  "image_id": "rolled-in_scale_37.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.26479,
+        0.284715,
+        0.2282,
+        0.463349
+      ],
+      "confidence_score": 0.39,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的Rolled-in Scale特征。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.39103,
+        0.893141,
+        0.387204,
+        0.203147
+      ],
+      "confidence_score": 0.22,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的Rolled-in Scale特征。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.361349,
+        0.52119,
+        0.300435,
+        0.270476
+      ],
+      "confidence_score": 0.43,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的Crazing特征。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.422322,
+        0.18677,
+        0.286512,
+        0.19724
+      ],
+      "confidence_score": 0.73,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的Crazing特征。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Medium"
+  }
+}

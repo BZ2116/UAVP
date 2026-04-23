@@ -1,0 +1,49 @@
+{
+  "image_id": "rolled-in_scale_51.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.825877,
+        0.202709,
+        0.360122,
+        0.401006
+      ],
+      "confidence_score": 0.1444,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积较大，呈现为不规则形状，表面有明显的凸起和凹陷，可能是由于材料卷曲或变形引起的。",
+      "suggestion": "建议人工复核确认，并根据实际情况采取相应的修复措施。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.195802,
+        0.882409,
+        0.370736,
+        0.164945
+      ],
+      "confidence_score": 0.0612,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，形状不规则，表面有轻微的凸起，可能是误检。",
+      "suggestion": "建议人工复检确认，若确认为误检则无需处理。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.822734,
+        0.679361,
+        0.33264,
+        0.13062
+      ],
+      "confidence_score": 0.0434,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，形状不规则，表面有轻微的凸起，可能是误检。",
+      "suggestion": "建议人工复检确认，若确认为误检则无需处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

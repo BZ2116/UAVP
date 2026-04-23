@@ -1,0 +1,36 @@
+{
+  "image_id": "crazing_295.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.396621,
+        0.188007,
+        0.778176,
+        0.39711
+      ],
+      "confidence_score": 0.42,
+      "severity": "Medium",
+      "visual_analysis": "特征微弱，可能存在误检，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为真实缺陷，并根据实际情况决定是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.4217,
+        0.559769,
+        0.838397,
+        0.425102
+      ],
+      "confidence_score": 0.86,
+      "severity": "High",
+      "visual_analysis": "特征明确，存在明显的裂纹，属于高风险缺陷。",
+      "suggestion": "立即停止使用该部件，进行修复或更换，并记录缺陷情况以便后续改进。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

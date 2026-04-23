@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_287.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        150,
+        150,
+        10,
+        10
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心附近存在一条细长的裂纹。",
+      "suggestion": "建议进行局部检查和修复，以防止裂纹扩展。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        200,
+        200,
+        10,
+        10
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像右下角存在一些小坑洞。",
+      "suggestion": "这些小坑洞不影响整体结构，无需特别处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        50,
+        50,
+        10,
+        10
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角存在一个明显的夹杂物。",
+      "suggestion": "夹杂物对结构影响较小，可以忽略不计。"
+    }
+  ]
+}

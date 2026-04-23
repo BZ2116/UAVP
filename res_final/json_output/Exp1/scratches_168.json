@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_168.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.6575,
+        0.1857,
+        0.109,
+        0.4312
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "明显可见的划痕，影响表面光滑度。",
+      "suggestion": "建议进行抛光处理以去除划痕。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.383,
+        0.2956,
+        0.1119,
+        0.4742
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "另一处明显的划痕，同样影响表面质量。",
+      "suggestion": "建议进行抛光处理以去除划痕。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.1845,
+        0.8017,
+        0.0339,
+        0.1347
+      ],
+      "confidence_score": 1.0,
+      "severity": "Low",
+      "visual_analysis": "小范围的夹杂物，对整体影响较小。",
+      "suggestion": "无需特别处理，但需注意后续生产过程中的控制。"
+    }
+  ]
+}

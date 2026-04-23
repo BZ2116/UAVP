@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_110.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.203943,
+        0.494317,
+        0.195645,
+        0.982225
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕痕迹，与正常纹理有明显区别。",
+      "suggestion": "建议立即进行表面处理以修复划痕，防止进一步损伤。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.587432,
+        0.334034,
+        0.090832,
+        0.46838
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在少量杂质，但整体影响较小。",
+      "suggestion": "建议进行局部清理，确保不影响整体质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

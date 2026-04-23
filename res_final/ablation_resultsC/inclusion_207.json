@@ -1,0 +1,62 @@
+{
+  "image_id": "inclusion_207.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.406319,
+        0.178975,
+        0.166611,
+        0.252035
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检情况。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.599075,
+        0.126268,
+        0.074841,
+        0.193352
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检情况。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.690001,
+        0.790435,
+        0.184234,
+        0.254394
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检情况。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.398732,
+        0.646198,
+        0.110074,
+        0.142237
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检情况。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_11.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.305968,
+        0.41679,
+        0.281198,
+        0.467196
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在指定区域中观察到明显的凸起和不规则纹理，这与Rolled-in Scale的特征相符。",
+      "suggestion": "建议立即进行表面处理以防止进一步的材料损伤，并检查相关工艺流程以避免类似问题再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

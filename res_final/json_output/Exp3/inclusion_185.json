@@ -1,0 +1,23 @@
+{
+  "image_id": "inclusion_185.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.258196,
+        0.461789,
+        0.296006,
+        0.884992
+      ],
+      "confidence_score": 0.89,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的不规则阴影区域，可能为内部夹杂物。",
+      "suggestion": "立即停止生产，进行详细检查和修复，以确保产品质量安全。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

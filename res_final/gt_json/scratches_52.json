@@ -1,0 +1,24 @@
+{
+  "image_id": "scratches_52.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.5675,
+        0.5,
+        0.165,
+        0.99
+      ],
+      "area_ratio": 0.1633,
+      "severity": "High",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议检查加工与运输过程中的机械接触风险"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

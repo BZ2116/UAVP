@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_52.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.4,
+        0.2,
+        0.1,
+        0.8
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像的中上部可以看到一条明显的裂纹，沿着钢材表面延伸。",
+      "suggestion": "需要进行修复处理，以防止裂纹进一步扩展。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.6,
+        0.4,
+        0.1,
+        0.4
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像的右中部可以看到一些小坑洞，可能是点蚀的迹象。",
+      "suggestion": "这些点蚀可以忽略不计，无需特别处理。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.7,
+        0.6,
+        0.1,
+        0.2
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像的右下角可以看到一些细小的划痕。",
+      "suggestion": "这些划痕不影响使用，可以忽略不计。"
+    }
+  ]
+}

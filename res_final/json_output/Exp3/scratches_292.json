@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_292.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.476753,
+        0.656901,
+        0.957867,
+        0.275805
+      ],
+      "confidence_score": 0.81,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，覆盖了较大的区域。",
+      "suggestion": "立即修复，优先处理。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.458503,
+        0.841206,
+        0.964111,
+        0.088135
+      ],
+      "confidence_score": 0.65,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在较小的划痕，覆盖了较小的区域。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

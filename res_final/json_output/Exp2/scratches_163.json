@@ -1,0 +1,62 @@
+{
+  "image_id": "scratches_163.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.05508,
+        0.478847,
+        0.055352,
+        0.989548
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域显示了明显的刮痕痕迹，与周围区域形成对比，具有明显的凹陷和不平整。",
+      "suggestion": "建议立即进行修复，以防止进一步的损伤并确保产品的外观质量。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.263642,
+        0.725527,
+        0.075107,
+        0.624078
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在轻微的划痕，但与周围区域相比，其深度和长度相对较小。",
+      "suggestion": "建议进行表面处理，如抛光或打磨，以改善外观并减少视觉上的瑕疵感。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.410076,
+        0.417349,
+        0.1127,
+        0.8072
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域有明显的刮痕，与周围区域形成强烈的对比，显示出明显的凹陷和不平整。",
+      "suggestion": "建议立即进行修复，以防止进一步的损伤并确保产品的外观质量。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.866402,
+        0.486711,
+        0.17559,
+        0.952036
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在严重的刮痕，与周围区域形成强烈的对比，显示出明显的凹陷和不平整。",
+      "suggestion": "建议立即进行修复，以防止进一步的损伤并确保产品的外观质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

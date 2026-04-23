@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_260.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.4977,
+        0.2169,
+        0.9932,
+        0.139
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的刮痕，覆盖了较大的区域。",
+      "suggestion": "建议对受影响区域进行打磨处理，以去除刮痕并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.7175,
+        0.3619,
+        0.4788,
+        0.0457
+      ],
+      "confidence_score": 0.95,
+      "severity": "Low",
+      "visual_analysis": "此区域的刮痕较为轻微，影响较小。",
+      "suggestion": "无需特别处理，但应记录在案以便后续检查。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.5145,
+        0.9132,
+        0.9705,
+        0.1528
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "此区域的刮痕同样较为轻微，影响较小。",
+      "suggestion": "无需特别处理，但应记录在案以便后续检查。"
+    }
+  ]
+}

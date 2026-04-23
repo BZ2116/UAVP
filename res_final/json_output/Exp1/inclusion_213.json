@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_213.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.6767,
+        0.6646,
+        0.1419,
+        0.7417
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中，该区域显示了一个明显的不规则形状，可能与金属内部的杂质或非金属颗粒有关。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑是否需要进行局部打磨或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.2242,
+        0.5274,
+        0.1242,
+        0.2828
+      ],
+      "confidence_score": 0.95,
+      "severity": "Low",
+      "visual_analysis": "该区域的不规则形状较小且分布较为分散，可能是轻微的杂质或非金属颗粒。",
+      "suggestion": "建议对该区域进行常规检查，无需立即处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.686,
+        0.3286,
+        0.1187,
+        0.3989
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域的不规则形状较大，可能与金属内部的杂质或非金属颗粒有关。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑是否需要进行局部打磨或更换部件。"
+    }
+  ]
+}

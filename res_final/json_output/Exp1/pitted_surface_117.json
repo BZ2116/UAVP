@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_117.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.706,
+        0.5179,
+        0.5253,
+        0.9587
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的斑块状缺陷，分布较为密集。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除这些斑块。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.2783,
+        0.5605,
+        0.34,
+        0.9327
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的裂纹状缺陷，分布较为集中。",
+      "suggestion": "建议对该区域进行修复处理，以防止裂纹进一步扩展。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.3035,
+        0.8148,
+        0.4137,
+        0.2958
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的点蚀状缺陷，分布较为密集。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除这些点蚀。"
+    }
+  ]
+}

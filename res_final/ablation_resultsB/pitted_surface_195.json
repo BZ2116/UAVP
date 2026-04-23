@@ -1,0 +1,36 @@
+{
+  "image_id": "pitted_surface_195.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.190384,
+        0.628526,
+        0.348876,
+        0.706165
+      ],
+      "confidence_score": 0.5,
+      "severity": "Low",
+      "visual_analysis": "图像中存在疑似点蚀表面区域，但特征较为微弱，可能存在误检。",
+      "suggestion": "建议人工复检确认是否存在实际的点蚀缺陷。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.583589,
+        0.624332,
+        0.19365,
+        0.709242
+      ],
+      "confidence_score": 0.37,
+      "severity": "Low",
+      "visual_analysis": "图像中存在疑似点蚀表面区域，但特征较为微弱，可能存在误检。",
+      "suggestion": "建议人工复检确认是否存在实际的点蚀缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Low"
+  }
+}

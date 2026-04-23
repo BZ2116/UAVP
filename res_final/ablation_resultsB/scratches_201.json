@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_201.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.41276,
+        0.465749,
+        0.089458,
+        0.965474
+      ],
+      "confidence_score": 0.73,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，覆盖了大面积区域，且在低光照条件下更加突出。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。修复方案包括打磨和抛光以去除划痕，确保表面光滑无损。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

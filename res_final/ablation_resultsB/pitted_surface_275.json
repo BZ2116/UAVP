@@ -1,0 +1,23 @@
+{
+  "image_id": "pitted_surface_275.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.526494,
+        0.507562,
+        0.761001,
+        0.916898
+      ],
+      "confidence_score": 0.66,
+      "severity": "High",
+      "visual_analysis": "图像显示表面存在明显的坑洞和不规则凹陷，这些特征表明材料可能已经受到严重的机械应力或腐蚀影响。",
+      "suggestion": "建议立即停止使用该部件，并进行进一步的检查以确定其是否可以安全地继续使用。如果无法修复，则需要更换新的部件。同时，应调查导致此缺陷的原因，并采取措施防止未来发生类似问题。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

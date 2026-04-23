@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_279.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.537154,
+        0.305849,
+        0.963013,
+        0.131165
+      ],
+      "confidence_score": 0.69,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的刮痕，分布于垂直方向上，长度较长。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.535837,
+        0.52176,
+        0.973292,
+        0.12464
+      ],
+      "confidence_score": 0.64,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的刮痕，分布于垂直方向上，长度较长。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

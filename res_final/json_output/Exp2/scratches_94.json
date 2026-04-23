@@ -1,0 +1,62 @@
+{
+  "image_id": "scratches_94.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.511754,
+        0.485628,
+        0.10766,
+        0.996127
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的条纹状缺陷，可能是由于机械加工过程中产生的刮痕。",
+      "suggestion": "建议对受影响区域进行打磨处理，以去除表面的刮痕并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.652115,
+        0.516258,
+        0.097995,
+        0.726389
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域同样存在条纹状缺陷，可能是由于机械加工过程中产生的刮痕。",
+      "suggestion": "建议对受影响区域进行打磨处理，以去除表面的刮痕并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.392304,
+        0.522147,
+        0.045414,
+        0.103664
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域存在小点状缺陷，可能是由于材料内部杂质引起的。",
+      "suggestion": "该缺陷对产品性能影响较小，无需特别处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.379121,
+        0.761154,
+        0.044604,
+        0.106882
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域存在小点状缺陷，可能是由于材料内部杂质引起的。",
+      "suggestion": "该缺陷对产品性能影响较小，无需特别处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Medium"
+  }
+}

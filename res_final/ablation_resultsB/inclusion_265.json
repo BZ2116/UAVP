@@ -1,0 +1,75 @@
+{
+  "image_id": "inclusion_265.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.149932,
+        0.140071,
+        0.09028,
+        0.320694
+      ],
+      "confidence_score": 0.89,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明显，且在低光照条件下仍能清晰识别，表明其对产品性能有严重影响。",
+      "suggestion": "立即停止生产，对该区域进行彻底清理和修复，并重新进行质量检查。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.179838,
+        0.514093,
+        0.080143,
+        0.177985
+      ],
+      "confidence_score": 0.66,
+      "severity": "High",
+      "visual_analysis": "虽然该缺陷的特征较为明显，但其置信度较低，可能存在误检的风险。建议进一步确认后再做处理。",
+      "suggestion": "标记该缺陷，进行人工复检，确认是否为实际存在的缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.761713,
+        0.483704,
+        0.205953,
+        0.969006
+      ],
+      "confidence_score": 0.59,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征较为明显，但由于置信度较低，可能存在误检的风险。建议进一步确认后再做处理。",
+      "suggestion": "标记该缺陷，进行人工复检，确认是否为实际存在的缺陷。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.143911,
+        0.693791,
+        0.096287,
+        0.168689
+      ],
+      "confidence_score": 0.42,
+      "severity": "Suspected",
+      "visual_analysis": "该缺陷特征较为微弱，可能为误检。建议人工复检确认。",
+      "suggestion": "标记该缺陷，进行人工复检，确认是否为实际存在的缺陷。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.375548,
+        0.157345,
+        0.022876,
+        0.177797
+      ],
+      "confidence_score": 0.53,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明显，且在低光照条件下仍能清晰识别，表明其对产品性能有严重影响。",
+      "suggestion": "立即停止生产，对该区域进行彻底清理和修复，并重新进行质量检查。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_165.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.312035,
+        0.477229,
+        0.388932,
+        0.452474
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则纹理和阴影，与周围区域相比，颜色较深，可能表明有材料堆积或卷入现象。",
+      "suggestion": "建议进行局部清理，检查是否有材料残留，并确认是否存在其他潜在问题。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.801043,
+        0.770511,
+        0.236941,
+        0.348465
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然存在一些阴影和纹理变化，但整体上没有明显的异常特征，可能是由于光线或材料本身的自然纹理造成的。",
+      "suggestion": "无需立即处理，但应定期检查该区域，确保没有进一步的异常变化。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

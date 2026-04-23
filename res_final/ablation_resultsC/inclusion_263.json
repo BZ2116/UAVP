@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_263.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.4319,
+        0.4148,
+        0.15292,
+        0.809924
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积较大，呈现为一条明显的黑色条纹，可能是由于材料内部的不均匀分布或杂质导致。",
+      "suggestion": "建议人工复核确认是否为实际缺陷，并进一步检查周围区域是否有类似现象。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.452304,
+        0.821284,
+        0.058333,
+        0.259727
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，呈现为细长的黑色条纹，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_289.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.577518,
+        0.485082,
+        0.129885,
+        0.94889
+      ],
+      "confidence_score": 0.73,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的刮痕，特征清晰可见。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.560424,
+        0.629149,
+        0.060066,
+        0.122662
+      ],
+      "confidence_score": 0.55,
+      "severity": "Low",
+      "visual_analysis": "图像中可能存在细微的夹杂物，特征较为微弱。",
+      "suggestion": "建议人工复检以确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

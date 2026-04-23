@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_162.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.15,
+        0.55,
+        0.85
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像的中上部区域，可以看到明显的裂纹状缺陷。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.7,
+        0.2,
+        0.8,
+        0.7
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像的右下角区域，存在一些小的点蚀现象。",
+      "suggestion": "这些点蚀对整体结构影响较小，但建议定期检查并保持清洁。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.2,
+        0.3,
+        0.3,
+        0.6
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "在图像的左中部区域，可以看到明显的划痕。",
+      "suggestion": "建议对该区域进行打磨处理，以恢复表面光滑度。"
+    }
+  ]
+}

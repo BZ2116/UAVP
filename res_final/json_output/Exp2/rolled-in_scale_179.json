@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_179.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.246208,
+        0.447959,
+        0.372521,
+        0.19121
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凸起和不平整现象，与周围表面形成对比，可能是由于材料卷入造成的。",
+      "suggestion": "建议进行局部打磨处理，确保表面平整光滑，避免后续使用中产生噪音或影响产品质量。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.220718,
+        0.134137,
+        0.413359,
+        0.336003
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有轻微的凸起，但整体纹理较为均匀，可能只是轻微的材料卷入现象。",
+      "suggestion": "建议进行表面检查，确认是否需要进一步处理。若不影响产品性能，可暂不处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

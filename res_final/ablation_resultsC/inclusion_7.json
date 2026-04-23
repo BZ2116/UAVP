@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_7.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.362402,
+        0.318802,
+        0.715581,
+        0.147313
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积较大，可能存在金属夹杂物或杂质，建议人工复核确认。",
+      "suggestion": "建议人工复核确认是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.824463,
+        0.377848,
+        0.155544,
+        0.089608
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能是误检，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

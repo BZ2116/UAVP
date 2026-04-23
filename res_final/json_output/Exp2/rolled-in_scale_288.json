@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_288.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.454906,
+        0.502563,
+        0.548469,
+        0.932687
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则纹理和阴影，可能表明存在卷入的刻度。",
+      "suggestion": "建议进行局部检查并确认是否存在实际的刻度问题，必要时进行修复或更换部件。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.56754,
+        0.245618,
+        0.543809,
+        0.449099
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有纹理变化，但整体较为均匀，可能是由于光线或材料特性导致的，而非实际的缺陷。",
+      "suggestion": "无需立即处理，但建议在后续生产中注意此类现象，确保其不会影响产品质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_279.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.432907,
+        0.176337,
+        0.138475,
+        0.273097
+      ],
+      "confidence_score": 0.65,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检",
+      "suggestion": "疑似，建议人工复检"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.389053,
+        0.582508,
+        0.172906,
+        0.662938
+      ],
+      "confidence_score": 0.43,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显",
+      "suggestion": "建议人工复核"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

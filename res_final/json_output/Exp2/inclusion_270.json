@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_270.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.185262,
+        0.528303,
+        0.169045,
+        0.986145
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和异常纹理，可能为金属内部夹杂物。",
+      "suggestion": "建议进一步检查并采取措施去除此夹杂物，以确保产品质量。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.654616,
+        0.337745,
+        0.082857,
+        0.187613
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域呈现轻微的不均匀纹理，可能是由于轧制过程中产生的氧化物残留。",
+      "suggestion": "建议在后续生产过程中加强表面处理，减少此类缺陷的发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

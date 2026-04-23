@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_221.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        50,
+        40,
+        70,
+        80
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像左侧存在一条明显的裂纹，可能影响钢材的结构完整性。",
+      "suggestion": "建议对该区域进行修复或更换，以确保安全和性能。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        100,
+        60,
+        120,
+        100
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像右侧存在一些小坑洞，可能是轻微的点蚀。",
+      "suggestion": "这些缺陷对整体性能影响较小，但建议定期检查并考虑修复以保持钢材的外观和性能。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        150,
+        20,
+        170,
+        60
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像中间偏右的位置存在几条细长的划痕。",
+      "suggestion": "这些划痕不影响钢材的主要性能，但建议在后续加工中注意避免此类缺陷。"
+    }
+  ]
+}

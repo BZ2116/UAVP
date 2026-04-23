@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_156.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.18347,
+        0.532129,
+        0.272676,
+        0.75717
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积较大，呈现不规则形状，可能是由于材料卷入造成的。建议人工复核确认。",
+      "suggestion": "进行人工复核，确认是否需要进一步处理或修复。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.611645,
+        0.586902,
+        0.225615,
+        0.260047
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，形状较为规则，可能是误检。建议人工复检确认。",
+      "suggestion": "进行人工复检，确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

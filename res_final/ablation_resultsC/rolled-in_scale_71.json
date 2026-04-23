@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_71.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.635708,
+        0.244895,
+        0.568687,
+        0.441607
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该缺陷区域面积较大，呈现不规则形状，边缘模糊，可能是由于材料卷入造成的。在低光照环境下，这种缺陷更容易被忽略。",
+      "suggestion": "建议立即进行修复，并加强生产过程中的监控和质量检查，防止类似缺陷再次发生。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.519435,
+        0.782053,
+        0.28709,
+        0.138147
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，形状较为规则，边缘清晰，可能是误检或轻微的瑕疵。在低光照环境下，这种缺陷容易被误判。",
+      "suggestion": "建议人工复检确认是否为误检，如确认为缺陷，则需进一步评估其影响程度并采取相应措施。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

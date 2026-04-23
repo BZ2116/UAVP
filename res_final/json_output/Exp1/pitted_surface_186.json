@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_186.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "图像显示了明显的点蚀现象，分布在整个钢材表面。",
+      "suggestion": "建议进行局部打磨和重新涂装处理，以修复表面损伤。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.2,
+        0.2,
+        0.4,
+        0.4
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像的中上部可以看到一些小的夹杂物，但分布较为稀疏。",
+      "suggestion": "这些夹杂物对整体结构影响较小，无需特别处理。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.7,
+        0.7,
+        0.9,
+        0.9
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "在图像的右下角区域可以看到一些细微的裂纹迹象。",
+      "suggestion": "这些裂纹不影响整体结构，但应定期检查并记录。"
+    }
+  ]
+}

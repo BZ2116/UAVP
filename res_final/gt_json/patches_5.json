@@ -1,0 +1,52 @@
+{
+  "image_id": "patches_5.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.3175,
+        0.39,
+        0.305,
+        0.77
+      ],
+      "area_ratio": 0.2349,
+      "severity": "High",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议检查表面处理工艺并进行局部修复"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.6950000000000001,
+        0.6475,
+        0.24,
+        0.645
+      ],
+      "area_ratio": 0.1548,
+      "severity": "High",
+      "visibility": "clear",
+      "certainty_gt": "High",
+      "suggestion": "建议检查表面处理工艺并进行局部修复"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.795,
+        0.08750000000000001,
+        0.41000000000000003,
+        0.165
+      ],
+      "area_ratio": 0.0677,
+      "severity": "Medium",
+      "visibility": "clear",
+      "certainty_gt": "Medium",
+      "suggestion": "建议检查表面处理工艺并进行局部修复"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

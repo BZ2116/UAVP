@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_105.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.327,
+        0.3159,
+        0.5756,
+        0.6194
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的裂纹，表现为细小的裂缝和断裂现象。",
+      "suggestion": "需要进行修复处理，以防止裂纹进一步扩展并影响钢材性能。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.2757,
+        0.5456,
+        0.6001,
+        0.1669
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在点蚀现象，表现为表面出现多个小坑洞。",
+      "suggestion": "建议对这些区域进行打磨和补焊处理，以恢复表面平整度。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.842,
+        0.3852,
+        0.2956,
+        0.7534
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域存在夹杂物，表现为不规则的暗色斑块。",
+      "suggestion": "夹杂物对钢材性能影响较小，可以考虑忽略或在后续加工中去除。"
+    }
+  ]
+}

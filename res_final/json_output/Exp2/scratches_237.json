@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_237.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.591142,
+        0.862458,
+        0.893939,
+        0.078095
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕痕迹，与周围正常纹理有明显差异。",
+      "suggestion": "建议进行局部打磨处理，以恢复表面平整度。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

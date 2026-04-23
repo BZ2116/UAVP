@@ -1,0 +1,49 @@
+{
+  "image_id": "crazing_196.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.49236,
+        0.327919,
+        0.915276,
+        0.199198
+      ],
+      "confidence_score": 0.41,
+      "severity": "High",
+      "visual_analysis": "特征显著，存在大量裂纹，影响整体结构完整性。",
+      "suggestion": "立即停止使用该部件，并安排专业人员进行修复或更换。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.6413,
+        0.146746,
+        0.635864,
+        0.196118
+      ],
+      "confidence_score": 0.33,
+      "severity": "Medium",
+      "visual_analysis": "裂纹较为明显，但分布范围较小。",
+      "suggestion": "建议人工复核确认，并根据实际情况决定是否需要修复或更换。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.415154,
+        0.857951,
+        0.769207,
+        0.323144
+      ],
+      "confidence_score": 0.82,
+      "severity": "High",
+      "visual_analysis": "特征显著，裂纹密集且分布广泛，严重影响部件性能。",
+      "suggestion": "立即停止使用该部件，并安排专业人员进行修复或更换。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

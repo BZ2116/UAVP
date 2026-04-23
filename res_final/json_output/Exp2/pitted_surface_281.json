@@ -1,0 +1,36 @@
+{
+  "image_id": "pitted_surface_281.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.667198,
+        0.481871,
+        0.715823,
+        0.971497
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的斑点状缺陷，可能由材料表面的不均匀性引起。",
+      "suggestion": "建议对该区域进行局部打磨处理，以改善表面质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.105206,
+        0.52695,
+        0.158114,
+        0.947266
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域的缺陷较为轻微，可能是由于生产过程中的小颗粒杂质导致。",
+      "suggestion": "建议加强生产过程中的物料筛选，减少此类缺陷的发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "image_id": "inclusion_166.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.588255,
+        0.494025,
+        0.220348,
+        0.993776
+      ],
+      "confidence_score": 0.73,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，特征清晰。",
+      "suggestion": "立即停止生产，进行局部打磨处理，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.379924,
+        0.159046,
+        0.133002,
+        0.351934
+      ],
+      "confidence_score": 0.54,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，特征清晰。",
+      "suggestion": "立即停止生产，进行局部打磨处理，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.866877,
+        0.74291,
+        0.171282,
+        0.417119
+      ],
+      "confidence_score": 0.53,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，特征清晰。",
+      "suggestion": "立即停止生产，进行局部打磨处理，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.930888,
+        0.146841,
+        0.139204,
+        0.314353
+      ],
+      "confidence_score": 0.49,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物，但特征较弱。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.887881,
+        0.465016,
+        0.068695,
+        0.024796
+      ],
+      "confidence_score": 0.49,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在裂纹，但特征较弱。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "High"
+  }
+}

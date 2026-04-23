@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_138.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7268,
+        0.7446,
+        0.1152,
+        0.3023
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中，该区域显示了一个明显的夹杂物，形状不规则且颜色较深。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑是否需要进行局部修复或更换零件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.8645,
+        0.1115,
+        0.0911,
+        0.1306
+      ],
+      "confidence_score": 1.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的夹杂物较为轻微，形状较小且颜色较浅。",
+      "suggestion": "建议对该区域进行监控，但目前无需立即处理。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.5,
+        0.5,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "在图像中心区域，存在一条明显的划痕。",
+      "suggestion": "建议对该区域进行检查，确认是否影响使用性能。"
+    }
+  ]
+}

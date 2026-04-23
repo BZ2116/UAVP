@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_159.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.656779,
+        0.247046,
+        0.186579,
+        0.255686
+      ],
+      "confidence_score": 0.88,
+      "severity": "Medium",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似误检，建议人工复检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "image_id": "pitted_surface_210.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.646258,
+        0.066086,
+        0.267715,
+        0.114472
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的点状凹陷，与正常纹理有明显区别。",
+      "suggestion": "建议进一步检查并考虑修复此区域，以避免影响产品的外观和性能。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.983368,
+        0.12637,
+        0.095418,
+        0.181501
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的凹陷较为轻微，可能属于正常纹理的一部分。",
+      "suggestion": "建议忽略此区域，因为其对产品的影响较小。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.897213,
+        0.694299,
+        0.112839,
+        0.34263
+      ],
+      "confidence_score": 0.98,
+      "severity": "High",
+      "visual_analysis": "该区域的凹陷较为严重，且分布范围较大。",
+      "suggestion": "建议立即修复此区域，以确保产品的质量和外观。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

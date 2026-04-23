@@ -1,0 +1,45 @@
+{
+  "image_id": "patches_243.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.7015,
+        0.1651,
+        0.3453,
+        0.1885
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的点蚀现象，表面不平整且有明显的凹陷。",
+      "suggestion": "需要进行打磨处理，以去除这些点蚀并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.2288,
+        0.8885,
+        0.3458,
+        0.2751
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在轻微的点蚀，表面有小范围的凹陷。",
+      "suggestion": "可以考虑局部打磨处理，以改善表面质量。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.8445,
+        0.6525,
+        0.2601,
+        0.2921
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域存在轻微的点蚀，表面有较小的凹陷。",
+      "suggestion": "无需特别处理，但建议在后续生产中加强监控和预防措施。"
+    }
+  ]
+}

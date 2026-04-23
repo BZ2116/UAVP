@@ -1,0 +1,49 @@
+{
+  "image_id": "inclusion_248.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.091334,
+        0.746538,
+        0.071723,
+        0.342333
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和边缘模糊，可能为金属内部的夹杂物。",
+      "suggestion": "建议进一步检查并考虑更换该部分材料，以确保产品质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.710889,
+        0.48903,
+        0.128963,
+        0.99416
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有异常，但边缘较为平滑，可能是轻微的表面瑕疵。",
+      "suggestion": "建议忽略此轻微瑕疵，继续生产流程。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.295807,
+        0.546372,
+        0.020643,
+        0.112826
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域呈现为小面积的斑点状，可能是由于表面处理不当导致。",
+      "suggestion": "建议加强表面处理工艺，避免此类瑕疵出现。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

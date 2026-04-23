@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_263.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.4319,
+        0.4148,
+        0.15292,
+        0.809924
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和较深的阴影，与周围区域形成对比，疑似为内部夹杂物。",
+      "suggestion": "建议进一步检查并确认该夹杂物是否影响产品性能，必要时进行局部修复或更换零件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.452304,
+        0.821284,
+        0.058333,
+        0.259727
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有不规则形状，但阴影较浅，与周围区域差异不大，疑似为表面瑕疵而非内部夹杂物。",
+      "suggestion": "建议忽略此瑕疵，继续进行后续工序，无需特别处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "image_id": "crazing_104.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.297525,
+        0.384182,
+        0.490339,
+        0.664464
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的裂纹，面积占比较大，表明可能存在高风险问题。",
+      "suggestion": "建议立即进行修复，并优先处理此缺陷。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.85798,
+        0.133071,
+        0.274607,
+        0.201666
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域有较小的裂纹，面积占比较小，可能是误检。",
+      "suggestion": "建议人工复检，确认是否为误检。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.835043,
+        0.385697,
+        0.341208,
+        0.363011
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域有中等大小的裂纹，面积占比适中，需要人工复核。",
+      "suggestion": "建议人工复核，确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.463574,
+        0.898296,
+        0.20905,
+        0.16117
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域有较小的斑点状缺陷，面积占比较小，可能是误检。",
+      "suggestion": "建议人工复检，确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

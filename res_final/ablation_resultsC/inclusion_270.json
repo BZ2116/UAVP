@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_270.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.185262,
+        0.528303,
+        0.169045,
+        0.986145
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则暗点，可能是由于内部杂质或缺陷引起的。面积占比较大，建议人工复核。",
+      "suggestion": "进行局部检查和确认，必要时进行修复或更换部件。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.654616,
+        0.337745,
+        0.082857,
+        0.187613
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域存在较小的暗点，可能是误检或轻微的表面瑕疵。面积占比较小，建议人工复检。",
+      "suggestion": "进行局部检查，确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

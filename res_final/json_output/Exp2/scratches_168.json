@@ -1,0 +1,62 @@
+{
+  "image_id": "scratches_168.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.657518,
+        0.185693,
+        0.108953,
+        0.431203
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域显示了明显的划痕痕迹，与正常纹理有明显区别。",
+      "suggestion": "建议立即进行表面处理和修复，以防止进一步的损坏和影响产品质量。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.383017,
+        0.295576,
+        0.111888,
+        0.474237
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域同样存在明显的划痕，与周围正常纹理形成对比。",
+      "suggestion": "建议立即进行表面处理和修复，以防止进一步的损坏和影响产品质量。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.362258,
+        0.837482,
+        0.246457,
+        0.320208
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在一些细小的划痕，但整体上影响不大。",
+      "suggestion": "建议进行表面检查并考虑是否需要修复，以确保产品外观质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.184481,
+        0.801682,
+        0.033854,
+        0.13466
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在少量杂质，但不影响整体外观。",
+      "suggestion": "建议进行表面检查，确认是否需要进一步处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Medium"
+  }
+}

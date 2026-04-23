@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_294.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.502382,
+        0.201324,
+        0.9594,
+        0.317355
+      ],
+      "confidence_score": 0.82,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，覆盖了较大区域。",
+      "suggestion": "立即修复，优先处理。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.356376,
+        0.510453,
+        0.666793,
+        0.239832
+      ],
+      "confidence_score": 0.48,
+      "severity": "High",
+      "visual_analysis": "图像中存在显著的划痕，但覆盖面积较小。",
+      "suggestion": "立即修复，优先处理。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.462629,
+        0.55811,
+        0.972494,
+        0.08191
+      ],
+      "confidence_score": 0.93,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在轻微的坑洞，但分布范围较小。",
+      "suggestion": "建议人工复核确认。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

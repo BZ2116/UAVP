@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_105.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.247707,
+        0.541017,
+        0.51292,
+        0.468479
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则纹理和阴影，与周围区域形成对比，疑似为卷入的刻度。",
+      "suggestion": "建议进行局部打磨处理，以去除表面的不平整部分并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.29293,
+        0.182211,
+        0.393024,
+        0.178936
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有轻微的阴影，但整体纹理较为均匀，未见明显异常变化。",
+      "suggestion": "此区域可视为正常纹理，无需特别处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

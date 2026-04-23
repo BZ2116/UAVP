@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_239.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.504951,
+        0.554975,
+        0.311637,
+        0.317432
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "在低光照条件下，图像中检测到的缺陷区域较为模糊，难以明确判断其是否为实际存在的缺陷。考虑到光照条件的影响，可能存在误检的可能性。",
+      "suggestion": "建议人工复检，确认该区域是否存在实际的缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Low"
+  }
+}

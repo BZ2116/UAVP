@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_158.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.30646,
+        0.504249,
+        0.09551,
+        0.986613
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的划痕，表面有明显的凹陷和不平整，与周围正常纹理形成对比。",
+      "suggestion": "建议立即进行修复处理，以避免进一步的损坏并确保产品质量。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.437754,
+        0.63886,
+        0.100939,
+        0.617105
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在轻微的划痕，表面有轻微的凹陷，但与周围纹理差异较小。",
+      "suggestion": "建议进行局部修复，以减少外观上的瑕疵影响。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.663699,
+        0.440856,
+        0.122036,
+        0.806426
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的划痕，表面有明显的凹陷和不平整，与周围正常纹理形成对比。",
+      "suggestion": "建议立即进行修复处理，以避免进一步的损坏并确保产品质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

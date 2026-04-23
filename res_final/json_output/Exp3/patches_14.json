@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_14.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.571266,
+        0.490823,
+        0.359446,
+        0.27449
+      ],
+      "confidence_score": 0.78,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的斑点状缺陷，可能影响产品外观。",
+      "suggestion": "建议人工复核确认该缺陷是否需要修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

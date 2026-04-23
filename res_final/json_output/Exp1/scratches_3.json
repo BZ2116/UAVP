@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_3.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.75,
+        0.45,
+        0.25,
+        0.55
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像右侧有一条明显的划痕，沿着钢材表面延伸。",
+      "suggestion": "建议对划痕进行打磨处理，以恢复钢材表面的光滑度。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.65,
+        0.25,
+        0.35,
+        0.35
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像中部偏右区域可以看到一些细微的裂纹迹象。",
+      "suggestion": "裂纹较为轻微，无需立即处理，但应定期检查并记录其发展情况。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.15,
+        0.15,
+        0.35,
+        0.35
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角区域可以看到一些不规则的斑块状区域。",
+      "suggestion": "斑块较为轻微，建议进一步检查是否为其他类型的缺陷，并考虑是否需要修复。"
+    }
+  ]
+}

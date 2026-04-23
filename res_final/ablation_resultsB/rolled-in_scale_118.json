@@ -1,0 +1,49 @@
+{
+  "image_id": "rolled-in_scale_118.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.540356,
+        0.846681,
+        0.238078,
+        0.251563
+      ],
+      "confidence_score": 0.6,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的卷入尺度缺陷，特征清晰可见。",
+      "suggestion": "立即停止生产，进行修复处理。确保所有相关设备和人员安全后，重新启动生产线。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.517243,
+        0.501803,
+        0.294665,
+        0.294173
+      ],
+      "confidence_score": 0.42,
+      "severity": "Suspected",
+      "visual_analysis": "该区域可能存在卷入尺度缺陷，但特征较为模糊，可能是误检。",
+      "suggestion": "建议人工复检确认，如确认为缺陷，则需立即处理。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.528908,
+        0.102331,
+        0.198893,
+        0.179627
+      ],
+      "confidence_score": 0.71,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的卷入尺度缺陷，特征清晰可见。",
+      "suggestion": "立即停止生产，进行修复处理。确保所有相关设备和人员安全后，重新启动生产线。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

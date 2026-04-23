@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_279.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.4329,
+        0.1763,
+        0.1385,
+        0.2731
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中，该区域显示了一个明显的夹杂物，形状不规则且与周围材料形成对比。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑是否需要进行修复或更换。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.3891,
+        0.5825,
+        0.1729,
+        0.6629
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中，该区域也显示了一个明显的夹杂物，形状不规则且与周围材料形成对比。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑是否需要进行修复或更换。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.45,
+        0.4,
+        0.05,
+        0.2
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "在图像中，该区域显示了一条明显的划痕，但其深度和长度相对较小。",
+      "suggestion": "建议对划痕进行评估，如果影响不大，则无需特别处理。"
+    }
+  ]
+}

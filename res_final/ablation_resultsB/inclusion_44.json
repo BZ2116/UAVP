@@ -1,0 +1,49 @@
+{
+  "image_id": "inclusion_44.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.206269,
+        0.618179,
+        0.133599,
+        0.484504
+      ],
+      "confidence_score": 0.78,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征明显，且在图像中占据较大面积，表明其对产品性能有严重影响。",
+      "suggestion": "立即停止生产，对该区域进行局部打磨或更换材料，并重新进行质量检查。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.295524,
+        0.22469,
+        0.119361,
+        0.202113
+      ],
+      "confidence_score": 0.59,
+      "severity": "High",
+      "visual_analysis": "该缺陷特征较为明显，但相较于第一个缺陷，其面积较小，可能对产品性能有一定影响。",
+      "suggestion": "暂停生产，对该区域进行局部打磨或更换材料，并重新进行质量检查。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.691642,
+        0.52013,
+        0.235646,
+        0.92534
+      ],
+      "confidence_score": 0.48,
+      "severity": "Suspected",
+      "visual_analysis": "该缺陷特征较弱，可能存在误检的可能性，建议人工复检确认。",
+      "suggestion": "建议人工复检确认，如确认为缺陷，则需进行局部打磨或更换材料处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

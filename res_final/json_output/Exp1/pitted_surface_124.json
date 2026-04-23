@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_124.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.2497,
+        0.3593,
+        0.5091,
+        0.7053
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的点蚀现象，表面出现不规则的小坑洞。",
+      "suggestion": "建议对该区域进行打磨处理，以去除表面的点蚀，并进行后续的防腐处理。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.8148,
+        0.1133,
+        0.3675,
+        0.2888
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在裂纹，但需要进一步确认。表面呈现细小的裂纹状纹理。",
+      "suggestion": "建议对该区域进行局部检查，确认是否存在裂纹，并根据实际情况决定是否需要修复。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.5,
+        0.5,
+        0.2,
+        0.2
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在夹杂物，表现为表面不均匀的暗色斑块。",
+      "suggestion": "建议对该区域进行局部检查，确认是否存在夹杂物，并根据实际情况决定是否需要修复。"
+    }
+  ]
+}

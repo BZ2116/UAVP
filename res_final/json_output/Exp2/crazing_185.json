@@ -1,0 +1,23 @@
+{
+  "image_id": "crazing_185.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.429215,
+        0.587472,
+        0.929457,
+        0.364506
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了明显的裂纹特征，表现为细小的裂纹网络，与Crazing（微裂纹）一致。",
+      "suggestion": "建议进行局部检查和评估，以确定裂纹的深度和范围。如果裂纹影响到材料性能，则需要考虑更换或修复受影响的部分。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "image_id": "scratches_22.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.173013,
+        0.199264,
+        0.030486,
+        0.378058
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕痕迹，与周围区域形成对比，显示出明显的凹陷和不平整。",
+      "suggestion": "建议进行表面修复处理，以恢复表面光滑度并提高产品外观质量。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.155852,
+        0.768706,
+        0.059126,
+        0.505043
+      ],
+      "confidence_score": 1.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的划痕较为轻微，与周围区域差异较小，可能为制造过程中的正常纹理。",
+      "suggestion": "无需特别处理，但应加强生产过程控制，减少此类缺陷的发生。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.067703,
+        0.166644,
+        0.134591,
+        0.209223
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的划痕，与周围区域形成对比，显示出明显的凹陷和不平整。",
+      "suggestion": "建议进行表面修复处理，以恢复表面光滑度并提高产品外观质量。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.339597,
+        0.232645,
+        0.1191,
+        0.117021
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在严重的划痕，与周围区域形成强烈对比，显示出明显的凹陷和不平整。",
+      "suggestion": "建议立即进行表面修复处理，以恢复表面光滑度并提高产品外观质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Medium"
+  }
+}

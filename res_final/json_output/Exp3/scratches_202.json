@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_202.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.355917,
+        0.802886,
+        0.029179,
+        0.374488
+      ],
+      "confidence_score": 0.57,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.215266,
+        0.63736,
+        0.171859,
+        0.057389
+      ],
+      "confidence_score": 0.5,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Low"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "image_id": "scratches_240.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.602104,
+        0.733247,
+        0.716084,
+        0.123072
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "缺陷面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.682335,
+        0.557875,
+        0.68426,
+        0.112057
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "缺陷面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.406989,
+        0.410897,
+        0.697209,
+        0.08565
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "缺陷面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.775592,
+        0.870898,
+        0.323043,
+        0.0305
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "缺陷面积较小，可能为误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Low"
+  }
+}

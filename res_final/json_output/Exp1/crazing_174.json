@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_174.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.44,
+        0.8079,
+        0.8412,
+        0.2067
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的裂纹，表现为不规则的细小裂缝，分布密集。",
+      "suggestion": "需要立即进行修复，以防止裂纹进一步扩展并影响钢材的结构完整性。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.2672,
+        0.5158,
+        0.578,
+        0.2406
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在氧化皮压入现象，表现为局部区域的不平整和颜色变化。",
+      "suggestion": "建议对受影响区域进行打磨处理，去除氧化皮，并进行后续的表面处理以恢复钢材的光洁度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.65,
+        0.45,
+        0.85,
+        0.35
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "图像中存在轻微的点蚀现象，表现为局部区域的小坑洞。",
+      "suggestion": "对于轻微的点蚀，可以考虑使用填充材料进行修补，但需定期检查以确保没有进一步恶化。"
+    }
+  ]
+}

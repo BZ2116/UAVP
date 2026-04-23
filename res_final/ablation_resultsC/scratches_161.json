@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_161.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.257949,
+        0.309251,
+        0.061968,
+        0.654285
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，且在低光照条件下难以清晰辨认其具体形态和深度。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.71401,
+        0.536568,
+        0.122962,
+        0.904243
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积较大，且在低光照条件下仍能辨认出明显的划痕痕迹。",
+      "suggestion": "建议人工复核确认缺陷的具体情况及处理方案。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

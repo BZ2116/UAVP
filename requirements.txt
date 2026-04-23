@@ -1,0 +1,12 @@
+torch
+transformers>=4.45.0
+qwen_vl_utils
+ultralytics
+opencv-python
+numpy
+scipy
+tqdm
+bert_score
+matplotlib
+seaborn
+pandas

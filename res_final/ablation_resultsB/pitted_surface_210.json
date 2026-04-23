@@ -1,0 +1,49 @@
+{
+  "image_id": "pitted_surface_210.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.646258,
+        0.066086,
+        0.267715,
+        0.114472
+      ],
+      "confidence_score": 0.8,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点状缺陷，分布密集，可能影响表面质量。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。检查生产过程中的工艺参数，确保表面处理符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.983368,
+        0.12637,
+        0.095418,
+        0.181501
+      ],
+      "confidence_score": 0.79,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点状缺陷，分布密集，可能影响表面质量。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。检查生产过程中的工艺参数，确保表面处理符合标准。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.897213,
+        0.694299,
+        0.112839,
+        0.34263
+      ],
+      "confidence_score": 0.55,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在斑点状缺陷，但分布较为稀疏，可能对表面质量有一定影响。",
+      "suggestion": "建议对该部件进行表面处理，以减少缺陷数量。如果无法修复，则应考虑更换。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

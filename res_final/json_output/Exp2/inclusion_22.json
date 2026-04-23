@@ -1,0 +1,62 @@
+{
+  "image_id": "inclusion_22.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.350909,
+        0.451417,
+        0.21772,
+        0.887139
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的不规则形状和阴影，与周围正常纹理有显著差异。",
+      "suggestion": "建议立即进行局部检查并采取措施修复，以防止进一步的材料损坏。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.569827,
+        0.370155,
+        0.152564,
+        0.278683
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域呈现为不规则的暗色斑点，与周围纹理对比明显。",
+      "suggestion": "建议进行局部打磨处理，确保不影响后续加工过程。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.827244,
+        0.496979,
+        0.185701,
+        0.93195
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的不规则形状和阴影，与周围正常纹理有显著差异。",
+      "suggestion": "建议立即进行局部检查并采取措施修复，以防止进一步的材料损坏。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.190801,
+        0.303894,
+        0.091789,
+        0.395719
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域呈现为不规则的暗色斑点，与周围纹理对比明显。",
+      "suggestion": "建议进行局部打磨处理，确保不影响后续加工过程。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

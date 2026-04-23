@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_103.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.429185,
+        0.506468,
+        0.817518,
+        0.12337
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了一条明显的水平线条，具有明显的凹凸感和对比度，符合划痕的视觉特征。",
+      "suggestion": "建议立即进行表面处理以防止进一步损伤，并检查生产过程中的控制措施，以减少类似缺陷的发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

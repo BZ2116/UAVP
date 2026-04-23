@@ -1,0 +1,62 @@
+{
+  "image_id": "scratches_168.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.657518,
+        0.185693,
+        0.108953,
+        0.431203
+      ],
+      "confidence_score": 0.66,
+      "severity": "Medium",
+      "visual_analysis": "特征明显，但存在轻微模糊。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.383017,
+        0.295576,
+        0.111888,
+        0.474237
+      ],
+      "confidence_score": 0.53,
+      "severity": "Medium",
+      "visual_analysis": "特征明显，需进一步确认。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.362258,
+        0.837482,
+        0.246457,
+        0.320208
+      ],
+      "confidence_score": 0.38,
+      "severity": "Medium",
+      "visual_analysis": "特征明显，需进一步确认。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.184481,
+        0.801682,
+        0.033854,
+        0.13466
+      ],
+      "confidence_score": 0.32,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能存在误检。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Medium"
+  }
+}

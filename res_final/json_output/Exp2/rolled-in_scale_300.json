@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_300.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.42997,
+        0.795887,
+        0.332684,
+        0.380649
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了明显的凹陷和不规则纹理，与正常表面相比存在显著差异。",
+      "suggestion": "建议立即进行修复，以防止进一步的材料损伤和性能下降。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.405875,
+        0.233246,
+        0.255407,
+        0.302768
+      ],
+      "confidence_score": 1.0,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有轻微的凹陷，但整体纹理较为均匀，影响较小。",
+      "suggestion": "建议定期检查并记录，无需立即处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

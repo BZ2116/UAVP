@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_57.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.463134,
+        0.36061,
+        0.180787,
+        0.787574
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的条状痕迹，与背景对比明显，可能是由于机械加工过程中产生的刮痕。",
+      "suggestion": "建议对该区域进行打磨处理，以去除表面的刮痕并恢复表面光滑度。同时，检查并优化加工工艺，防止类似缺陷再次出现。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

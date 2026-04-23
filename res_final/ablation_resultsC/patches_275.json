@@ -1,0 +1,36 @@
+{
+  "image_id": "patches_275.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.256242,
+        0.411146,
+        0.25551,
+        0.584871
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的黑色不规则斑块，可能是由于材料瑕疵或制造过程中的异常导致。",
+      "suggestion": "建议人工复核确认是否需要进一步处理或修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.412149,
+        0.771599,
+        0.250617,
+        0.186225
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的黑色斑块面积较小，可能存在误检的可能性。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

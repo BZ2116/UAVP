@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_206.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.594311,
+        0.324755,
+        0.05758,
+        0.615471
+      ],
+      "confidence_score": 0.61,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.737754,
+        0.644652,
+        0.090909,
+        0.760951
+      ],
+      "confidence_score": 0.6,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显。",
+      "suggestion": "建议人工复核。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

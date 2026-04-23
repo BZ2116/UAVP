@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_148.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.4694,
+        0.4742,
+        0.4181,
+        0.9292
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的点蚀现象，分布较为密集。",
+      "suggestion": "建议对该区域进行局部打磨处理，并重新喷漆以恢复表面质量。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.8116,
+        0.1708,
+        0.3015,
+        0.2618
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域也存在点蚀现象，分布较为集中。",
+      "suggestion": "建议对该区域进行局部打磨处理，并重新喷漆以恢复表面质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.1148,
+        0.5885,
+        0.3086,
+        0.5341
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在少量夹杂物，但分布较为稀疏。",
+      "suggestion": "建议对该区域进行表面检查，确认是否需要进一步处理。"
+    }
+  ]
+}

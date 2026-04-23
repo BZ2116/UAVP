@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_295.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.764587,
+        0.52248,
+        0.181632,
+        0.869666
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和阴影，可能为金属内部的夹杂物。",
+      "suggestion": "建议进一步检查并采取措施防止此类缺陷的发生，如改进原材料筛选流程或调整加工工艺参数。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.828062,
+        0.787957,
+        0.071154,
+        0.354
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有不规则形状，但阴影较轻，可能是由于光线角度或其他因素造成的，而非实际缺陷。",
+      "suggestion": "无需立即处理，但应记录此情况以便后续对比分析。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

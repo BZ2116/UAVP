@@ -1,0 +1,62 @@
+{
+  "image_id": "patches_58.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.222671,
+        0.320905,
+        0.177007,
+        0.463613
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的斑点状缺陷面积较小，可能是由于图像噪声或低光照条件导致的误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.416943,
+        0.263556,
+        0.18542,
+        0.308764
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的划痕状缺陷面积较小，可能是由于图像噪声或低光照条件导致的误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.221348,
+        0.816938,
+        0.162396,
+        0.339854
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的斑点状缺陷面积较小，可能是由于图像噪声或低光照条件导致的误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.799636,
+        0.547072,
+        0.260385,
+        0.205054
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的斑点状缺陷面积较小，可能是由于图像噪声或低光照条件导致的误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "Low"
+  }
+}

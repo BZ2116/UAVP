@@ -1,0 +1,23 @@
+{
+  "image_id": "crazing_158.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.426192,
+        0.460364,
+        0.367413,
+        0.399957
+      ],
+      "confidence_score": 0.36,
+      "severity": "Medium",
+      "visual_analysis": "图像中可见明显的裂纹特征，分布于特定区域。",
+      "suggestion": "建议人工复核以确认裂纹的具体情况和影响范围。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

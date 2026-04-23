@@ -1,0 +1,62 @@
+{
+  "image_id": "patches_198.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.307942,
+        0.489412,
+        0.374365,
+        1.0
+      ],
+      "confidence_score": 0.95,
+      "severity": "High",
+      "visual_analysis": "该区域存在大面积的斑点状缺陷，可能是由于材料不均匀或加工过程中的瑕疵导致。",
+      "suggestion": "建议立即停止生产并进行详细检查，确保产品质量符合标准。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.875914,
+        0.530255,
+        0.232517,
+        0.451392
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "该区域有明显的裂纹迹象，可能是由于应力集中或材料老化引起的。",
+      "suggestion": "建议进行人工复核，并根据实际情况决定是否需要修复或更换部件。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.934122,
+        0.563294,
+        0.201688,
+        0.41177
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "该区域的斑点状缺陷面积较小，可能存在误检的可能性。",
+      "suggestion": "建议人工复检确认，如确认为误检则无需处理。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.685925,
+        0.508012,
+        0.247892,
+        0.372198
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "该区域的斑点状缺陷面积较小，可能存在误检的可能性。",
+      "suggestion": "建议人工复检确认，如确认为误检则无需处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 4,
+    "risk_level": "High"
+  }
+}

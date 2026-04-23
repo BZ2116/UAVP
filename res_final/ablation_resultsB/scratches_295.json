@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_295.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.485935,
+        0.142853,
+        0.997083,
+        0.187569
+      ],
+      "confidence_score": 0.78,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，长度较长且分布密集。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.686795,
+        0.556921,
+        0.699952,
+        0.213913
+      ],
+      "confidence_score": 0.77,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，长度较短但数量较多。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.157976,
+        0.645514,
+        0.29471,
+        0.073166
+      ],
+      "confidence_score": 0.71,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的凹坑，分布较为集中。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

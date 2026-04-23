@@ -1,0 +1,45 @@
+{
+  "image_id": "rolled-in_scale_251.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.1362,
+        0.6494,
+        0.3157,
+        0.6929
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的氧化皮压入现象，表面不平整。",
+      "suggestion": "建议对该区域进行打磨处理，以去除氧化皮并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.1244,
+        0.1042,
+        0.2632,
+        0.1183
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域也存在氧化皮压入现象，表面有轻微凹陷。",
+      "suggestion": "建议对该区域进行打磨处理，以去除氧化皮并恢复表面光滑度。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.05,
+        0.05,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域存在轻微的点蚀现象，表面有小坑洞。",
+      "suggestion": "建议对该区域进行检查，如果点蚀较轻，可不做处理；如果严重，需进行修复。"
+    }
+  ]
+}

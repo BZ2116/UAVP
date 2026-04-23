@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_1.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.133219,
+        0.451609,
+        0.058097,
+        0.832846
+      ],
+      "confidence_score": 1.0,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的条状痕迹，与背景对比明显，符合划痕特征。",
+      "suggestion": "建议立即进行表面处理，以防止进一步损伤并确保产品质量。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.034148,
+        0.915222,
+        0.067471,
+        0.053505
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在较小的条状痕迹，但与背景对比不明显，可能需要进一步确认其影响程度。",
+      "suggestion": "建议对该区域进行局部检查和评估，必要时进行修复处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

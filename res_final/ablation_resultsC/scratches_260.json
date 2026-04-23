@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_260.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.497691,
+        0.216862,
+        0.993203,
+        0.138975
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域存在明显的刮痕，面积较大，影响外观质量。",
+      "suggestion": "建议人工复核并进行修复处理。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.717496,
+        0.361941,
+        0.478814,
+        0.045715
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域的刮痕面积较小，可能是误检，建议人工复检。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.514474,
+        0.913169,
+        0.97045,
+        0.152808
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域存在明显的刮痕，面积较大，影响外观质量。",
+      "suggestion": "建议人工复核并进行修复处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

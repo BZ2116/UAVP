@@ -1,0 +1,49 @@
+{
+  "image_id": "rolled-in_scale_43.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.386765,
+        0.721047,
+        0.397064,
+        0.533902
+      ],
+      "confidence_score": 0.5,
+      "severity": "High",
+      "visual_analysis": "特征显著，存在明显凹陷。",
+      "suggestion": "立即修复，优先处理。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.271028,
+        0.125492,
+        0.353802,
+        0.196299
+      ],
+      "confidence_score": 0.41,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，存在轻微凹陷。",
+      "suggestion": "建议人工复核确认。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.296114,
+        0.277996,
+        0.299498,
+        0.440156
+      ],
+      "confidence_score": 0.34,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，存在轻微凹陷。",
+      "suggestion": "建议人工复核确认。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

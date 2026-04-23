@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_106.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.501821,
+        0.177844,
+        0.99424,
+        0.155067
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的条纹状痕迹，类似于划痕，其宽度和长度表明可能对产品功能有影响。",
+      "suggestion": "建议立即停止使用该部件并进行修复。建议采用磨削或抛光技术来去除这些划痕，以恢复表面光滑度。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

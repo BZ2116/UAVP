@@ -1,0 +1,75 @@
+{
+  "image_id": "patches_114.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.231986,
+        0.324146,
+        0.401423,
+        0.583878
+      ],
+      "confidence_score": 0.88,
+      "severity": "High",
+      "visual_analysis": "特征显著，存在明显的黑色斑块。",
+      "suggestion": "立即修复并优先处理。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.398622,
+        0.733294,
+        0.192009,
+        0.323639
+      ],
+      "confidence_score": 0.84,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，可能存在瑕疵。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.793268,
+        0.785674,
+        0.235275,
+        0.373523
+      ],
+      "confidence_score": 0.8,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，可能存在瑕疵。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.794866,
+        0.304452,
+        0.212228,
+        0.312877
+      ],
+      "confidence_score": 0.65,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，可能存在瑕疵。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.840816,
+        0.077374,
+        0.206792,
+        0.169494
+      ],
+      "confidence_score": 0.45,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能存在误检。",
+      "suggestion": "建议人工复检以确认是否需要修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "High"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "image_id": "patches_114.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.231986,
+        0.324146,
+        0.401423,
+        0.583878
+      ],
+      "confidence_score": 0.2344,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的缺陷，面积较大，需进一步确认是否为实际缺陷。",
+      "suggestion": "建议人工复核确认是否为实际缺陷，必要时进行修复或更换部件。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.398622,
+        0.733294,
+        0.192009,
+        0.323639
+      ],
+      "confidence_score": 0.0621,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在误检，建议人工复检确认。",
+      "suggestion": "建议人工复检确认是否为实际缺陷，必要时进行修复或更换部件。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.793268,
+        0.785674,
+        0.235275,
+        0.373523
+      ],
+      "confidence_score": 0.0879,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在误检，建议人工复检确认。",
+      "suggestion": "建议人工复检确认是否为实际缺陷，必要时进行修复或更换部件。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.794866,
+        0.304452,
+        0.212228,
+        0.312877
+      ],
+      "confidence_score": 0.0664,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在误检，建议人工复检确认。",
+      "suggestion": "建议人工复检确认是否为实际缺陷，必要时进行修复或更换部件。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.840816,
+        0.077374,
+        0.206792,
+        0.169494
+      ],
+      "confidence_score": 0.0351,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在误检，建议人工复检确认。",
+      "suggestion": "建议人工复检确认是否为实际缺陷，必要时进行修复或更换部件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Medium"
+  }
+}

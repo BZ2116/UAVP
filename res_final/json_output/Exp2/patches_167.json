@@ -1,0 +1,75 @@
+{
+  "image_id": "patches_167.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.32519,
+        0.356398,
+        0.319722,
+        0.641754
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状缺陷，表面不平整，可能是由于腐蚀或机械损伤导致。",
+      "suggestion": "建议进行局部修复并检查相关工艺流程，以防止进一步恶化。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.657995,
+        0.278926,
+        0.32297,
+        0.58782
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "该区域也显示出明显的凹坑状缺陷，表面不平整，可能是由于腐蚀或机械损伤导致。",
+      "suggestion": "建议进行局部修复并检查相关工艺流程，以防止进一步恶化。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.955038,
+        0.206078,
+        0.134961,
+        0.440511
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域的凹坑状缺陷较为轻微，可能只是表面的轻微损伤。",
+      "suggestion": "建议继续监控该区域，若无进一步恶化可暂时忽略。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.964094,
+        0.82156,
+        0.094276,
+        0.114877
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在夹杂物，但其影响较小，可能只是表面的轻微杂质。",
+      "suggestion": "建议继续监控该区域，若无进一步恶化可暂时忽略。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.76257,
+        0.666627,
+        0.128232,
+        0.092005
+      ],
+      "confidence_score": 0.75,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在夹杂物，但其影响较小，可能只是表面的轻微杂质。",
+      "suggestion": "建议继续监控该区域，若无进一步恶化可暂时忽略。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Medium"
+  }
+}

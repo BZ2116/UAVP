@@ -1,0 +1,49 @@
+{
+  "image_id": "pitted_surface_173.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.508359,
+        0.466372,
+        0.962178,
+        0.89617
+      ],
+      "confidence_score": 0.73,
+      "severity": "High",
+      "visual_analysis": "图像中显示了大量密集分布的小坑洞，这通常与材料表面的腐蚀或磨损有关，表明存在严重的表面损伤。",
+      "suggestion": "立即停止使用该部件，并进行进一步的检查和修复。建议采用化学清洗或机械打磨的方式去除表面缺陷，然后进行必要的涂层处理以防止进一步的腐蚀。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.632463,
+        0.974021,
+        0.2374,
+        0.151712
+      ],
+      "confidence_score": 0.33,
+      "severity": "Suspected",
+      "visual_analysis": "该区域的特征较为模糊，可能存在误检的情况。观察到的斑点可能是由于图像质量或光照条件不佳导致的。",
+      "suggestion": "建议人工复检该区域，确认是否存在实际的缺陷。如果确认为误检，则需重新校准检测模型或调整光照条件。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.832875,
+        0.909565,
+        0.197674,
+        0.231123
+      ],
+      "confidence_score": 0.27,
+      "severity": "Suspected",
+      "visual_analysis": "该区域的特征同样较为模糊，可能存在误检的情况。观察到的斑点可能是由于图像质量或光照条件不佳导致的。",
+      "suggestion": "建议人工复检该区域，确认是否存在实际的缺陷。如果确认为误检，则需重新校准检测模型或调整光照条件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

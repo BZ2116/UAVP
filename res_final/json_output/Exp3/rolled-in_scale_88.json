@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_88.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.380724,
+        0.470627,
+        0.380478,
+        0.662556
+      ],
+      "confidence_score": 0.54,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑块状缺陷，面积占比较大，特征显著。",
+      "suggestion": "立即修复，优先处理。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.70213,
+        0.549991,
+        0.260804,
+        0.652968
+      ],
+      "confidence_score": 0.39,
+      "severity": "High",
+      "visual_analysis": "图像中存在卷入的刻痕，虽然面积占比相对较小，但特征显著。",
+      "suggestion": "立即修复，优先处理。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

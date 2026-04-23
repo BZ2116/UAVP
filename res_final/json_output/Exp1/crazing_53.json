@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_53.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.4,
+        0.6,
+        0.2,
+        0.2
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心偏右的位置，存在明显的裂纹状缺陷。",
+      "suggestion": "建议对该区域进行仔细检查，并考虑采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.7,
+        0.8,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像右下角，存在一个较小的斑块状缺陷。",
+      "suggestion": "该缺陷较为轻微，可以忽略不计。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.2,
+        0.2,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角，存在一个小的夹杂物缺陷。",
+      "suggestion": "该缺陷对整体结构影响不大，无需特别处理。"
+    }
+  ]
+}

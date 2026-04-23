@@ -1,0 +1,45 @@
+{
+  "image_id": "crazing_30.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.65,
+        0.15,
+        0.15
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像的右上角区域，可以看到一些细小的裂纹状结构。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑是否需要进行修复或更换。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.7,
+        0.8,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像的右下角区域，可以看到一些点状的凹陷，可能是轻微的点蚀。",
+      "suggestion": "这些点蚀可能对材料性能影响较小，但建议定期检查并保持清洁。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.2,
+        0.2,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像的左上角区域，可以看到一些细小的划痕。",
+      "suggestion": "这些划痕可能不会对材料性能产生显著影响，但建议在后续处理中避免此类损伤。"
+    }
+  ]
+}

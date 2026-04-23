@@ -1,0 +1,36 @@
+{
+  "image_id": "pitted_surface_247.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.298154,
+        0.439852,
+        0.553244,
+        0.804957
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在多个不规则形状的斑点，可能是由于材料表面的瑕疵或涂层问题导致。",
+      "suggestion": "建议对这些区域进行局部检查和修复，以确保表面质量符合标准。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.226737,
+        0.938464,
+        0.271639,
+        0.155025
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域显示了轻微的凹陷，可能是由于表面应力或微小的机械损伤所致。",
+      "suggestion": "该缺陷较为轻微，无需立即处理，但应定期监控其变化情况。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

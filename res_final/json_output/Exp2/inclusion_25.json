@@ -1,0 +1,75 @@
+{
+  "image_id": "inclusion_25.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.129991,
+        0.332606,
+        0.129519,
+        0.721442
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和阴影，可能为内部气泡或夹杂物。",
+      "suggestion": "建议进行局部打磨处理，以确保后续加工过程中的产品质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.394932,
+        0.147011,
+        0.082098,
+        0.218262
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的阴影较小，可能是轻微的内部气泡或夹杂物。",
+      "suggestion": "建议继续监控该区域，若后续出现异常则需进一步处理。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.620788,
+        0.422525,
+        0.216334,
+        0.801828
+      ],
+      "confidence_score": 0.98,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的凹凸不平现象，可能是表面腐蚀或机械损伤。",
+      "suggestion": "建议对该区域进行彻底清理并检查其结构完整性，必要时更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.172624,
+        0.934534,
+        0.047387,
+        0.154287
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "该区域的阴影较小，可能是轻微的内部气泡或夹杂物。",
+      "suggestion": "建议继续监控该区域，若后续出现异常则需进一步处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.933881,
+        0.698366,
+        0.065045,
+        0.38026
+      ],
+      "confidence_score": 0.92,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和阴影，可能为内部气泡或夹杂物。",
+      "suggestion": "建议进行局部打磨处理，以确保后续加工过程中的产品质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Medium"
+  }
+}

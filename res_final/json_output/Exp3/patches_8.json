@@ -1,0 +1,49 @@
+{
+  "image_id": "patches_8.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.289136,
+        0.166538,
+        0.192419,
+        0.23198
+      ],
+      "confidence_score": 0.88,
+      "severity": "Medium",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.635945,
+        0.417333,
+        0.400675,
+        0.415802
+      ],
+      "confidence_score": 0.85,
+      "severity": "High",
+      "visual_analysis": "特征显著。",
+      "suggestion": "高风险，优先处理。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.257217,
+        0.844373,
+        0.138537,
+        0.3389
+      ],
+      "confidence_score": 0.33,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能误检。",
+      "suggestion": "疑似，建议人工复检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

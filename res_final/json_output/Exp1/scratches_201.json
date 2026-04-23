@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_201.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.05,
+        0.05,
+        0.95
+      ],
+      "confidence_score": 0.98,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心偏左的位置，有一条明显的裂纹贯穿整个图像。",
+      "suggestion": "需要进行修复处理，以防止裂纹进一步扩展。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.75,
+        0.05,
+        0.05,
+        0.95
+      ],
+      "confidence_score": 0.95,
+      "severity": "Low",
+      "visual_analysis": "在图像右侧边缘，可以看到一些不规则的夹杂物。",
+      "suggestion": "这些夹杂物对整体结构影响较小，可以考虑忽略或进行局部处理。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.15,
+        0.05,
+        0.05,
+        0.95
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像左侧边缘，可以看到一些不规则的斑块状区域。",
+      "suggestion": "这些斑块可能是因为表面处理不当导致的，建议进行表面处理检查和修复。"
+    }
+  ]
+}

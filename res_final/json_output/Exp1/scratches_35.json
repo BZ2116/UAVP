@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_35.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.4,
+        0.2,
+        0.2,
+        0.8
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心区域存在明显的裂纹状缺陷，可能影响钢材的结构完整性。",
+      "suggestion": "建议对该区域进行进一步检查，并考虑采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.6,
+        0.2,
+        0.2,
+        0.8
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像右侧区域存在一些不规则的斑块状缺陷，可能是由于表面处理不当引起的。",
+      "suggestion": "建议对这些区域进行表面处理，以确保钢材表面质量符合标准。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7,
+        0.2,
+        0.2,
+        0.8
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像右侧边缘附近存在一些小的夹杂物，可能对钢材性能产生轻微影响。",
+      "suggestion": "建议对这些区域进行仔细检查，必要时进行局部处理。"
+    }
+  ]
+}

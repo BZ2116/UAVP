@@ -1,0 +1,75 @@
+{
+  "image_id": "inclusion_116.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.394052,
+        0.251276,
+        0.081672,
+        0.287639
+      ],
+      "confidence_score": 0.87,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，特征清晰。",
+      "suggestion": "立即停止生产，进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.856682,
+        0.638166,
+        0.194582,
+        0.771945
+      ],
+      "confidence_score": 0.59,
+      "severity": "High",
+      "visual_analysis": "图像中存在夹杂物，特征较为明显。",
+      "suggestion": "立即停止生产，进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.552583,
+        0.409922,
+        0.158403,
+        0.845883
+      ],
+      "confidence_score": 0.31,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物，但特征较弱。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.521206,
+        0.857167,
+        0.115568,
+        0.202146
+      ],
+      "confidence_score": 0.37,
+      "severity": "Suspected",
+      "visual_analysis": "图像中可能存在夹杂物，但特征较弱。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.875371,
+        0.261142,
+        0.143049,
+        0.1463
+      ],
+      "confidence_score": 0.59,
+      "severity": "High",
+      "visual_analysis": "图像中存在裂纹，特征清晰。",
+      "suggestion": "立即停止生产，进行局部修复或更换部件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "High"
+  }
+}

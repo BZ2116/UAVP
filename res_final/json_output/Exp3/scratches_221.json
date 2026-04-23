@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_221.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.173256,
+        0.39958,
+        0.1201,
+        0.687725
+      ],
+      "confidence_score": 0.66,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的划痕，分布于左侧区域。",
+      "suggestion": "建议人工复核以确认划痕的具体情况和修复优先级。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.846096,
+        0.556428,
+        0.111991,
+        0.715734
+      ],
+      "confidence_score": 0.66,
+      "severity": "Medium",
+      "visual_analysis": "图像右侧存在明显的划痕，特征较为明显。",
+      "suggestion": "建议人工复核以确认划痕的具体情况和修复优先级。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.472732,
+        0.381067,
+        0.111635,
+        0.74128
+      ],
+      "confidence_score": 0.64,
+      "severity": "Medium",
+      "visual_analysis": "图像中部存在明显的划痕，分布较为密集。",
+      "suggestion": "建议人工复核以确认划痕的具体情况和修复优先级。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

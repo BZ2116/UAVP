@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_143.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.097278,
+        0.497836,
+        0.089543,
+        1.0
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凸起和不规则形状，类似于轧入的氧化皮。",
+      "suggestion": "建议进行表面处理以去除氧化皮，避免后续加工中产生不良影响。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.24183,
+        0.469905,
+        0.133465,
+        1.0
+      ],
+      "confidence_score": 0.98,
+      "severity": "High",
+      "visual_analysis": "该区域有明显的划痕痕迹，表面凹陷明显，属于严重的机械损伤。",
+      "suggestion": "需要立即停止使用并进行修复，以免影响产品质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.656085,
+        0.856392,
+        0.046283,
+        0.114369
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域存在小的夹杂物，但不影响整体结构强度。",
+      "suggestion": "可以忽略此缺陷，继续使用产品。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

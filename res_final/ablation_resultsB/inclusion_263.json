@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_263.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.4319,
+        0.4148,
+        0.15292,
+        0.809924
+      ],
+      "confidence_score": 0.81,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，其形状和大小表明可能对材料性能产生严重影响。",
+      "suggestion": "立即停止生产，对受影响区域进行清理，并检查设备状态以防止进一步的夹杂物产生。同时，需要对相关工艺流程进行审查，确保此类问题不再发生。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.452304,
+        0.821284,
+        0.058333,
+        0.259727
+      ],
+      "confidence_score": 0.89,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，其形状和大小表明可能对材料性能产生严重影响。",
+      "suggestion": "立即停止生产，对受影响区域进行清理，并检查设备状态以防止进一步的夹杂物产生。同时，需要对相关工艺流程进行审查，确保此类问题不再发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

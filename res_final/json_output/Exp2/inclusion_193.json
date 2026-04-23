@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_193.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.679966,
+        0.368212,
+        0.107818,
+        0.581746
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和阴影，可能为内部夹杂物。",
+      "suggestion": "建议进一步检查并采取措施去除此夹杂物，以确保产品质量。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.777784,
+        0.117183,
+        0.108948,
+        0.134505
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的阴影较小且不明显，可能是由于光线不足导致的伪影。",
+      "suggestion": "建议调整照明条件，以提高图像质量并准确识别缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

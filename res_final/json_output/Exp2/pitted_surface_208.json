@@ -1,0 +1,49 @@
+{
+  "image_id": "pitted_surface_208.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.444218,
+        0.399391,
+        0.816224,
+        0.715286
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了不规则的斑块状结构，可能是由于材料表面的局部损伤或腐蚀造成的。",
+      "suggestion": "建议对该区域进行进一步检查和修复，以确保不会影响到产品的整体性能。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.57856,
+        0.850251,
+        0.369394,
+        0.297307
+      ],
+      "confidence_score": 0.98,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的坑洞状缺陷，表明材料表面遭受了严重的物理损伤，可能影响其功能性和耐用性。",
+      "suggestion": "需要立即停止使用此部件并进行修复或更换，以避免潜在的安全隐患。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.840767,
+        0.656775,
+        0.224746,
+        0.582258
+      ],
+      "confidence_score": 0.92,
+      "severity": "Medium",
+      "visual_analysis": "该区域也显示出一些坑洞状的缺陷，但不如第二个区域严重，可能是由于轻微的磨损或腐蚀造成的。",
+      "suggestion": "建议对该区域进行表面处理，如打磨或涂层，以恢复其外观和性能。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

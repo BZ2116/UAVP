@@ -1,0 +1,36 @@
+{
+  "image_id": "scratches_292.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.476753,
+        0.656901,
+        0.957867,
+        0.275805
+      ],
+      "confidence_score": 0.81,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，长度较长且分布密集。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.458503,
+        0.841206,
+        0.964111,
+        0.088135
+      ],
+      "confidence_score": 0.65,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，虽然长度较短但分布密集。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

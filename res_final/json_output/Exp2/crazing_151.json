@@ -1,0 +1,23 @@
+{
+  "image_id": "crazing_151.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.549421,
+        0.339476,
+        0.182824,
+        0.409309
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了明显的裂纹特征，表现为细小的裂缝和不规则的纹理变化，这通常与材料老化、应力集中或制造过程中的缺陷有关。",
+      "suggestion": "建议进行进一步的检查以确认裂纹的深度和范围，并考虑采取适当的修复措施，如表面处理或更换部件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

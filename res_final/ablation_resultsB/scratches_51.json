@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_51.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.753728,
+        0.458253,
+        0.180416,
+        0.953503
+      ],
+      "confidence_score": 0.84,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的刮痕，从上部延伸到底部，影响了表面的平整性。",
+      "suggestion": "建议立即停止使用该部件，并进行修复或更换。刮痕可能影响产品的外观和性能，需要尽快处理以避免进一步损坏。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

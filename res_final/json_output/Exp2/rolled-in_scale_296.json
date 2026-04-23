@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_296.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.256538,
+        0.557562,
+        0.584833,
+        0.753479
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了不规则的纹理和阴影，可能表明存在卷入的刻度现象。这种现象通常出现在金属表面，特别是在低光照条件下，可能会导致测量误差。",
+      "suggestion": "建议进行局部打磨处理以去除卷入的刻度，并重新校准设备确保测量精度。同时，加强日常维护和检查，防止此类问题再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

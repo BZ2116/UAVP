@@ -1,0 +1,23 @@
+{
+  "image_id": "pitted_surface_212.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.459286,
+        0.490871,
+        0.95283,
+        0.939192
+      ],
+      "confidence_score": 0.42,
+      "severity": "Low",
+      "visual_analysis": "图像中显示的表面存在一些小坑洞，但特征较为模糊，难以明确判断其严重程度。",
+      "suggestion": "建议人工复检以确认是否为实际缺陷，并进一步评估其对产品性能的影响。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Low"
+  }
+}

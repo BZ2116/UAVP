@@ -1,0 +1,49 @@
+{
+  "image_id": "crazing_107.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.739051,
+        0.492216,
+        0.407514,
+        0.490645
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的裂纹，分布于材料表面，面积占比约为20%。",
+      "suggestion": "建议人工复核确认裂纹是否影响材料性能，并根据实际情况决定是否需要修复或更换部件。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.249294,
+        0.199496,
+        0.485972,
+        0.424256
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的裂纹，分布于材料表面，面积占比约为21%。",
+      "suggestion": "建议人工复核确认裂纹是否影响材料性能，并根据实际情况决定是否需要修复或更换部件。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.371685,
+        0.893166,
+        0.609896,
+        0.236667
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的裂纹，分布于材料表面，面积占比约为14%。",
+      "suggestion": "建议人工复核确认裂纹是否影响材料性能，并根据实际情况决定是否需要修复或更换部件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

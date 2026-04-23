@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_51.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.753728,
+        0.458253,
+        0.180416,
+        0.953503
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像显示一条明显的划痕，贯穿整个区域，影响了表面的连续性。",
+      "suggestion": "建议人工复核并考虑是否需要修复或更换部件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

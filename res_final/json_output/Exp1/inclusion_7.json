@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_7.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.65,
+        0.55,
+        0.05
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心偏右的位置，存在一条明显的裂纹。",
+      "suggestion": "建议对该区域进行仔细检查，并考虑采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.25,
+        0.8,
+        0.3,
+        0.05
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像左下角附近，存在一个较小的斑块状区域。",
+      "suggestion": "该缺陷较为轻微，可以忽略不计。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.7,
+        0.75,
+        0.05,
+        0.05
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像右上角附近，存在一个小的夹杂物。",
+      "suggestion": "该缺陷较为轻微，可以忽略不计。"
+    }
+  ]
+}

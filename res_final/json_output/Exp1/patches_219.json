@@ -1,0 +1,45 @@
+{
+  "image_id": "patches_219.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.3829,
+        0.7098,
+        0.3561,
+        0.4814
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像的左上角区域存在明显的点蚀现象，表面呈现不规则的凹陷状。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除表面的点蚀，并检查是否有进一步的损伤。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.5,
+        0.2,
+        0.1
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "在图像的右上角区域存在轻微的裂纹迹象，但整体影响较小。",
+      "suggestion": "建议对该区域进行表面检查，确认是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.2,
+        0.2,
+        0.3,
+        0.1
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "在图像的左下角区域存在疑似夹杂物的痕迹，但整体影响不大。",
+      "suggestion": "建议对该区域进行表面检查，确认是否需要进一步处理。"
+    }
+  ]
+}

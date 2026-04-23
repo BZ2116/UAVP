@@ -1,0 +1,36 @@
+{
+  "image_id": "rolled-in_scale_93.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.634676,
+        0.744686,
+        0.363077,
+        0.527918
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积中等，呈现为不规则形状，可能影响产品的表面质量。",
+      "suggestion": "建议人工复核确认，并根据实际情况决定是否需要修复或更换部件。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.593904,
+        0.503851,
+        0.587677,
+        0.483826
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该缺陷区域面积较大，呈现为明显的不规则形状，可能对产品性能产生重大影响。",
+      "suggestion": "建议立即判定为高风险并优先处理，确保产品质量和安全。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

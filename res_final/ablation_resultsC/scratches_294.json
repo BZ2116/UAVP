@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_294.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.502382,
+        0.201324,
+        0.9594,
+        0.317355
+      ],
+      "confidence_score": 0.3045,
+      "severity": "High",
+      "visual_analysis": "缺陷面积较大，表现为一条明显的划痕贯穿整个区域。",
+      "suggestion": "建议立即进行修复，避免影响后续加工和使用。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.356376,
+        0.510453,
+        0.666793,
+        0.239832
+      ],
+      "confidence_score": 0.1599,
+      "severity": "Medium",
+      "visual_analysis": "缺陷面积中等，表现为较细的划痕，分布较为密集。",
+      "suggestion": "建议人工复核确认是否需要修复。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.462629,
+        0.55811,
+        0.972494,
+        0.08191
+      ],
+      "confidence_score": 0.0797,
+      "severity": "Low",
+      "visual_analysis": "缺陷面积较小，表现为局部轻微凹凸不平。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

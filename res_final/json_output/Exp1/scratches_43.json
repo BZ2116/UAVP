@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_43.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.5,
+        0.5,
+        0.01,
+        0.01
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心附近存在一条明显的裂纹。",
+      "suggestion": "建议进行局部修复或更换部件。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.7,
+        0.7,
+        0.01,
+        0.01
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像右下角存在一些小坑洞。",
+      "suggestion": "这些缺陷可能对功能影响不大，但建议定期检查。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.3,
+        0.3,
+        0.01,
+        0.01
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "在图像左上角存在一些划痕。",
+      "suggestion": "建议进行表面处理以去除划痕。"
+    }
+  ]
+}

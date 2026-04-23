@@ -1,0 +1,75 @@
+{
+  "image_id": "patches_212.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.098604,
+        0.711059,
+        0.152128,
+        0.585655
+      ],
+      "confidence_score": 0.7,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的夹杂物，其形状和大小表明该区域可能存在高风险问题。",
+      "suggestion": "建议立即停止生产，并对受影响区域进行详细检查和修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.343482,
+        0.366727,
+        0.488198,
+        0.643164
+      ],
+      "confidence_score": 0.67,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点状缺陷，其分布和形态表明该区域可能存在高风险问题。",
+      "suggestion": "建议立即停止生产，并对受影响区域进行详细检查和修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.736112,
+        0.630088,
+        0.190836,
+        0.650672
+      ],
+      "confidence_score": 0.54,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的斑点状缺陷，其分布和形态表明该区域可能存在高风险问题。",
+      "suggestion": "建议立即停止生产，并对受影响区域进行详细检查和修复。"
+    },
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.729158,
+        0.081002,
+        0.278183,
+        0.129902
+      ],
+      "confidence_score": 0.43,
+      "severity": "Suspected",
+      "visual_analysis": "图像中存在轻微的斑点状缺陷，其特征较为模糊，可能存在误检的可能性。",
+      "suggestion": "建议人工复检确认是否为真实缺陷。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.259632,
+        0.121004,
+        0.080651,
+        0.043881
+      ],
+      "confidence_score": 0.51,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的坑洞状缺陷，其分布和形态表明该区域可能存在高风险问题。",
+      "suggestion": "建议立即停止生产，并对受影响区域进行详细检查和修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "High"
+  }
+}

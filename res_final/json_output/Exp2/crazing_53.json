@@ -1,0 +1,23 @@
+{
+  "image_id": "crazing_53.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.281805,
+        0.798436,
+        0.617112,
+        0.396275
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的裂纹特征，表现为不规则的细小裂缝，与正常纹理有明显区别。",
+      "suggestion": "建议立即进行表面处理和修复，以防止裂纹进一步扩展并影响产品性能。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

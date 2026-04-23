@@ -1,0 +1,49 @@
+{
+  "image_id": "rolled-in_scale_257.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.169575,
+        0.574698,
+        0.344219,
+        0.798095
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该缺陷区域面积较大，呈现深色不规则形状，可能影响产品性能。",
+      "suggestion": "建议立即停止生产，对该缺陷区域进行修复，并重新检测合格后方可继续生产。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.604227,
+        0.744098,
+        0.240461,
+        0.476274
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积中等，呈现深色不规则形状，可能对产品性能有一定影响。",
+      "suggestion": "建议对该缺陷区域进行修复，并重新检测合格后方可继续生产。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.678882,
+        0.346287,
+        0.34283,
+        0.393572
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积中等，呈现深色不规则形状，可能对产品性能有一定影响。",
+      "suggestion": "建议对该缺陷区域进行修复，并重新检测合格后方可继续生产。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

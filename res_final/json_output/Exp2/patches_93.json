@@ -1,0 +1,75 @@
+{
+  "image_id": "patches_93.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.241606,
+        0.341619,
+        0.351789,
+        0.670483
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状缺陷，表面不平整，可能影响产品的外观和使用性能。",
+      "suggestion": "建议对该区域进行打磨处理，以恢复表面平整度并提高产品品质。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.553369,
+        0.199168,
+        0.25854,
+        0.390664
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有轻微的凹陷，但整体较为均匀，对产品功能影响较小。",
+      "suggestion": "建议对该区域进行检查，若不影响产品性能则无需特别处理。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.469477,
+        0.819666,
+        0.237821,
+        0.297382
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑，可能会影响产品的外观和使用性能。",
+      "suggestion": "建议对该区域进行打磨处理，以恢复表面平整度并提高产品品质。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.914558,
+        0.761483,
+        0.205978,
+        0.491271
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有轻微的凹陷，但整体较为均匀，对产品功能影响较小。",
+      "suggestion": "建议对该区域进行检查，若不影响产品性能则无需特别处理。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.937441,
+        0.231006,
+        0.224544,
+        0.422928
+      ],
+      "confidence_score": 0.8,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑，可能会影响产品的外观和使用性能。",
+      "suggestion": "建议对该区域进行打磨处理，以恢复表面平整度并提高产品品质。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Medium"
+  }
+}

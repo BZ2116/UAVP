@@ -1,0 +1,45 @@
+{
+  "image_id": "pitted_surface_28.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.4907,
+        0.4935,
+        1.0,
+        1.0
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的点蚀现象，表面不平整且有明显的凹陷。",
+      "suggestion": "建议对该区域进行打磨处理，以去除表面的点蚀并恢复钢材表面的平整度。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.0,
+        0.0,
+        0.5,
+        0.5
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在轻微的裂纹现象，但整体影响较小。",
+      "suggestion": "建议对该区域进行进一步检查，确认是否需要修复。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.5,
+        0.0,
+        1.0,
+        0.5
+      ],
+      "confidence_score": 0.6,
+      "severity": "Low",
+      "visual_analysis": "该区域可能存在少量的夹杂物，但整体影响不大。",
+      "suggestion": "建议对该区域进行进一步检查，确认是否需要修复。"
+    }
+  ]
+}

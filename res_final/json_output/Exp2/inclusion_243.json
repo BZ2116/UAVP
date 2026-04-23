@@ -1,0 +1,49 @@
+{
+  "image_id": "inclusion_243.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.343549,
+        0.326097,
+        0.064155,
+        0.252681
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的不规则形状和较深的颜色对比，可能为金属内部的夹杂物。",
+      "suggestion": "建议进一步检查并考虑更换受影响的部分以避免潜在的安全隐患。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.147083,
+        0.56508,
+        0.159999,
+        0.373034
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然有颜色变化，但形状较为模糊且分布不均匀，可能是由于光线影响造成的伪影。",
+      "suggestion": "建议忽略此区域，继续监测其他部分。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.725521,
+        0.388163,
+        0.086172,
+        0.287013
+      ],
+      "confidence_score": 0.98,
+      "severity": "High",
+      "visual_analysis": "该区域存在明显的深色条纹，形状清晰且边缘分明，可能是金属内部的夹杂物。",
+      "suggestion": "建议立即停止使用该部件，并进行进一步的检查和修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "image_id": "crazing_30.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.298233,
+        0.696333,
+        0.601028,
+        0.370192
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的裂纹，分布于左上角区域，面积占比约为22.25%，裂纹较为密集。",
+      "suggestion": "建议人工复核确认裂纹的具体情况，并根据实际情况决定是否需要进一步处理或修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.818554,
+        0.504143,
+        0.31732,
+        0.693938
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的裂纹，分布于右上角区域，面积占比约为22.02%，裂纹较为密集。",
+      "suggestion": "建议人工复核确认裂纹的具体情况，并根据实际情况决定是否需要进一步处理或修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.355148,
+        0.207752,
+        0.663277,
+        0.282417
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的裂纹，分布于左下角区域，面积占比约为18.73%，裂纹较为密集。",
+      "suggestion": "建议人工复核确认裂纹的具体情况，并根据实际情况决定是否需要进一步处理或修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

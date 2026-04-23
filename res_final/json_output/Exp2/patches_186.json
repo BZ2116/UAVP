@@ -1,0 +1,49 @@
+{
+  "image_id": "patches_186.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.365878,
+        0.303499,
+        0.322471,
+        0.66591
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的凹坑状纹理，可能是由于表面腐蚀或机械损伤导致。",
+      "suggestion": "建议进行局部修复并检查相关工艺流程，以防止进一步的表面损伤。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.828583,
+        0.510371,
+        0.361041,
+        0.490336
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域的凹坑较为轻微，可能只是表面氧化或轻微磨损。",
+      "suggestion": "建议定期检查并采取预防措施，如增加表面涂层保护层。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.42525,
+        0.835399,
+        0.292909,
+        0.297966
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "该区域的凹坑较为明显，可能是由于应力集中或材料疲劳导致。",
+      "suggestion": "建议进行局部修复并加强相关部件的结构设计，以提高其耐用性。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

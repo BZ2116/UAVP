@@ -1,0 +1,36 @@
+{
+  "image_id": "pitted_surface_195.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.190384,
+        0.628526,
+        0.348876,
+        0.706165
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像显示了一个中等大小的坑洞区域，表面不平整，可能影响产品的外观和功能。",
+      "suggestion": "建议人工复核确认是否需要修复或更换该部件。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.583589,
+        0.624332,
+        0.19365,
+        0.709242
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "图像显示了另一个中等大小的坑洞区域，表面同样不平整，可能影响产品的外观和功能。",
+      "suggestion": "建议人工复核确认是否需要修复或更换该部件。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "Medium"
+  }
+}

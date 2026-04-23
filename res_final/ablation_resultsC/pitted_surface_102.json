@@ -1,0 +1,75 @@
+{
+  "image_id": "pitted_surface_102.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.812016,
+        0.067704,
+        0.194013,
+        0.091024
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检。",
+      "suggestion": "建议人工复检确认"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.939228,
+        0.455738,
+        0.168428,
+        0.690649
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域面积中等，需人工复核。",
+      "suggestion": "建议人工复核"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.85069,
+        0.922515,
+        0.257066,
+        0.206122
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该缺陷区域面积较小，可能存在误检。",
+      "suggestion": "建议人工复检确认"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.588388,
+        0.479864,
+        0.322491,
+        0.971155
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该缺陷区域面积较大，建议判定为高风险并优先处理。",
+      "suggestion": "建议立即处理"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.200789,
+        0.485461,
+        0.350264,
+        0.933802
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该缺陷区域面积较大，建议判定为高风险并优先处理。",
+      "suggestion": "建议立即处理"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "High"
+  }
+}

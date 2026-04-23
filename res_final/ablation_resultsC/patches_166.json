@@ -1,0 +1,23 @@
+{
+  "image_id": "patches_166.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.308235,
+        0.212068,
+        0.172308,
+        0.402629
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域存在黑色斑点，可能是由于低光照环境下图像噪声导致的误检。",
+      "suggestion": "建议人工复检确认是否为实际缺陷。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Low"
+  }
+}

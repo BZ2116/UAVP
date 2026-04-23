@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_153.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.2,
+        0.4,
+        0.3,
+        0.6
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像的中上部可以看到明显的裂纹痕迹。",
+      "suggestion": "建议进行局部打磨并重新涂装处理。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.5,
+        0.7,
+        0.2,
+        0.3
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像的右下角区域可以看到一些不规则的斑块状区域。",
+      "suggestion": "建议对这些区域进行局部打磨并重新涂装处理。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.1,
+        0.1,
+        0.2,
+        0.2
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "在图像的左上角区域可以看到一些明显的划痕。",
+      "suggestion": "建议对这些区域进行局部打磨并重新涂装处理。"
+    }
+  ]
+}

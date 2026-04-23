@@ -1,0 +1,23 @@
+{
+  "image_id": "inclusion_72.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.559841,
+        0.377715,
+        0.175343,
+        0.363171
+      ],
+      "confidence_score": 0.81,
+      "severity": "Medium",
+      "visual_analysis": "图像中存在明显的夹杂物，其特征较为明显。",
+      "suggestion": "建议人工复核以确认该夹杂物是否需要修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

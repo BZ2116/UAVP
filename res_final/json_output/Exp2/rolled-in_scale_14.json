@@ -1,0 +1,23 @@
+{
+  "image_id": "rolled-in_scale_14.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.627252,
+        0.308766,
+        0.270281,
+        0.436257
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在指定区域内观察到明显的不规则纹理和阴影，这可能是由于材料卷入导致的缺陷。",
+      "suggestion": "建议进行局部修复并检查相关工艺流程，以防止类似问题再次发生。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "image_id": "patches_46.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        50,
+        50,
+        100,
+        100
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心区域存在明显的裂纹状缺陷。",
+      "suggestion": "建议进行局部打磨并重新涂装处理。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        150,
+        50,
+        200,
+        100
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在右上角区域存在一些不规则的斑块状缺陷。",
+      "suggestion": "建议对这些区域进行局部打磨并重新涂装处理。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        25,
+        25,
+        75,
+        75
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "在左下角区域存在明显的夹杂物缺陷。",
+      "suggestion": "建议对该区域进行局部打磨并重新涂装处理。"
+    }
+  ]
+}

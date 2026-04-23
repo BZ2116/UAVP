@@ -1,0 +1,45 @@
+{
+  "image_id": "scratches_108.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.45,
+        0.05,
+        0.05,
+        0.95
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心偏左的位置，有一条明显的划痕贯穿整个图像。",
+      "suggestion": "建议对该区域进行打磨处理，以去除划痕并恢复钢材表面的光滑度。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.75,
+        0.6,
+        0.05,
+        0.2
+      ],
+      "confidence_score": 0.8,
+      "severity": "Low",
+      "visual_analysis": "在图像右下角附近，有一个小的斑块状区域，可能是由于局部腐蚀或氧化引起的。",
+      "suggestion": "建议对该区域进行检查，如果确认是轻微的腐蚀或氧化，可以考虑使用防锈剂处理。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.2,
+        0.2,
+        0.05,
+        0.1
+      ],
+      "confidence_score": 0.7,
+      "severity": "Low",
+      "visual_analysis": "在图像左上角附近，可以看到一些细微的裂纹迹象。",
+      "suggestion": "建议对该区域进行进一步的检查，如果裂纹较为明显，则需要进行修复处理。"
+    }
+  ]
+}

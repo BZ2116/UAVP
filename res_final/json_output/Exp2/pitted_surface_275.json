@@ -1,0 +1,23 @@
+{
+  "image_id": "pitted_surface_275.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Patches",
+      "location": [
+        0.526494,
+        0.507562,
+        0.761001,
+        0.916898
+      ],
+      "confidence_score": 1.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的斑点状缺陷，与周围区域相比颜色较深，纹理不一致。",
+      "suggestion": "建议对该区域进行局部打磨处理，以去除表面瑕疵并恢复表面平整度。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "Medium"
+  }
+}

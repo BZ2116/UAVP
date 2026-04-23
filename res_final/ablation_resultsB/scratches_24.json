@@ -1,0 +1,23 @@
+{
+  "image_id": "scratches_24.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.144954,
+        0.525696,
+        0.158675,
+        0.99343
+      ],
+      "confidence_score": 0.73,
+      "severity": "High",
+      "visual_analysis": "图像中显示了一条明显的划痕，其长度较长，覆盖了较大的区域，表明该缺陷可能影响产品的外观和性能。",
+      "suggestion": "建议立即进行修复，可以考虑使用抛光或打磨工具去除划痕，并检查是否需要进一步的表面处理以确保产品符合质量标准。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 1,
+    "risk_level": "High"
+  }
+}

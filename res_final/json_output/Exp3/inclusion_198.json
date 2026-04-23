@@ -1,0 +1,36 @@
+{
+  "image_id": "inclusion_198.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.386929,
+        0.539428,
+        0.336942,
+        0.95697
+      ],
+      "confidence_score": 0.8,
+      "severity": "High",
+      "visual_analysis": "[系统评估] 严重程度=High, CUS=High\n[引导语] 特征显著，请直接判定为高风险并优先处理。",
+      "suggestion": "立即修复"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.862116,
+        0.68071,
+        0.095273,
+        0.230302
+      ],
+      "confidence_score": 0.34,
+      "severity": "Low",
+      "visual_analysis": "[系统评估] 严重程度=Low, CUS=Low\n[引导语] 特征微弱，可能误检，请使用‘疑似’语气并强调人工复检。",
+      "suggestion": "人工复检"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

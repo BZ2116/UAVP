@@ -1,0 +1,49 @@
+{
+  "image_id": "rolled-in_scale_96.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.618869,
+        0.219969,
+        0.545723,
+        0.250266
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域呈现轻微的卷入尺度特征，面积占比约为13.66%，在低光照条件下较为明显。",
+      "suggestion": "建议人工复核确认是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.41139,
+        0.759798,
+        0.270492,
+        0.500183
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该缺陷区域同样显示卷入尺度特征，面积占比约为13.53%，在低光照环境下较为显著。",
+      "suggestion": "建议人工复核确认是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Pitted Surface",
+      "location": [
+        0.271984,
+        0.514884,
+        0.025631,
+        0.178176
+      ],
+      "confidence_score": 0.0,
+      "severity": "Low",
+      "visual_analysis": "该区域显示轻微的坑洞表面特征，面积占比仅为0.46%，在低光照条件下较为模糊。",
+      "suggestion": "建议人工复检确认是否为误检。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

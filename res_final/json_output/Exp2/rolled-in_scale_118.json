@@ -1,0 +1,49 @@
+{
+  "image_id": "rolled-in_scale_118.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.540356,
+        0.846681,
+        0.238078,
+        0.251563
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "该区域显示了明显的不规则纹理和阴影，与周围正常纹理有明显差异。",
+      "suggestion": "建议进一步检查并确认是否有实际的机械损伤或材料卷曲现象，必要时进行修复以确保产品质量。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.517243,
+        0.501803,
+        0.294665,
+        0.294173
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "该区域虽然存在阴影，但与周围纹理较为一致，可能是由于光线或角度造成的阴影效果。",
+      "suggestion": "无需立即处理，但建议在后续生产过程中调整照明或角度以减少类似情况的发生。"
+    },
+    {
+      "defect_type": "Rolled-in Scale",
+      "location": [
+        0.528908,
+        0.102331,
+        0.198893,
+        0.179627
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在明显的阴影和纹理变化，可能表明存在卷曲或损伤。",
+      "suggestion": "建议对该区域进行详细检查，如果确认为缺陷，则需要及时修复以保证产品的质量。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "Medium"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "image_id": "scratches_218.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.329304,
+        0.653442,
+        0.155344,
+        0.693919
+      ],
+      "confidence_score": 0.75,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，存在明显的划痕。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.280879,
+        0.193388,
+        0.050579,
+        0.329164
+      ],
+      "confidence_score": 0.72,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能存在误检。",
+      "suggestion": "建议人工复检以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.66867,
+        0.551164,
+        0.103277,
+        0.523212
+      ],
+      "confidence_score": 0.33,
+      "severity": "Medium",
+      "visual_analysis": "特征较明显，存在明显的划痕。",
+      "suggestion": "建议人工复核以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.072224,
+        0.552069,
+        0.089581,
+        0.463034
+      ],
+      "confidence_score": 0.77,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能存在误检。",
+      "suggestion": "建议人工复检以确认是否需要修复。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.5804,
+        0.700517,
+        0.12236,
+        0.033818
+      ],
+      "confidence_score": 0.46,
+      "severity": "Low",
+      "visual_analysis": "特征微弱，可能存在误检。",
+      "suggestion": "建议人工复检以确认是否需要修复。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 5,
+    "risk_level": "Medium"
+  }
+}

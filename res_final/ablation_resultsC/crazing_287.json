@@ -1,0 +1,36 @@
+{
+  "image_id": "crazing_287.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.256564,
+        0.396319,
+        0.410874,
+        0.486961
+      ],
+      "confidence_score": 0.0,
+      "severity": "Medium",
+      "visual_analysis": "该区域存在裂纹，面积中等，分布较为密集。",
+      "suggestion": "建议人工复核确认裂纹的具体情况，并根据实际情况决定是否需要进一步处理。"
+    },
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.312236,
+        0.771099,
+        0.650068,
+        0.389507
+      ],
+      "confidence_score": 0.0,
+      "severity": "High",
+      "visual_analysis": "该区域裂纹面积较大，分布范围广，可能存在较高的风险。",
+      "suggestion": "建议立即判定为高风险并优先处理，以防止裂纹进一步扩展或导致设备故障。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 2,
+    "risk_level": "High"
+  }
+}

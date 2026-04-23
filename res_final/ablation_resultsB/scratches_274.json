@@ -1,0 +1,49 @@
+{
+  "image_id": "scratches_274.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.463619,
+        0.274323,
+        0.971056,
+        0.126894
+      ],
+      "confidence_score": 0.77,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，影响表面质量。",
+      "suggestion": "建议立即更换或修复受影响区域，以确保产品符合质量标准。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.525446,
+        0.771434,
+        0.983851,
+        0.134998
+      ],
+      "confidence_score": 0.62,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，影响表面质量。",
+      "suggestion": "建议立即更换或修复受影响区域，以确保产品符合质量标准。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.471238,
+        0.932162,
+        1.0,
+        0.087383
+      ],
+      "confidence_score": 0.57,
+      "severity": "High",
+      "visual_analysis": "图像中存在明显的划痕，影响表面质量。",
+      "suggestion": "建议立即更换或修复受影响区域，以确保产品符合质量标准。"
+    }
+  ],
+  "overall_assessment": {
+    "defect_count": 3,
+    "risk_level": "High"
+  }
+}

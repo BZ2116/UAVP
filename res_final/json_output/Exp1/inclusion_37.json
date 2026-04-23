@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_37.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.45,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像中心偏右的位置，存在一条明显的裂纹。",
+      "suggestion": "建议对该区域进行仔细检查，并考虑采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.2,
+        0.8,
+        0.2,
+        0.2
+      ],
+      "confidence_score": 0.85,
+      "severity": "Low",
+      "visual_analysis": "在图像左下角区域，存在一个不规则的斑块状区域。",
+      "suggestion": "该区域的缺陷较为轻微，可以考虑忽略或进行表面处理以改善外观。"
+    },
+    {
+      "defect_type": "Scratches",
+      "location": [
+        0.7,
+        0.4,
+        0.1,
+        0.1
+      ],
+      "confidence_score": 0.9,
+      "severity": "Medium",
+      "visual_analysis": "在图像右上角区域，存在一条明显的划痕。",
+      "suggestion": "建议对该区域进行打磨处理，以去除划痕并恢复表面光滑度。"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "image_id": "inclusion_145.jpg",
+  "lighting_condition": "low_light",
+  "defects": [
+    {
+      "defect_type": "Crazing",
+      "location": [
+        0.2,
+        0.2,
+        0.4,
+        0.4
+      ],
+      "confidence_score": 0.95,
+      "severity": "Medium",
+      "visual_analysis": "在图像的左上角区域存在明显的裂纹状缺陷。",
+      "suggestion": "建议对该区域进行仔细检查，并考虑采取适当的修复措施。"
+    },
+    {
+      "defect_type": "Patched Surface",
+      "location": [
+        0.6,
+        0.6,
+        0.8,
+        0.8
+      ],
+      "confidence_score": 0.9,
+      "severity": "Low",
+      "visual_analysis": "在图像的右下角区域存在一些不规则的斑块状缺陷。",
+      "suggestion": "这些斑块可能对结构强度影响较小，但建议进一步评估其对整体性能的影响。"
+    },
+    {
+      "defect_type": "Inclusion",
+      "location": [
+        0.4,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence_score": 0.85,
+      "severity": "Medium",
+      "visual_analysis": "在图像的中心区域存在一些夹杂物，可能会影响材料的均匀性和强度。",
+      "suggestion": "建议对该区域进行更详细的检查，并考虑是否需要进行局部修复或更换。"
+    }
+  ]
+}

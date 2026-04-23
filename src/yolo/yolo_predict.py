@@ -16,8 +16,7 @@ def run_prediction():
     """
     执行 YOLO 推理并保存结果
     """
-    # ==================== 配置参数 ====================
-    MODEL_PATH = YOLO_MODEL_PATH
+MODEL_PATH = YOLO_MODEL_PATH
     TEST_IMAGES = FINAL_DATA_DIR / "images" / "test"
     CONF_THRESHOLD = 0.20
     IOU_THRESHOLD = 0.45
@@ -26,8 +25,7 @@ def run_prediction():
 
     ensure_dir(OUTPUT_DIR)
 
-    # ==================== 路径检查 ====================
-    print("\n" + "=" * 70)
+print("\n" + "=" * 70)
     print("🔍 推理前检查")
     print("=" * 70)
 
@@ -49,13 +47,11 @@ def run_prediction():
 
     print("=" * 70 + "\n")
 
-    # ==================== 加载模型 ====================
-    print("📦 加载 YOLO 模型...")
+print("📦 加载 YOLO 模型...")
     model = YOLO(str(MODEL_PATH))
     print("✅ 模型加载成功！\n")
 
-    # ==================== 开始推理 ====================
-    print("=" * 70)
+print("=" * 70)
     print("🚀 开始推理")
     print("=" * 70)
     print(f"   置信度阈值: {CONF_THRESHOLD}")
@@ -78,8 +74,7 @@ def run_prediction():
         verbose=True,
     )
 
-    # ==================== 结果统计 ====================
-    print("\n" + "=" * 70)
+print("\n" + "=" * 70)
     print("✅ 推理完成！")
     print("=" * 70)
 

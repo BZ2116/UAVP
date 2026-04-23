@@ -23,23 +23,16 @@ def split_neu_det(root):
     参数：
         root (Path): NEU-DET 数据集根目录（应包含 images/ 和 labels/）
     """
-    # 原始图像和标签目录
     root = Path(root)
     img_dir = root / "ll_data"
     label_dir = root / "labels"
-    # 输出目录（低光化后的 final_data）
-    # 使用绝对路径，基于项目根目录计算，避免相对路径依赖调用位置
     project_root = Path(__file__).parent.parent
     out = project_root / "data" / "final_data"
 
-    # 创建输出的文件夹结构
     for split in ["train", "val", "test"]:
         (out / "images" / split).mkdir(parents=True, exist_ok=True)
         (out / "labels" / split).mkdir(parents=True, exist_ok=True)
 
-    # ------------------------------------------------------------
-    # 1. 根据文件名前缀收集图像到各类别中
-    # ------------------------------------------------------------
     files_by_class = defaultdict(list)
     for img_path in img_dir.glob("*.jpg"):
         prefix = img_path.stem[:2].upper()
@@ -56,10 +49,7 @@ def split_neu_det(root):
 
         files_by_class[cls].append(img_path)
 
-    # ------------------------------------------------------------
-    # 2. 按每类 180 / 60 / 60 划分 train / val / test
-    # ------------------------------------------------------------
-    random.seed(42)# 保证可复现
+    random.seed(42)
     splits = {"train": [], "val": [], "test": []}
 
     for cls, imgs in files_by_class.items():
@@ -68,9 +58,6 @@ def split_neu_det(root):
         splits["val"].extend(imgs[180:240])
         splits["test"].extend(imgs[240:300])
 
-    # ------------------------------------------------------------
-    # 3. 复制文件到对应目录
-    # ------------------------------------------------------------
     def copy_files(file_list, split_name):
         for img_path in file_list:
             lbl_path = label_dir / (img_path.stem + ".txt")
@@ -84,9 +71,6 @@ def split_neu_det(root):
     copy_files(splits["val"], "val")
     copy_files(splits["test"], "test")
 
-    # ------------------------------------------------------------
-    # 4. 生成 YOLO 所需 data.yaml 配置文件
-    # ------------------------------------------------------------
     yaml_content = f"""path: {out.absolute()}
 train: images/train
 val: images/val
@@ -99,9 +83,6 @@ names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 
     with open(out / "data.yaml", "w", encoding="utf-8") as f:
         f.write(yaml_content)
 
-    # ------------------------------------------------------------
-    # 5. 输出摘要信息
-    # ------------------------------------------------------------
     print("划分完成！")
     print(f"训练集: {len(splits['train'])} 张")
     print(f"验证集: {len(splits['val'])} 张")

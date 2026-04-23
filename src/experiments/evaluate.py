@@ -20,7 +20,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from bert_score import score
 
-# ==================== 1. 配置路径 ====================
 GT_DIR = GT_JSON_DIR
 SAVE_REPORT_DIR = ensure_dir(EVAL_OUTPUT_DIR)
 
@@ -39,7 +38,6 @@ ABLATION_DIRS = {
     "Ablation-D (Full CUS)": ABLATION_D_DIR,
 }
 
-# 类别规范化映射（处理大小写、下划线、横杠差异）
 CLASS_MAPPING = {
     "crazing": "crazing",
     "inclusion": "inclusion",
@@ -63,7 +61,6 @@ def load_json(path):
 def calculate_iou(box1, box2, img_size=200):
     if not box1 or not box2:
         return 0
-    # 归一化处理
     if any(v > 1.0 for v in box1):
         box1 = [v / img_size for v in box1]
     if any(v > 1.0 for v in box2):
@@ -90,7 +87,6 @@ def normalize_val(val):
     return str(val).lower().strip().replace("_", " ")
 
 
-# ==================== 3. 核心评估函数 ====================
 def evaluate_group(repo_path, group_name):
     accuracies = {"defect_type": [], "severity": [], "combined": []}
     text_refs, text_cands = [], []
@@ -160,14 +156,12 @@ def evaluate_group(repo_path, group_name):
                 text_refs.append(gt_text)
                 text_cands.append(pred_text)
 
-        # 漏检惩罚
         unmatched = len(gt_list) - len(matched_indices)
         for _ in range(unmatched):
             accuracies["defect_type"].append(0)
             accuracies["severity"].append(0)
             accuracies["combined"].append(0)
 
-    # BERTScore 计算（增加空列表保护）
     avg_f1 = 0.0
     if text_cands:
         try:
@@ -193,7 +187,6 @@ def evaluate_group(repo_path, group_name):
     return result
 
 
-# ==================== 4. 主评估流程 ====================
 def evaluate_all():
     all_metrics = []
 
@@ -216,7 +209,6 @@ def evaluate_all():
     return pd.DataFrame(all_metrics)
 
 
-# ==================== 5. 绘图与报告输出 ====================
 def plot_results(df):
     if df is None or df.empty:
         print("❌ 无数据可绘图")
@@ -225,7 +217,6 @@ def plot_results(df):
     sns.set_theme(style="whitegrid")
     plt.rcParams['font.sans-serif'] = ['SimHei', 'Arial Unicode MS']
 
-    # 图1：准确率柱状图
     plt.figure(figsize=(14, 7))
     plot_data = df.melt(id_vars="Experiment", value_vars=["Defect_Type_Acc", "Severity_Acc", "Combined_Acc"])
     ax = sns.barplot(data=plot_data, x="variable", y="value", hue="Experiment", palette="viridis")
@@ -237,7 +228,6 @@ def plot_results(df):
     plt.tight_layout()
     plt.savefig(SAVE_REPORT_DIR / "accuracy_comparison_all.png", dpi=300)
 
-    # 图2：BERTScore 箱线图
     plt.figure(figsize=(12, 6))
     sns.boxplot(data=df, x="Experiment", y="BERTScore_F1", palette="Set2")
     plt.title("BERTScore_F1 分布对比", fontsize=16)
@@ -245,7 +235,6 @@ def plot_results(df):
     plt.tight_layout()
     plt.savefig(SAVE_REPORT_DIR / "bertscore_distribution_all.png", dpi=300)
 
-    # 保存表格（包含指标列和统计列）
     df_table = df.round(4)
     df_table.to_csv(SAVE_REPORT_DIR / "final_evaluation_report.csv", index=False)
 

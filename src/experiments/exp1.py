@@ -11,9 +11,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from utils import VLMAnalyzer, clean_and_save_json, EXP1_OUTPUT_DIR, VLM_MODEL_PATH, EXP1_TEMPLATE
 
 
-# =================================================================
-# 模块 1: Prompt 工程（纯图像输入模式 - Exp 1）
-# =================================================================
 class UAVPPromptEngineExp1:
     def __init__(self):
         self.template = EXP1_TEMPLATE
@@ -22,11 +19,8 @@ class UAVPPromptEngineExp1:
         return self.template.format(image_id=image_id)
 
 
-# =================================================================
-# 主流程
-# =================================================================
 def main():
-    # 使用 utils.config 中的路径（从环境变量或相对路径读取）
+    from utils.config import FINAL_DATA_DIR
     from utils.config import FINAL_DATA_DIR
 
     IMAGE_DIR = FINAL_DATA_DIR / "images" / "test"

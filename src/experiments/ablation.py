@@ -21,16 +21,12 @@ from utils import (
 )
 
 
-# =================================================================
-# 消融实验 PromptEngine（支持4组方案）
-# =================================================================
 class AblationPromptEngine:
     """
-    消融实验方案说明：
-    - Mode A: 仅 Bbox（无置信度、无面积）—— 基线
-    - Mode B: Bbox + 置信度（hard threshold 0.5）
-    - Mode C: Bbox + CUS（0.85*conf + 0.15*area）—— 与 Full-UAVP 一致
-    - Mode D: 仅面积（无置信度）—— 验证面积独立作用
+    Mode A: 仅 Bbox（无置信度、无面积）
+    Mode B: Bbox + 置信度（hard threshold 0.5）
+    Mode C: Bbox + CUS（0.85*conf + 0.15*area）
+    Mode D: 仅面积（无置信度）
     """
 
     def __init__(self, mode="C"):
@@ -51,7 +47,6 @@ class AblationPromptEngine:
                         f"  [引导语] {hint}")
 
             elif self.mode == "C":
-                # CUS = 0.85 * conf + 0.15 * area，与 README 定义一致
                 cus = CUS_CONFIDENCE_WEIGHT * conf + CUS_AREA_WEIGHT * area
                 if cus > CUS_HIGH_THRESHOLD:
                     hint = "特征显著，请直接判定为高风险并优先处理。"
@@ -64,7 +59,6 @@ class AblationPromptEngine:
                         f"  [引导语] {hint}")
 
             elif self.mode == "D":
-                # 纯面积驱动，阈值与 uavp_system.py 的 infer_severity 对齐
                 if area > AREA_HIGH_THRESHOLD:
                     hint = "缺陷面积较大，建议判定为高风险并优先处理。"
                 elif area > AREA_MEDIUM_THRESHOLD:
@@ -88,8 +82,6 @@ class AblationPromptEngine:
 
 
 # =================================================================
-# 辅助：根据 mode 获取输出目录
-# =================================================================
 ABLATION_DIR_MAP = {
     "A": ABLATION_A_DIR,
     "B": ABLATION_B_DIR,
@@ -98,9 +90,6 @@ ABLATION_DIR_MAP = {
 }
 
 
-# =================================================================
-# 主流程
-# =================================================================
 def main():
     parser_arg = argparse.ArgumentParser(description="UAVP 消融实验")
     parser_arg.add_argument(

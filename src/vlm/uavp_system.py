@@ -17,9 +17,6 @@ from utils import (
 )
 
 
-# =================================================================
-# UAVP Prompt Engine
-# =================================================================
 class UAVPPromptEngine:
     def __init__(self):
         self.template = UAVP_TEMPLATE
@@ -60,9 +57,6 @@ class UAVPPromptEngine:
         )
 
 
-# =================================================================
-# 主流程
-# =================================================================
 def main():
     IMAGE_DIR = FINAL_DATA_DIR / "images" / "test"
     LABEL_DIR = YOLO_LABELS_DIR

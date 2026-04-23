@@ -22,12 +22,11 @@ class LowLightProcessor:
     严格遵循论文公式，依次执行：自适应 Gamma 亮度变换 → 高频补偿 → 噪声叠加。
     """
 
-    # 论文定义的超参数
-    GAMMA_RANGE = (1.5, 2.0)          # Gamma 因子取值范围
-    K_RANGE = (0.75, 0.9)            # 亮度缩放系数 k
-    ALPHA = 0.25                      # 高频补偿系数 α
-    SIGMA_GAUSSIAN = 2                # 高斯滤波器标准差 σ
-    NOISE_RANGE = (2, 4)             # 噪声强度 σ_n
+    GAMMA_RANGE = (1.5, 2.0)
+    K_RANGE = (0.75, 0.9)
+    ALPHA = 0.25
+    SIGMA_GAUSSIAN = 2
+    NOISE_RANGE = (2, 4)
 
     def __init__(self,
                  gamma_range=None,
@@ -51,10 +50,8 @@ class LowLightProcessor:
         Returns:
             低光化后的 BGR 图像，uint8
         """
-        # ---------- 步骤 1：归一化 ----------
-        I_norm = img.astype(np.float32) / 255.0          # [0, 1] 范围
+        I_norm = img.astype(np.float32) / 255.0
 
-        # ---------- 步骤 2：自适应 Gamma 因子（公式 3.2）----------
         avg_brightness = np.mean(I_norm)
         gamma_base = random.uniform(*self.gamma_range)
         if avg_brightness > 0.6:
@@ -62,23 +59,18 @@ class LowLightProcessor:
         else:
             gamma = gamma_base
 
-        # ---------- 步骤 3：亮度变换（公式 3.1 左半部分）----------
         k = random.uniform(*self.k_range)
         I_pow = np.power(I_norm, gamma)
-        I_brightness = I_pow * k                        # I_norm^γ * k
+        I_brightness = I_pow * k
 
-        # ---------- 步骤 4：高频补偿（公式 3.1 右半部分）----------
-        # G_σ * I = 用高斯滤波器平滑后的图像（低频分量）
         I_smoothed = gaussian_filter(I_norm, sigma=self.sigma_gaussian)
-        I_high_freq = I_norm - I_smoothed               # 高频分量 I - G_σ * I
+        I_high_freq = I_norm - I_smoothed
         I_compensated = I_brightness + self.alpha * I_high_freq
 
-        # ---------- 步骤 5：噪声叠加（公式 3.3）----------
         sigma_n = random.uniform(*self.noise_range)
         noise = np.random.normal(0, sigma_n / 255.0, img.shape)
         I_final = I_compensated + noise
 
-        # ---------- 步骤 6：clip 到 [0, 255] 并转 uint8 ----------
         return np.clip(I_final * 255, 0, 255).astype(np.uint8)
 
     def process_image(self, img: np.ndarray) -> np.ndarray:
@@ -150,9 +142,6 @@ def lowlight_dataset(input_dir: str,
     print(f"\n✅ 处理完成，{len(files)} 张图像已保存至: {output_dir}")
 
 
-# =============================================================================
-# 测试代码
-# =============================================================================
 if __name__ == '__main__':
     lowlight_dataset(
         input_dir=r"E:\.1Study\code\PY\UAVP\data\NEU-DET\images",

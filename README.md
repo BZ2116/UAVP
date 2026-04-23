@@ -5,9 +5,8 @@
 ---
 
 ## 系统架构
-<div align="center">
-<img width="886" height="560" alt="image" src="https://github.com/user-attachments/assets/8fa418b6-5fcf-411e-9c90-821e2e73e31d" />
-</div>
+
+
 
 ---
 
@@ -26,15 +25,18 @@
 ```
 CUS = 0.85 × Confidence + 0.15 × Area Ratio
 ```
-<div align="center">
-  
-| CUS 区间      | 风险等级 | 语气          |
-| ----------- | ------ | ------------- |
+
+
+
+
+| CUS 区间      | 风险等级   | 语气          |
+| ----------- | ------ | ----------- |
 | > 0.70      | High   | 确定性语气，优先处理  |
 | 0.40 ~ 0.70 | Medium | 客观描述，建议人工复核 |
-| ≤ 0.40      | Low    | "疑似"语气，强调复检   |
+| ≤ 0.40      | Low    | "疑似"语气，强调复检 |
 
-</div>
+
+
 
 ---
 
@@ -53,7 +55,6 @@ UAVP/
 │   └── experiments/           # 实验脚本
 └── data/NEU-DET/             # 原始数据
 ```
-
 
 ---
 
@@ -82,25 +83,18 @@ python src/experiments/evaluate.py
 ---
 
 ## 实验结果
-<div align="center">
-<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/0b6df0e9-46e5-4c83-bbd9-9d94eee8070b" />
-</div>
+
+
 
 ---
 
 ## 环境配置
 
 ```bash
-pip install -r requirements.txt
-export VLM_MODEL_PATH="Qwen/Qwen2.5-VL-7B-Instruct"   # 可选
+pip install -r requirements.t
 ```
 
-所有路径在 `src/utils/config.py` 中统一管理。
 
----
 
-## 作者
-
-- **赵耀** | 重庆邮电大学 计算机科学与技术学院
-- **指导教师**：刘俊
 - 感谢龙雪同学在标注与实验讨论中的贡献
+

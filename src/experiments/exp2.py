@@ -14,9 +14,6 @@ from utils import (
 )
 
 
-# =================================================================
-# 模块 1: 提示词工程 (空间坐标提示模式 - Exp 2)
-# =================================================================
 class UAVPPromptEngineExp2:
     def __init__(self):
         self.template = EXP2_TEMPLATE
@@ -24,7 +21,6 @@ class UAVPPromptEngineExp2:
     def get_prompt(self, image_id: str, detections):
         det_lines = []
         for i, det in enumerate(detections):
-            # Exp2: 仅注入坐标和初步类别，无置信度引导（与 Full-UAVP 对比的关键差异）
             line = f"- 目标 {i+1}: 疑似类别={det['defect_type']}, 坐标位置={det['location']}。"
             det_lines.append(line)
 
@@ -35,9 +31,6 @@ class UAVPPromptEngineExp2:
         )
 
 
-# =================================================================
-# 主流程
-# =================================================================
 def main():
     IMAGE_DIR = FINAL_DATA_DIR / "images" / "test"
     LABEL_DIR = YOLO_LABELS_DIR
@@ -45,7 +38,6 @@ def main():
 
     SAVE_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Exp2 使用轻量版解析器（无需 conf），符合实验设计
     parser = YOLOParser().parse_label_file_light
     prompt_engine = UAVPPromptEngineExp2()
     analyzer = VLMAnalyzer(VLM_MODEL_PATH)

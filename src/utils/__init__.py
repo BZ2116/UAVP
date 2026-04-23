@@ -1,6 +1,5 @@
 """
 UAVP 公共工具模块
-"""
 from .constants import (
     CLASS_MAP,
     CUS_CONFIDENCE_WEIGHT,
@@ -40,7 +39,6 @@ from .prompts import (
 )
 
 __all__ = [
-    # constants
     "CLASS_MAP",
     "CUS_CONFIDENCE_WEIGHT",
     "CUS_AREA_WEIGHT",
@@ -48,7 +46,6 @@ __all__ = [
     "CUS_MEDIUM_THRESHOLD",
     "AREA_HIGH_THRESHOLD",
     "AREA_MEDIUM_THRESHOLD",
-    # config
     "PROJECT_ROOT",
     "DATA_DIR",
     "NEU_DET_DIR",
@@ -67,13 +64,11 @@ __all__ = [
     "VLM_MODEL_PATH",
     "YOLO_MODEL_PATH",
     "ensure_dir",
-    # vlm
-    "VLMAnalyzer",
+    "PROJECT_ROOT",
     "extract_json_after_assistant_codeblock",
     "clean_and_save_json",
-    # parser
     "YOLOParser",
-    # prompts
+    "EXP1_TEMPLATE",
     "EXP1_TEMPLATE",
     "EXP2_TEMPLATE",
     "UAVP_TEMPLATE",

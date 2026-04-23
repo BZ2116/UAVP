@@ -6,7 +6,7 @@
 
 ## 系统架构
 <div align="center">
-<img width="886" height="586" alt="image" src="https://github.com/user-attachments/assets/8fa418b6-5fcf-411e-9c90-821e2e73e31d" />
+<img width="886" height="560" alt="image" src="https://github.com/user-attachments/assets/8fa418b6-5fcf-411e-9c90-821e2e73e31d" />
 </div>
 
 ---

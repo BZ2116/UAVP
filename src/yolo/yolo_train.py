@@ -34,7 +34,7 @@ if __name__ == '__main__':
         cache="disk",
         amp=True,
 
-        lr0=0.001,
+        lr0=0.01,
         lrf=0.01,
         momentum=0.937,
         weight_decay=0.0005,

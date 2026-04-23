@@ -5,7 +5,9 @@
 ---
 
 ## 系统架构
-
+<div align="center">
+<img width="885" height="493" alt="image" src="https://github.com/user-attachments/assets/bb1a5811-da84-4799-8bbd-ca00777a4117" />
+</div>
 
 
 ---
@@ -27,7 +29,7 @@ CUS = 0.85 × Confidence + 0.15 × Area Ratio
 ```
 
 
-
+<div align="center">
 
 | CUS 区间      | 风险等级   | 语气          |
 | ----------- | ------ | ----------- |
@@ -35,7 +37,7 @@ CUS = 0.85 × Confidence + 0.15 × Area Ratio
 | 0.40 ~ 0.70 | Medium | 客观描述，建议人工复核 |
 | ≤ 0.40      | Low    | "疑似"语气，强调复检 |
 
-
+</div>
 
 
 ---
@@ -83,8 +85,11 @@ python src/experiments/evaluate.py
 ---
 
 ## 实验结果
-
-
+<div align="center">
+  
+ <img width="1200" height="600" alt="accuracy_metrics_comparison" src="https://github.com/user-attachments/assets/00f479b8-bc84-4b88-b22f-789a128b7857" />
+ 
+</div>
 
 ---
 
@@ -93,8 +98,17 @@ python src/experiments/evaluate.py
 ```bash
 pip install -r requirements.t
 ```
+---
 
+## 致谢
+本项目为重庆邮电大学本科毕业设计研究成果。在此诚挚感谢以下个人与机构的支持：
 
+* 指导教师：衷心感谢刘俊老师。从选题、思路梳理到实验设计及论文撰写，刘老师全程给予了悉心指导与宝贵建议，为 UAVP 机制的实现提供了关键支持。
 
-- 感谢龙雪同学在标注与实验讨论中的贡献
+* 团队贡献：感谢龙雪同学在人工 GT Json 标注工作中的辛勤付出，以及在实验讨论中提供的帮助。
 
+* 科研环境：感谢计算机科学与技术学院（示范性软件学院）提供的科研环境与实验室场地。
+
+* 致敬开源：感谢 NEU-DET 数据集的提供者以及相关开源模型的开发者，这些开放资源为本研究奠定了坚实基础。
+
+最后，感谢重庆邮电大学四年来的培养，此地见证了我的学术启蒙与成长。

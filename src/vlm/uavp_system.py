@@ -21,31 +21,6 @@ class UAVPPromptEngine:
     def __init__(self):
         self.template = UAVP_TEMPLATE
 
-    def get_cus_guidance(self, cus_score: float):
-        """
-        CUS 仅用于描述检测结果的可信程度和提示语气。
-        """
-        if cus_score > CUS_HIGH_THRESHOLD:
-            guidance_level = "High"
-            hint = (
-                "检测结果较可靠且缺陷区域影响较明显。请重点关注该区域，"
-                "但最终严重程度仍需结合图像内容、缺陷类别、形态和位置综合判断。"
-            )
-        elif cus_score > CUS_MEDIUM_THRESHOLD:
-            guidance_level = "Medium"
-            hint = (
-                "检测结果具有一定参考价值。请结合图像特征进行客观分析，"
-                "必要时建议人工复核。"
-            )
-        else:
-            guidance_level = "Low"
-            hint = (
-                "检测结果可信度或区域影响较弱，可能存在误检或低可见性问题。"
-                "请使用谨慎语气，并强调人工复检。"
-            )
-
-        return guidance_level, hint
-
     def get_prompt(self, image_id: str, detections):
         det_lines = []
 
@@ -53,8 +28,25 @@ class UAVPPromptEngine:
             area = det['area_ratio']
             conf = det['confidence']
 
+            # CUS = α * confidence + β * area_ratio
+            # CUS 用于生成提示强度和语气引导
             cus_score = CUS_CONFIDENCE_WEIGHT * conf + CUS_AREA_WEIGHT * area
-            guidance_level, hint = self.get_cus_guidance(cus_score)
+
+            if cus_score > CUS_HIGH_THRESHOLD:
+                guidance_level = "High"
+                tone_hint = (
+                    "特征显著，请使用确定性语气，直接判定为高风险并优先处理。"
+                )
+            elif cus_score > CUS_MEDIUM_THRESHOLD:
+                guidance_level = "Medium"
+                tone_hint = (
+                    "特征较明显，请客观描述并建议人工复核。"
+                )
+            else:
+                guidance_level = "Low"
+                tone_hint = (
+                    "特征微弱，可能误检，请使用'疑似'语气并强调人工复检。"
+                )
 
             line = (
                 f"- 目标 {i+1}: 类别={det['defect_type']}, "
@@ -62,8 +54,9 @@ class UAVPPromptEngine:
                 f"检测置信度={conf:.2f}, "
                 f"面积占比={area:.4f}\n"
                 f"  [CUS提示] CUS评分={cus_score:.4f}, 提示强度={guidance_level}\n"
-                f"  [分析引导] {hint}"
+                f"  [语气引导] {tone_hint}"
             )
+
             det_lines.append(line)
 
         return self.template.format(

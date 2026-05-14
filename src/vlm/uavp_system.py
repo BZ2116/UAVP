@@ -23,7 +23,6 @@ class UAVPPromptEngine:
 
     def get_cus_guidance(self, cus_score: float):
         """
-        根据 CUS 得到提示强度，而不是直接判定缺陷严重程度。
         CUS 仅用于描述检测结果的可信程度和提示语气。
         """
         if cus_score > CUS_HIGH_THRESHOLD:

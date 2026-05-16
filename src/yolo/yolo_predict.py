@@ -9,23 +9,23 @@ from ultralytics import YOLO
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from utils import YOLO_MODEL_PATH, FINAL_DATA_DIR, ensure_dir
 
-PROJECT_ROOT = Path(__file__).parent.parent
+PROJECT_ROOT = Path(__file__).parent.parent.parent
 
 
 def run_prediction():
     """
     执行 YOLO 推理并保存结果
     """
-MODEL_PATH = YOLO_MODEL_PATH
+    MODEL_PATH = YOLO_MODEL_PATH
     TEST_IMAGES = FINAL_DATA_DIR / "images" / "test"
     CONF_THRESHOLD = 0.20
     IOU_THRESHOLD = 0.45
     IMG_SIZE = 640
-    OUTPUT_DIR = PROJECT_ROOT / "runs" / "predict_lowlight"
+    OUTPUT_DIR = PROJECT_ROOT / "runs" / "predict"
 
     ensure_dir(OUTPUT_DIR)
 
-print("\n" + "=" * 70)
+    print("\n" + "=" * 70)
     print("🔍 推理前检查")
     print("=" * 70)
 
@@ -47,11 +47,11 @@ print("\n" + "=" * 70)
 
     print("=" * 70 + "\n")
 
-print("📦 加载 YOLO 模型...")
+    print("📦 加载 YOLO 模型...")
     model = YOLO(str(MODEL_PATH))
     print("✅ 模型加载成功！\n")
 
-print("=" * 70)
+    print("=" * 70)
     print("🚀 开始推理")
     print("=" * 70)
     print(f"   置信度阈值: {CONF_THRESHOLD}")
@@ -68,17 +68,17 @@ print("=" * 70)
         save=True,
         save_txt=True,
         save_conf=True,
-        project=str(OUTPUT_DIR.parent),
-        name=OUTPUT_DIR.name,
+        project=str(PROJECT_ROOT / "runs"),
+        name="predict",
         exist_ok=True,
         verbose=True,
     )
 
-print("\n" + "=" * 70)
+    print("\n" + "=" * 70)
     print("✅ 推理完成！")
     print("=" * 70)
 
-    labels_dir = OUTPUT_DIR / "labels"
+    labels_dir = PROJECT_ROOT / "runs" / "predict" / "labels"
     if labels_dir.exists():
         label_files = list(labels_dir.glob("*.txt"))
         print(f"📁 结果保存位置:")
@@ -110,8 +110,8 @@ print("\n" + "=" * 70)
     print("=" * 70)
     print("\n💡 下一步:")
     print(f"   1. 检查结果文件: {labels_dir}/*.txt")
-    print("   2. 每个 txt 文件格式: class x y w h conf")
-    print("   3. 将 labels_dir 路径配置到 utils/config.py 的 YOLO_LABELS_DIR")
+    print(f"   2. 每个 txt 文件格式: class x y w h conf")
+    print(f"   3. 将 labels_dir 路径配置到 utils/config.py 的 YOLO_LABELS_DIR")
     print("\n🎯 如需调整置信度阈值，请修改 CONF_THRESHOLD 参数")
     print("=" * 70 + "\n")
 

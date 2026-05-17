@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     results = model.train(
         data=str(FINAL_DATA_DIR / "data.yaml"),
-        epochs=50,
+        epochs=100,
         imgsz=640,
         batch=16,
         device=0,
